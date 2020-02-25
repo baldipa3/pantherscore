@@ -6,7 +6,6 @@ class CreateServices < ActiveRecord::Migration[5.2]
       t.text :description
       t.integer :pantherscore
       t.float :user_score
-      t.string :category
 
       t.timestamps
     end
