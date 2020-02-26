@@ -10,6 +10,7 @@ require 'open-uri'
 require 'nokogiri'
 
 puts 'Clearing services and categories'
+ServiceCategory.destroy_all
 Service.destroy_all
 Category.destroy_all
 
@@ -19,19 +20,29 @@ puts 'Creating services and categories'
 
 categories = Nokogiri::HTML(open('https://alternativeto.net/').read)
 
-categories.search('.sub-categories-menu').each do |category|
+categories.search('.sub-categories-menu li').each do |category|
   Category.create!( name: category.text.strip )
 end
 
 # Random services
 
-100.times do
-  Service.create! (
+50.times do
+  service = Service.create!(
     name: Faker::App.name,
     url: Faker::Internet.domain_name,
     description: Faker::Lorem.paragraph_by_chars(number: 256),
     pantherscore: rand(1..100)
   )
+  total_categories = Category.all.count
+  half_categories = total_categories / 2
+  first_category = Category.find_by_id(rand(1..half_categories))
+  service.categories << first_category
+  rand(0..1).times do
+    second_category = Category.find_by_id(rand((half_categories + 1)..total_categories))
+    service.categories << second_category
+  end
 end
+
+
 
 puts 'Complete!'

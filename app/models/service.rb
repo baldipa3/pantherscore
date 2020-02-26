@@ -10,6 +10,6 @@ class Service < ApplicationRecord
   validates :name, presence: true, uniqueness: true
   validates :url, presence: true
   validates :description, presence: true, uniqueness: true
-  validates :categories, presence: true
+  # validates :categories, presence: true
   # has_one_attached :photo
 end
