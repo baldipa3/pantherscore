@@ -1,4 +1,6 @@
 class Category < ApplicationRecord
-  belongs_to :service
+  has_many :service_categories
+  has_many :services, through: :service_categories
+
   validates :name, presence: true
 end
