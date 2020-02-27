@@ -1,0 +1,14 @@
+<p>name: <%= @service.name %></p>
+<p>description: <%= @service.description %></p>
+<p>website: <%= @service.url %></p>
+<% @service.categories.each do |category| %>
+<p>categories: <%= category.name %></p>
+<% end %>
+<p>impressions: <%= @service.impressionist_count %></p>
+<%= render 'reviews/form', service: @service, review: @review if user_signed_in? %>
+<% @service.reviews.reverse.each do |review| %>
+<p><%= review.user.username %></p>
+<p><%= review.rating %></p>
+<p><%= review.content %></p>
+<br>
+<% end %>

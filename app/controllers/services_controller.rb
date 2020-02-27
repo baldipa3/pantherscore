@@ -7,5 +7,7 @@ class ServicesController < ApplicationController
 
   def show
     @service = Service.find(params[:id])
+    impressionist(@service)
+    @review = Review.new
   end
 end
