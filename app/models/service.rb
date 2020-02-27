@@ -1,4 +1,6 @@
 class Service < ApplicationRecord
+  is_impressionable
+
   has_many :reviews
 
   has_many :user_services
