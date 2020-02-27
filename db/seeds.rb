@@ -9,12 +9,16 @@ require 'faker'
 require 'open-uri'
 require 'nokogiri'
 
-puts 'Clearing services and categories'
+puts 'Clearing services, categories, users and reviews'
 ServiceCategory.destroy_all
+UserService.destroy_all
 Service.destroy_all
 Category.destroy_all
+UserService.destroy_all
+Review.destroy_all
+User.destroy_all
 
-puts 'Creating services and categories'
+puts 'Creating services, categories, users and reviews'
 
 # Categories from AlternativeTo
 
@@ -26,11 +30,11 @@ end
 
 # Random services
 
-50.times do
+25.times do
   service = Service.create!(
     name: Faker::App.name,
     url: Faker::Internet.domain_name,
-    description: Faker::Lorem.paragraph_by_chars(number: 256),
+    description: Faker::Lorem.paragraph_by_chars(number: 280),
     pantherscore: rand(1..100)
   )
   total_categories = Category.all.count
@@ -43,6 +47,29 @@ end
   end
 end
 
-
+20.times do
+  user = User.create!(
+    username: Faker::Internet.username,
+    email: Faker::Internet.free_email,
+    password: '123456',
+  )
+  rand(1..10).times do
+    review = Review.create!(
+      rating: rand(1..10),
+      content: Faker::Lorem.paragraph_by_chars(number: 280),
+      upvote: rand(1..5),
+      downvote: rand(1..5),
+      service_id: rand(1..25),
+      user_id: user.id,
+    )
+  end
+  user.services << [
+    Service.find_by_id(rand(1..5)),
+    Service.find_by_id(rand(6..10)),
+    Service.find_by_id(rand(11..15)),
+    Service.find_by_id(rand(16..20)),
+    Service.find_by_id(rand(21..25)),
+  ]
+end
 
 puts 'Complete!'
