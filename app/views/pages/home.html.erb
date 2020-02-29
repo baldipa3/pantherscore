@@ -1,7 +1,38 @@
 <h1>Pages#home</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
 
+<h1>Most Viewed services</h1>
+<% @most_viewed.each do |service| %>
+  <h3><%= service.name %></h3>
+<% end %>
 
-<% @top_services.each do |service| %>
-  <p><%= service.name %></p>
+<h1>Top 5 Services</h1>
+<% @top_five_services.each do |service| %>
+  <h3><%= service.name %></h3>
+<% end %>
+
+<h1>Last 5 Services</h1>
+<% @last_five_services.each do |service| %>
+  <h3><%= service.name %></h3>
+<% end %>
+
+<h1>Recent Reviews</h1>
+<% @recent_reviews.each do |review| %>
+  <h3><%= review.content %></h3>
+<% end %>
+
+<h1>Recently added</h1>
+<% @recently_added.each do |service| %>
+  <h3><%= service.name %></h3>
+<% end %>
+
+<h1>Categories</h1>
+<% @categories.each do |category| %>
+  <h3><%= category.name %></h3>
+<% end %>
+
+<h1>Advocates</h1>
+<% @top_reviewed_services.each do |service| %>
+  <h3><%= service.name %></h3>
+  <p><%= service.reviews.count %></p>
 <% end %>
