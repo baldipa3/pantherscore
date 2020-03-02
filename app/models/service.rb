@@ -1,5 +1,5 @@
 class Service < ApplicationRecord
-  is_impressionable
+  is_impressionable :counter_cache => true, :column_name => :impressions_count
 
   has_many :reviews
 
