@@ -1,0 +1,11 @@
+<p><%= @user.username %></p>
+<p>Latest review:</p>
+<p><%= @user.reviews.last.rating %></p>
+<p><%= @user.reviews.last.content %></p>
+<p><%= @user.reviews.last.service.name %></p>
+<p><%= @user.reviews.last.created_at %></p>
+<ul>
+  <% @user.services.each do |service| %>
+    <li> <%= service.pantherscore %> <%= service.name %> </li>
+  <% end %>
+</ul>
