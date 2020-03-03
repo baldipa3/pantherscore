@@ -1,0 +1,30 @@
+.green-circle {
+  height: 50px;
+  width: 54px;
+  border-top-left-radius : 110%;
+  border-top-right-radius : 400%;
+  border-bottom-left-radius : 300%;
+  border-bottom-right-radius : 110%;
+  background: #33D9B2;
+  text-align: center;
+  padding-top: 12px;
+  padding-right: 4px;
+  color: white;
+  font-weight: bold;
+}
+
+.grey-line {
+  border-left: 2px solid #B6B6B7;
+  margin-right: 4px;
+  padding-left: 8px;
+}
+
+.cards-text {
+  p {
+    color: #B6B6B7;
+    font-size: 12px;
+  }
+  h3 {
+    margin-bottom: 0;
+  }
+}
