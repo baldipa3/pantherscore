@@ -19,7 +19,7 @@ gem 'faker'
 gem 'impressionist'
 gem 'mechanize'
 gem 'down'
-gem 'waitir'
+gem 'selenium-webdriver'
 
 group :development do
   gem 'web-console', '>= 3.3.0'

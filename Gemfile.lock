@@ -53,6 +53,7 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.1)
+    childprocess (3.0.0)
     coderay (1.1.2)
     concurrent-ruby (1.1.6)
     connection_pool (2.2.2)
@@ -173,6 +174,7 @@ GEM
     responders (3.0.0)
       actionpack (>= 5.0)
       railties (>= 5.0)
+    rubyzip (2.2.0)
     sassc (2.2.1)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -181,6 +183,9 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
+    selenium-webdriver (3.142.7)
+      childprocess (>= 0.5, < 4.0)
+      rubyzip (>= 1.2.2)
     simple_form (5.0.2)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
@@ -243,6 +248,7 @@ DEPENDENCIES
   rails (= 5.2.4.1)
   redis
   sassc-rails
+  selenium-webdriver
   simple_form
   spring
   spring-watcher-listen (~> 2.0.0)
