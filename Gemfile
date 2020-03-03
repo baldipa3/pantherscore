@@ -17,6 +17,9 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'faker'
 gem 'impressionist'
+gem 'mechanize'
+gem 'down'
+gem 'waitir'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
