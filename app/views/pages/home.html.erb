@@ -3,26 +3,30 @@
     <div class="col-6">
       <h1>Finally, an <span style="color:#33D9B2;">easy</span> way to know who trust with my data</h1>
       <div class="mt-4">
-        <p class="green-line pl-4">Panther   is an easy-to-use privacy platform that shows you how trustworthy an online service is when handling your data. With the powerful Pantherscore, we help you make the right choice before signing up to a service.</p>
+        <p class="green-line pl-4">Panther is an easy-to-use privacy platform that shows you how trustworthy an online service is when handling your data. With the powerful Pantherscore, we help you make the right choice before signing up to a service.</p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="container-fluid mb-4" style="margin-left: 56px;">
-  <h2>Most Viewed</h2>
-  <div class="row mt-4 pt-2">
+<div class="container-fluid mb-4">
+  <h2 class="ml-4">Most Viewed</h2>
+  <div class="row mt-4 pt-2 ml-4">
     <% @most_viewed.each do |service| %>
       <div class="col-4">
-        <div class="row">
-          <div class="col-3">
-            <p>Rating</p>
+        <div class="row mb-4">
+          <div class="col-2">
+            <p class="green-circle">100</p>
           </div>
-          <div class="col-3">
+          <div class="col-2">
             <p>Icon</p>
           </div>
-          <div class="col-6">
-            <p><%= service.name %></p>
+          <div class="col-8 ">
+            <div class="cards-text">
+              <h3><%= service.name %></h3>
+              <p class="grey-line" style="display: inline;"><%= service.categories.first.name %></p>
+              <p class="grey-line" style="display: inline;"><%= service.reviews.count %> Reviews</p>
+            </div>
           </div>
         </div>
       </div>
@@ -30,6 +34,30 @@
   </div>
 </div>
 
+<div class="banner-large mt-4">
+  <div class="container row">
+    <div class="col-4">
+      <div class="row">
+        <div class="col-12">
+          <h1>Hall of Fame</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h1>Hall of Shame</h1>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <h1>Top advocates</h1>
+    </div>
+    <div class="col-4">
+      <h1>Recent reviews</h1>
+    </div>
+  </div>
+</div>
+
+<!--
 <h1>Top 5 Services</h1>
 <% @top_five_services.each do |service| %>
   <h3><%= service.name %></h3>
@@ -59,4 +87,4 @@
 <% @top_reviewed_services.each do |service| %>
   <h3><%= service.name %></h3>
   <p><%= service.reviews.count %></p>
-<% end %>
+<% end %> -->
