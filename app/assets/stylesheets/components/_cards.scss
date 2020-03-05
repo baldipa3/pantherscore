@@ -28,3 +28,33 @@
     margin-bottom: 0;
   }
 }
+
+.green-circle-small {
+  height: 30px;
+  width: 34px;
+  border-top-left-radius : 110%;
+  border-top-right-radius : 400%;
+  border-bottom-left-radius : 300%;
+  border-bottom-right-radius : 110%;
+  background: #33D9B2;
+  text-align: center;
+  padding-top: 4px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.red-circle-small {
+  height: 30px;
+  width: 34px;
+  border-top-left-radius : 110%;
+  border-top-right-radius : 400%;
+  border-bottom-left-radius : 300%;
+  border-bottom-right-radius : 110%;
+  background: #FF5252;
+  text-align: center;
+  padding-top: 4px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}

@@ -42,12 +42,48 @@
     <div class="col-4">
       <div class="row">
         <div class="col-12">
-          <h1>Hall of Fame</h1>
+          <h1 class="mb-4">Hall of Fame</h1>
+          <% counter = 0 %>
+          <% @top_five_services.each do |service| %>
+            <% counter += 1 %>
+            <div class="row">
+              <div class="col-1">
+                <p><%= counter %></p>
+              </div>
+              <div class="col-1">
+                <p class="green-circle-small"><%= service.pantherscore %></p>
+              </div>
+              <div class="col-2 ml-4">
+                <p>Icon</p>
+              </div>
+              <div class="col">
+                <p><%= service.name %></p>
+              </div>
+            </div>
+          <% end %>
         </div>
       </div>
       <div class="row">
         <div class="col-12">
-          <h1>Hall of Shame</h1>
+          <h1 class="mb-4">Hall of Shame</h1>
+          <% counter = 0 %>
+          <% @last_five_services.each do |service| %>
+            <% counter += 1 %>
+            <div class="row">
+              <div class="col-1">
+                <p><%= counter %></p>
+              </div>
+              <div class="col-1">
+                <p class="red-circle-small  "><%= service.pantherscore %></p>
+              </div>
+              <div class="col-2 ml-4">
+                <p>Icon</p>
+              </div>
+              <div class="col">
+                <p><%= service.name %></p>
+              </div>
+            </div>
+          <% end %>
         </div>
       </div>
     </div>
