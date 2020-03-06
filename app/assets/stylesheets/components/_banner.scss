@@ -23,7 +23,7 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 48px;
-  height: 700px;
+  height: auto;
   padding-top: 24px;
   padding-left: 56px;
   p {
@@ -43,4 +43,20 @@
   position: absolute;
   left: 920px;
   top: 66px;
+}
+
+.advocates-text {
+  h4 {
+    color: white;
+  }
+  p {
+    color: white;
+    font-size: 12px;
+  }
+}
+
+.reviews-text {
+  h6 {
+    color: #979797;
+  }
 }
