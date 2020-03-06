@@ -43,9 +43,8 @@
       <div class="row">
         <div class="col-12">
           <h1 class="mb-4">Hall of Fame</h1>
-          <% counter = 0 %>
+          <% counter = 1 %>
           <% @top_five_services.each do |service| %>
-            <% counter += 1 %>
             <div class="row">
               <div class="col-1">
                 <p><%= counter %></p>
@@ -60,15 +59,15 @@
                 <p><%= service.name %></p>
               </div>
             </div>
+            <% counter += 1 %>
           <% end %>
         </div>
       </div>
       <div class="row">
         <div class="col-12">
           <h1 class="mb-4">Hall of Shame</h1>
-          <% counter = 0 %>
+          <% counter = 1 %>
           <% @last_five_services.each do |service| %>
-            <% counter += 1 %>
             <div class="row">
               <div class="col-1">
                 <p><%= counter %></p>
@@ -83,6 +82,7 @@
                 <p><%= service.name %></p>
               </div>
             </div>
+              <% counter += 1 %>
           <% end %>
         </div>
       </div>
