@@ -31,11 +31,14 @@ end
 # Random services
 
 25.times do
+  name = Faker::App.name
+  slug = name.downcase.gsub(" ", "-")
   service = Service.create!(
-    name: Faker::App.name,
+    name: name,
     url: Faker::Internet.domain_name,
     description: Faker::Lorem.paragraph_by_chars(number: 280),
-    pantherscore: rand(1..100)
+    pantherscore: rand(1..100),
+    slug: slug
   )
   total_categories = Category.all.count
   half_categories = total_categories / 2
@@ -46,6 +49,21 @@ end
     service.categories << second_category
   end
 end
+
+# Alternatives
+
+id = 1
+
+25.times do
+  Service.find_by_id(id).alternatives << Service.find_by_id(((1..5).to_a - [id]).sample)
+  Service.find_by_id(id).alternatives << Service.find_by_id(((6..10).to_a - [id]).sample)
+  Service.find_by_id(id).alternatives << Service.find_by_id(((11..15).to_a - [id]).sample)
+  Service.find_by_id(id).alternatives << Service.find_by_id(((16..20).to_a - [id]).sample)
+  Service.find_by_id(id).alternatives << Service.find_by_id(((21..25).to_a - [id]).sample)
+  id +=1
+end
+
+# Users
 
 20.times do
   user = User.create!(
