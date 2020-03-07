@@ -4,6 +4,9 @@
 <% @service.categories.each do |category| %>
   <p>categories: <%= category.name %></p>
 <% end %>
+<% @service.alternatives.each do |alternative| %>
+  <p>alternatives: <%= alternative.name %></p>
+<% end %>
 <p>impressions: <%= @service.impressionist_count %></p>
 <%= render 'reviews/form', service: @service, review: @review if user_signed_in? %>
 <% @service.reviews.reverse.each do |review| %>
