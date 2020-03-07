@@ -27,7 +27,7 @@
           <div class="col-8 ">
             <div class="cards-text">
               <h3><%= service.name %></h3>
-              <p class="grey-line" style="display: inline;"><%= service.categories.first.name %></p>
+              <p class="grey-line" style="display: inline;"><%= service.categories.first.name unless service.categories.first.nil? %></p>
               <p class="grey-line" style="display: inline;"><%= service.reviews.count %> Reviews</p>
             </div>
           </div>

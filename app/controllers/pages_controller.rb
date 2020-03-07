@@ -14,7 +14,7 @@ class PagesController < ApplicationController
   private
 
   def pantherscore_order
-    Service.order(pantherscore: :asc)
+    Service.order(pantherscore: :desc)
   end
 
   def top_advocates(num)
