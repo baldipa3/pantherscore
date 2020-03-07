@@ -1,0 +1,18 @@
+#navbar-search {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  padding: 0;
+  background-color: white;
+  border: none;
+  // color: $reptile-green;
+  width: 135px;
+  border-radius: 0;
+  // border-bottom: 1px solid  $reptile-green;
+  transition: $quick;
+}
+
+@media (max-width: 576px) {
+#navbar-search {
+  margin: 0;
+  }
+}
