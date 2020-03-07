@@ -89,6 +89,7 @@ ActiveRecord::Schema.define(version: 2020_03_06_155223) do
     t.string "lead"
     t.string "company_name"
     t.string "company_url"
+    t.string "icon"
   end
 
   create_table "user_services", force: :cascade do |t|

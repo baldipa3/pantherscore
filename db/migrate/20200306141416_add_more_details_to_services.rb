@@ -4,5 +4,6 @@ class AddMoreDetailsToServices < ActiveRecord::Migration[5.2]
     add_column :services, :lead, :string
     add_column :services, :company_name, :string
     add_column :services, :company_url, :string
+    add_column :services, :icon, :string
   end
 end
