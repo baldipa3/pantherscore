@@ -9,6 +9,7 @@ class PagesController < ApplicationController
     @categories = Category.all
     @top_reviewed_services = top_advocates(10)
     @recent_reviews = Review.last(4)
+    @crew_picks = Service.all.sample(5)
   end
 
   private

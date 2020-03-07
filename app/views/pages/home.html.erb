@@ -122,6 +122,42 @@
   </div>
 </div>
 
+<div class="container-fluid mb-4">
+  <div class="row ml-4">
+    <div class="col-6">
+      <h1>Crew Picks</h1>
+      <% @crew_picks.each do |service| %>
+      <div class="col-4">
+        <div class="row mb-4">
+          <div class="col-2">
+            <p class="green-circle"><%= service.pantherscore %></p>
+          </div>
+          <div class="col-2">
+            <p>Icon</p>
+          </div>
+          <div class="col-8 ">
+            <div class="cards-text">
+              <h2><%= service.name %></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% end %>
+    </div>
+    <div class="col-6">
+      <div class="row">
+        <div class="col-12">
+          <h1>Categories</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h1>Recently Added</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <!--
 <h1>Top 5 Services</h1>
 <% @top_five_services.each do |service| %>
