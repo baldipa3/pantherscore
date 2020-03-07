@@ -1,12 +1,48 @@
-.navbar-lewagon {
+.navbar-panther {
   justify-content: space-between;
-  background: white;
+  background: $primary-normal;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-panther .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar-panther .navbar-brand img {
   width: 40px;
+}
+.panther-dark {
+  background-color: $primary-normal;
+}
+
+.navbar-brand {
+  padding: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 0px;
+  color: white !important;
+  fill: white;
+  transition: $quick;
+  &:hover {
+    fill: $orange;
+    // color: $green !important;
+    // background: linear-gradient(90deg, $orange, $orange, white) !important;
+    // background-clip: text !important;
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+    // -webkit-box-decoration-break: clone;
+    // box-decoration-break: clone;
+    // text-shadow: none;
+  }
+}
+
+#navbarDropdown {
+  font-family: $body-font;
+  color: white;
+}
+.dropdown-menu {
+  color: white;
+  background-color: $primary-light;
+}
+.dropdown-item {
+  color: white;
 }
