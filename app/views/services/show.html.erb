@@ -1,3 +1,6 @@
+<div class="banner">
+  <div class="container row ml-4">
+
 <p>name: <%= @service.name %></p>
 <p>description: <%= @service.description %></p>
 <p>website: <%= @service.url %></p>
@@ -8,6 +11,13 @@
   <p>alternatives: <%= alternative.name %></p>
 <% end %>
 <p>impressions: <%= @service.impressionist_count %></p>
+ </div>
+</div>
+
+
+
+
+
 <%= render 'reviews/form', service: @service, review: @review if user_signed_in? %>
 <% @service.reviews.reverse.each do |review| %>
   <p><%= review.user.username %></p>
