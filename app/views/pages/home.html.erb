@@ -21,6 +21,7 @@
           <div class="col-2">
             <svg width="50" height="50" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FFC048"/>
+              <text class="score-text" x="25" y="42" fill="white"><%= service.pantherscore %></text>
             </svg>
 <!--             <p class="icon  icon-green-mid"><%= service.pantherscore %></p>
  -->          </div>
@@ -35,7 +36,11 @@
               <% if service.categories.exists? %>
                 <p class="grey-line" style="display: inline;"><%= service.categories.first.name %></p>
               <% end %>
-              <p class="grey-line" style="display: inline;"><%= service.reviews.count %> Reviews</p>
+              <% if service.reviews.count == 1 %>
+                <p class="grey-line" style="display: inline;"><%= service.reviews.count %> Review</p>
+              <% else %>
+                <p class="grey-line" style="display: inline;"><%= service.reviews.count %> Reviews</p>
+              <% end %>
             </div>
           </div>
         </div>
@@ -113,7 +118,9 @@
       <% @top_reviewed_users.each do |user| %>
       <div class="row">
         <div class="col-12 advocates-text">
-          <h4 class="mb-0"><%= user.username %></h4>
+          <%= link_to user_path(user) do %>
+            <h4 class="mb-0"><%= user.username %></h4>
+          <% end %>
           <p><%= user.reviews.count %> Reviews</p>
         </div>
       </div>
@@ -125,7 +132,7 @@
       <div class="row reviews-text">
         <div class="col-12">
           <h6><%= review.content %></h6>
-          <p>reviewer on <%= review.service.name %></p>
+          <p class="banner-links"><%= link_to "reviewer", user_path(review.user) %> on <%= link_to review.service.name, service_path(review.service) %></p>
         </div>
       </div>
       <% end %>
@@ -171,34 +178,4 @@
     </div>
   </div>
 </div>
-<!--
-<h1>Top 5 Services</h1>
-<% @top_five_services.each do |service| %>
-  <h3><%= service.name %></h3>
-<% end %>
 
-<h1>Last 5 Services</h1>
-<% @last_five_services.each do |service| %>
-  <h3><%= service.name %></h3>
-<% end %>
-
-<h1>Recent Reviews</h1>
-<% @recent_reviews.each do |review| %>
-  <h3><%= review.content %></h3>
-<% end %>
-
-<h1>Recently added</h1>
-<% @recently_added.each do |service| %>
-  <h3><%= service.name %></h3>
-<% end %>
-
-<h1>Categories</h1>
-<% @categories.each do |category| %>
-  <h3><%= category.name %></h3>
-<% end %>
-
-<h1>Advocates</h1>
-<% @top_reviewed_services.each do |service| %>
-  <h3><%= service.name %></h3>
-  <p><%= service.reviews.count %></p>
-<% end %> -->
