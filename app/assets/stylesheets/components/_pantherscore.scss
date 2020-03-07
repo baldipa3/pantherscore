@@ -1,69 +1,21 @@
-// .green-circle {
-//   height: 50px;
-//   width: 54px;
-//   border-top-left-radius : 110%;
-//   border-top-right-radius : 400%;
-//   border-bottom-left-radius : 300%;
-//   border-bottom-right-radius : 110%;
-//   background: #33D9B2;
-//   text-align: center;
-//   padding-top: 12px;
-//   padding-right: 4px;
-//   color: white;
-//   font-weight: bold;
-// }
+.score-green-lg {
 
-.green-circle-small {
-  height: 30px;
-  width: 34px;
-  border-top-left-radius : 110%;
-  border-top-right-radius : 400%;
-  border-bottom-left-radius : 300%;
-  border-bottom-right-radius : 110%;
-  background: #33D9B2;
-  text-align: center;
-  padding-top: 4px;
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
 }
 
-.red-circle-small {
-  height: 30px;
-  width: 34px;
-  border-top-left-radius : 110%;
-  border-top-right-radius : 400%;
-  border-bottom-left-radius : 300%;
-  border-bottom-right-radius : 110%;
-  background: #FF5252;
-  text-align: center;
-  padding-top: 4px;
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
+.score-yellow-lg {
+
 }
 
-.icon {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  color: white;
+.score-red-lg {
+
+}
+
+.score-text-s {
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
-  padding-top: 12px;
+  width: auto;
+  font-family: 'Hammersmith One', sans-serif;
+  line-height: auto;
+  align: middle;
 }
-.icon-green-mid {
-  background-image: url("score-lg.svg");
-
-}
-
-svg {
-  width: 50px;
-  height: 50px;
-  path {
-    fill: #33D9B2;
-  }
-}
-// svg path {
-//   fill: red;
-// }
