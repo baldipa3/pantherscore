@@ -32,7 +32,9 @@
               <%= link_to service_path(service) do %>
                 <h3><%= service.name %></h3>
               <% end %>
-              <p class="grey-line" style="display: inline;"><%= service.categories.first.name %></p>
+              <% if service.categories.exists? %>
+                <p class="grey-line" style="display: inline;"><%= service.categories.first.name %></p>
+              <% end %>
               <p class="grey-line" style="display: inline;"><%= service.reviews.count %> Reviews</p>
             </div>
           </div>
