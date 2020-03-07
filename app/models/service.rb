@@ -1,6 +1,9 @@
 class Service < ApplicationRecord
   is_impressionable :counter_cache => true, :column_name => :impressions_count
 
+  has_many :alternative_services, foreign_key: :service_id, class_name: 'Alternative'
+  has_many :alternatives, through: :alternative_services
+
   has_many :reviews
 
   has_many :user_services
