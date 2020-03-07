@@ -1,22 +1,36 @@
 <div class="banner">
-  <div class="container row ml-4">
+  <div class="row">
 
-<p>name: <%= @service.name %></p>
-<p>description: <%= @service.description %></p>
-<p>website: <%= @service.url %></p>
-<% @service.categories.each do |category| %>
-  <p>categories: <%= category.name %></p>
-<% end %>
-<% @service.alternatives.each do |alternative| %>
-  <p>alternatives: <%= alternative.name %></p>
-<% end %>
-<p>impressions: <%= @service.impressionist_count %></p>
- </div>
+    <div class="col-6">
+      <h1><%= image_tag @service.icon, class: 'icon-large' %> <%= @service.name %></h1>
+      <br>
+      <p><%= simple_format @service.description %></p>
+      <%= link_to "Official Website", @service.url%>
+      <br>
+      <br>
+      <h3>Categories</h3>
+      <ul>
+      <% @service.categories.each do |category| %>
+        <li><%= category.name %></li>
+      <% end %>
+      </ul>
+      <h2>Pantherscore: <%= @service.pantherscore %></h2>
+    </div>
+
+    <div class="col-3"></div>
+      <h3>Alternatives</h3>
+      <ul>
+        <% @service.alternatives.each do |alternative| %>
+          <li><%= alternative.name %></li>
+        <% end %>
+      </ul>
+    </div>
+
+  </div>
 </div>
 
 
-
-
+<h1>Reviews</h1>
 
 <%= render 'reviews/form', service: @service, review: @review if user_signed_in? %>
 <% @service.reviews.reverse.each do |review| %>
