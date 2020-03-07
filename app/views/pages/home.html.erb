@@ -1,12 +1,11 @@
-<div class="banner">
-  <div class="container row ml-4">
+<div class="banner banner-home">
+  <div class="row">
     <div class="col-8">
       <h1>Finally, an <span style="color:#33D9B2;">easy</span> way to know who trust with my data</h1>
-      <div class="mt-4">
-        <p class="green-line pl-4">Panther is an easy-to-use privacy platform that shows you how trustworthy an online service is when handling your data. With the powerful Pantherscore, we help you make the right choice before signing up to a service.</p>
-      </div>
     </div>
-    <div class="col-3 gif-image">
+    <div class="row justify-content-between">
+      <p class="banner-paragraph col-6">Panther is an easy-to-use privacy platform that shows you how trustworthy an online service is when handling your data. With the powerful Pantherscore, we help you make the right choice before signing up to a service.</p>
+      <div class="gif-image col-3"></div>
     </div>
   </div>
 </div>
@@ -31,7 +30,7 @@
             </svg>
           </div>
           <div class="col-2">
-            <p>Icon</p>
+            <%= image_tag service.icon, class: 'icon' %>
           </div>
           <div class="col-8 ">
             <div class="cards-text">
@@ -39,12 +38,12 @@
                 <h3><%= service.name %></h3>
               <% end %>
               <% if service.categories.exists? %>
-                <p class="grey-line" style="display: inline;"><%= service.categories.first.name %></p>
+                <p style="display: inline;"><%= service.categories.first.name %> |</p>
               <% end %>
               <% if service.reviews.count == 1 %>
-                <p class="grey-line" style="display: inline;"><%= service.reviews.count %> Review</p>
+                <p style="display: inline;"><%= service.reviews.count %> Review</p>
               <% else %>
-                <p class="grey-line" style="display: inline;"><%= service.reviews.count %> Reviews</p>
+                <p style="display: inline;"><%= service.reviews.count %> Reviews</p>
               <% end %>
             </div>
           </div>
@@ -73,7 +72,7 @@
                 </svg>
               </div>
               <div class="col-2 ml-4">
-                <p>Icon</p>
+                <%= image_tag service.icon, class: 'icon-small' %>
               </div>
               <div class="col">
                 <%= link_to service_path(service) do %>
@@ -106,7 +105,7 @@
                 </svg>
               </div>
               <div class="col-2 ml-4">
-                <p>Icon</p>
+                <%= image_tag service.icon, class: 'icon-small' %>
               </div>
               <div class="col">
                 <%= link_to service_path(service) do %>
@@ -162,7 +161,7 @@
             <p class="green-circle"><%= service.pantherscore %></p>
           </div>
           <div class="col-2">
-            <p>Icon</p>
+            <%= image_tag service.icon, class: 'icon' %>
           </div>
           <div class="col-8 ">
             <div class="cards-text">

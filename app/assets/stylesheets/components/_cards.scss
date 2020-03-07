@@ -1,8 +1,8 @@
-.grey-line {
-  border-left: 2px solid #B6B6B7;
-  margin-right: 4px;
-  padding-left: 8px;
-}
+// .grey-line {
+//   border-left: 2px solid #B6B6B7;
+//   margin-right: 4px;
+//   padding-left: 8px;
+// }
 
 .cards-text {
   p {
@@ -13,4 +13,24 @@
     margin-bottom: 0;
     color: black;
   }
+}
+
+.score-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
+.icon-small {
+  height: 35px;
+  width: 35px;
+}
+
+.icon-large {
+  height: 124px;
+  width: 124px;
 }

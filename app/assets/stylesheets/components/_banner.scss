@@ -1,20 +1,26 @@
 .banner {
-  background-color: #212121;
+  background-color: $primary-normal;
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  padding: 50px;
   margin-bottom: 48px;
-  height: 500px;
-  margin-top: -60px;
-  p {
-    color: white;
-  }
-  h1 {
+  h1, h2, h3, li, p {
     color: white;
   }
 }
 
-.green-line {
+.banner-home {
+  p {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 64px;
+  }
+}
+
+.banner-paragraph {
+  margin-left: 25px;
+  margin-top: 50px;
   border-left: 4px solid #33D9B2;
 }
 
@@ -23,7 +29,6 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 48px;
-  height: auto;
   padding-top: 24px;
   padding-left: 56px;
   p {
@@ -41,8 +46,8 @@
   background-size: cover;
   height: 440px;
   position: absolute;
-  left: 920px;
-  top: 66px;
+  left: 1020px;
+  top: 120px;
 }
 
 .advocates-text {
