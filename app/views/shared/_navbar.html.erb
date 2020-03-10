@@ -9,7 +9,6 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <!-- Search form -->
       <div class="search-form-control form-group">
@@ -19,9 +18,15 @@
           </button>
         </div>
 
+
       <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle margin-right" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Categories
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -29,6 +34,15 @@
             <a class="dropdown-item" href="#">Email</a>
             <a class="dropdown-item" href="#">Streaming Services</a>
           </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+       <% if user_signed_in? %>
+        <li class="nav-item active">
+          <%= link_to "Home", "#", class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Messages", "#", class: "nav-link" %>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">

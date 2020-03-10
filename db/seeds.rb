@@ -1,8 +1,8 @@
+require 'rails'
 require 'faker'
 require 'open-uri'
 require 'nokogiri'
 require 'json'
-require 'pry'
 
 puts 'Clearing services, categories, users and reviews'
 ServiceCategory.destroy_all
@@ -52,7 +52,6 @@ end
 
 services['services'].each do |service|
   existing_service = Service.find_by(slug: service['slug'])
-  # binding.pry
   alternative_services = service['alternatives'].map { |alternative| Service.find_by(slug: alternative['slug']) }
   alternative_services.each do |alternative|
     existing_service.alternatives << alternative unless alternative.nil?
