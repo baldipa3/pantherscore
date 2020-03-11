@@ -1,1 +1,27 @@
 // Specific CSS for your home-page
+.long-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 300px;
+  white-space: nowrap;
+}
+
+.most-view-style {
+  padding-top: 64px;
+}
+
+.categories-style {
+  padding-left: 80px;
+}
+
+.bottom-margin {
+  margin-top: 50px;
+  h1 {
+    margin-bottom: 30px;
+  }
+}
+
+.view-all-style {
+  font-size: 20px;
+  padding-bottom: 24px;
+}

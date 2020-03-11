@@ -4,7 +4,7 @@ class PagesController < ApplicationController
   def home
     @most_viewed = Service.limit(12).order('impressions_count')
     @top_five_services = pantherscore_order.first(5)
-    @last_five_services = pantherscore_order.last(5)
+    @last_five_services = pantherscore_order.last(5).reverse
     @recently_added = Service.last(3)
     @categories = Category.all
     @top_reviewed_users = top_advocates(10)

@@ -2,7 +2,7 @@
   background-color: $primary-normal;
   background-size: cover;
   background-position: center;
-  padding: 50px;
+  padding: 100px 50px 100px;
   margin-bottom: 48px;
   h1, h2, h3, li, p {
     color: white;
@@ -28,15 +28,18 @@
   background-color: #212121;
   background-size: cover;
   background-position: center;
-  // margin-bottom: 48px;
-  padding-top: 24px;
-  padding-left: 56px;
+  margin: 48px 0px 48px 0px;
+  padding: 56px 0px 56px 24px;
   p {
     color: white;
   }
   h1 {
     color: white;
   }
+}
+
+.banner-large-style {
+  padding-bottom: 24px;
 }
 
 .gif-image {
