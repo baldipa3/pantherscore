@@ -37,13 +37,8 @@
 
 .card-service {
   display: flex;
-  transition: 0.3s ease;
-  padding-top: 26px;
+  padding-top: 40px;
   // flex-direction: column;
-
-  &:hover {
-    transform: scale(1.03);
-  }
 }
 
 .card-service-info p {
