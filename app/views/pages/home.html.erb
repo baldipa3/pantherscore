@@ -2,11 +2,16 @@
   <div class="row">
     <div class="col-8">
       <h1>Finally, an <span style="color:#33D9B2;">easy</span> way to know who trust with my data</h1>
+      <p class="banner-paragraph">Panther is an easy-to-use privacy platform that shows you how trustworthy an online service is when handling your data. With the powerful Pantherscore, we help you make the right choice before signing up to a service.</p>
     </div>
-    <div class="row justify-content-between">
-      <p class="banner-paragraph col-6">Panther is an easy-to-use privacy platform that shows you how trustworthy an online service is when handling your data. With the powerful Pantherscore, we help you make the right choice before signing up to a service.</p>
-      <div class="gif-image col-3"></div>
+
+   <!--  <div class="row justify-content-between banner_style">
+    </div> -->
+    <div class="col-4 gif-image-container">
+      <div class="gif-image"></div>
     </div>
+
+
   </div>
 </div>
 
@@ -177,8 +182,8 @@
               <%= link_to service_path(service) do %>
                 <h2><%= service.name %></h2>
                 <% end %>
-                <div class="long-text">
-                  <p><%= service.description %></p>
+                <div>
+                  <p id="clamp"><%= service.description %></p>
                 </div>
                 <% if service.categories.exists? %>
                   <p><%= service.categories.first.name %></p>
@@ -236,4 +241,11 @@
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
 

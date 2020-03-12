@@ -9,6 +9,15 @@
   }
 }
 
+.banner_style {
+  display: flex;
+  flex-direction: column;
+}
+
+.gif-image-container {
+  padding-top: 12px;
+}
+
 .banner-home {
   p {
     font-size: 30px;
@@ -22,6 +31,8 @@
   margin-left: 25px;
   margin-top: 50px;
   border-left: 4px solid #33D9B2;
+  width: 80%;
+  padding-left: 16px;
 }
 
 .banner-large {
@@ -46,11 +57,11 @@
   background-image: url("tenor.gif");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  height: 440px;
-  position: absolute;
-  left: 1020px;
-  top: 120px;
+  // background-size: cover;
+  height: 415px
+  // position: absolute;
+  // left: 1020px;
+  // top: 120px;
 }
 
 .advocates-text {
