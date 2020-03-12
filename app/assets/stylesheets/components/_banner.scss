@@ -87,3 +87,27 @@ a:hover {
 .banner-links a {
   color: white;
 }
+
+.banner-users {
+  background-color: $primary-normal;
+  padding: 40px 0px 65px;
+  h1, h2, h3, h5, li {
+    color: white;
+  }
+  p {
+    color: $background-dark;
+  }
+}
+
+.users-review {
+  display: flex;
+  padding-top: 16px;
+  p {
+    color: white;
+    padding-right: 75px;
+  }
+}
+
+.user-info {
+  margin-left: 36px;
+}

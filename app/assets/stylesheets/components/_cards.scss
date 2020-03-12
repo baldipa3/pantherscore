@@ -96,14 +96,8 @@
   padding-bottom: 30px;
 }
 
-  .module {
-    width: 500px;
-    overflow: hidden;
-  }
-
-  .line-clamp {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
+.card-myscore {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
