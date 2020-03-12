@@ -15,8 +15,17 @@
     <%= render 'shared/flashes' %>
     <%= yield %>
     <%= render 'shared/footer' %>
-    <%= javascript_include_tag 'application' %>
 
+    <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
+
+    <%= javascript_pack_tag 'clamp' %>
+
   </body>
+
+  <script>
+    let paragraph = document.getElementById('clamp')
+
+    $clamp(paragraph, {clamp: 5, useNativeClamp: false, animate: true});
+  </script>
 </html>
