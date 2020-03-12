@@ -182,8 +182,8 @@
               <%= link_to service_path(service) do %>
                 <h2><%= service.name %></h2>
                 <% end %>
-                <div>
-                  <p id="clamp"><%= service.description %></p>
+                <div class="module">
+                  <p class="line-clamp"><%= service.description %></p>
                 </div>
                 <% if service.categories.exists? %>
                   <p><%= service.categories.first.name %></p>
