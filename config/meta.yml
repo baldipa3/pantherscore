@@ -1,0 +1,5 @@
+meta_product_name: "Panther"
+meta_title: "Panther - Making sure your data is in the right hands"
+meta_description: "Panther is an easy-to-use privacy platform that shows you how trustworthy an online service is when handling your data. With the powerful Pantherscore, we help you make the right choice before signing up to a service."
+meta_image: "cover.png" # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards
