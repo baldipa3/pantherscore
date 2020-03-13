@@ -101,3 +101,32 @@
   flex-direction: column;
   margin-top: 30px;
 }
+
+.cards-user-services {
+  padding-top: 50px;
+  display: flex;
+  width: 100%;
+  margin-left: 24px;
+  ul {
+    list-style-type: none;
+  }
+}
+
+.card-user-service {
+  display: flex;
+  margin-right: 16px;
+  padding-bottom: 16px;
+}
+
+.user-score {
+  margin-left: 12px;
+  margin-top: -12px;
+}
+
+.icon-small-user {
+  height: 35px;
+  width: 35px;
+  margin-top: -20px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
