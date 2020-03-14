@@ -4,6 +4,9 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    pantherscore_sum = @user.services.pluck(:pantherscore).sum
+    user_total_services = @user.services.count
+    @myscore = pantherscore_sum / user_total_services
     @recommended = Service.all
   end
 
