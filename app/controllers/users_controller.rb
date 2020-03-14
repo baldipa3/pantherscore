@@ -4,9 +4,10 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    @recommended = Service.all
   end
 
-  def edit
+  def edi
   end
 
   def update
