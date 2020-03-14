@@ -50,8 +50,13 @@
 .sign-up-btn {
   background-color: $panther-green;
   color: white !important;
-  padding: 9px 14px;
-  border-radius: 25px;
+  padding: 9px 16px;
+  border-radius: 16px;
+  margin: 0rem 1rem;
+}
+
+.sign-in-btn, a {
+  color: white;
 }
 
 // Nav search box
