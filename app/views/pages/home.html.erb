@@ -2,30 +2,35 @@
   <div class="row">
     <div class="col-8">
       <h1>Finally, an <span style="color:#33D9B2;">easy</span> way to know who trust with my data</h1>
+      <p class="banner-paragraph">Panther is an easy-to-use privacy platform that shows you how trustworthy an online service is when handling your data. With the powerful Pantherscore, we help you make the right choice before signing up to a service.</p>
     </div>
-    <div class="row justify-content-between">
-      <p class="banner-paragraph col-6">Panther is an easy-to-use privacy platform that shows you how trustworthy an online service is when handling your data. With the powerful Pantherscore, we help you make the right choice before signing up to a service.</p>
-      <div class="gif-image col-3"></div>
+
+   <!--  <div class="row justify-content-between banner_style">
+    </div> -->
+    <div class="col-4 gif-image-container">
+      <div class="gif-image"></div>
     </div>
+
+
   </div>
 </div>
 
 <div class="container-fluid mb-4">
   <h2 class="ml-4">Most Viewed</h2>
-  <div class="row mt-4 pt-2 ml-4">
+  <div class="row pr-4 ml-4">
     <% @most_viewed.each do |service| %>
-      <div class="col-4">
+      <div class="col-4 most-view-style">
         <div class="row mb-4">
           <div class="col-2">
-            <svg width="32" height="32" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <% if service.pantherscore <= 15 %>
+            <svg width="40" height="40" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <% if service.pantherscore <= 39 %>
                 <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FF5252"/>
-              <% elsif service.pantherscore.between?(15, 46) %>
+              <% elsif service.pantherscore.between?(40, 74) %>
                 <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FFC048"/>
               <% else %>
                 <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#33D9B2"/>
               <% end %>
-              <text class="score-text-s" x="15" y="44" fill="white"><%= service.pantherscore %></text>
+              <text class="score-text" x="20" y="44" fill="white"><%= service.pantherscore %></text>
             </svg>
           </div>
           <div class="col-2">
@@ -52,7 +57,7 @@
   </div>
 </div>
 
-<div class="banner-large mt-4">
+<div class="banner-large">
   <div class="container-fluid row">
     <div class="col-4">
       <div class="container row">
@@ -60,14 +65,14 @@
           <h1 class="mb-4">Hall of Fame</h1>
           <% counter = 1 %>
           <% @top_five_services.each do |service| %>
-            <div class="row">
+            <div class="row banner-large-style">
               <div class="col-1">
                 <p><%= counter %></p>
               </div>
               <div class="col-1">
                 <svg width="35" height="35" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#33D9B2"/>
-                  <text class="score-text-s" x="15" y="42" fill="white"><%= service.pantherscore %></text>
+                  <text class="score-text" x="15" y="42" fill="white"><%= service.pantherscore %></text>
                 </svg>
               </div>
               <div class="col-2 ml-4">
@@ -82,7 +87,7 @@
             <% counter += 1 %>
           <% end %>
           <div class="row">
-            <div class="col-10 text-right">
+            <div class="col-10 text-right view-all-style">
               <p>> View All</p>
             </div>
           </div>
@@ -93,15 +98,16 @@
           <h1 class="mb-4">Hall of Shame</h1>
           <% counter = 1 %>
           <% @last_five_services.each do |service| %>
-            <div class="row">
+            <div class="row banner-large-style">
               <div class="col-1">
                 <p><%= counter %></p>
               </div>
               <div class="col-1">
                 <svg width="35" height="35" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FF5252"/>
-                  <text class="score-text-s" x="25" y="42" fill="white"><%= service.pantherscore %></text>
-                </svg>              </div>
+                  <text class="score-text" x="25" y="42" fill="white"><%= service.pantherscore %></text>
+                </svg>
+              </div>
               <div class="col-2 ml-4">
                 <%= image_tag service.icon, class: 'icon-small' %>
               </div>
@@ -114,7 +120,7 @@
               <% counter += 1 %>
           <% end %>
           <div class="row">
-            <div class="col-10 text-right">
+            <div class="col-10 text-right view-all-style">
               <p>> View All</p>
             </div>
           </div>
@@ -124,7 +130,7 @@
     <div class="col-4">
       <h1 class="mb-4">Top advocates</h1>
       <% @top_reviewed_users.each do |user| %>
-      <div class="row">
+      <div class="row banner-large-style">
         <div class="col-12 advocates-text">
           <%= link_to user_path(user) do %>
             <h4 class="mb-0"><%= user.username %></h4>
@@ -137,7 +143,7 @@
     <div class="col-4">
       <h1 class="mb-4">Recent reviews</h1>
       <% @recent_reviews.each do |review| %>
-      <div class="row reviews-text">
+      <div class="row reviews-text banner-large-style">
         <div class="col-12">
           <h6><%= review.content %></h6>
           <p class="banner-links"><%= link_to "reviewer", user_path(review.user) %> on <%= link_to review.service.name, service_path(review.service) %></p>
@@ -148,42 +154,98 @@
   </div>
 </div>
 
-<!-- <div class="container-fluid mb-4">
+
+
+<div class="container-fluid bottom-margin">
   <div class="row ml-4">
     <div class="col-6">
       <h1>Crew Picks</h1>
       <% @crew_picks.each do |service| %>
-      <div class="col-4">
-        <div class="row mb-4">
-          <div class="col-2">
-            <p class="green-circle"><%= service.pantherscore %></p>
-          </div>
-          <div class="col-2">
-            <%= image_tag service.icon, class: 'icon' %>
-          </div>
-          <div class="col-8 ">
-            <div class="cards-text">
+        <div class="cards-service">
+          <div class="card-service">
+            <div class="card-score">
+              <svg width="55" height="55" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <% if service.pantherscore <= 39 %>
+                  <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FF5252"/>
+                <% elsif service.pantherscore.between?(40, 74) %>
+                  <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FFC048"/>
+                <% else %>
+                  <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#33D9B2"/>
+                <% end %>
+                <text class="score-text" x="20" y="44" fill="white"><%= service.pantherscore %></text>
+              </svg>
+            </div>
+            <div class="card-service-icon ml-4">
+              <%= image_tag service.icon, class: 'icon-large' %>
+            </div>
+            <div class="card-service-info ml-4">
               <%= link_to service_path(service) do %>
                 <h2><%= service.name %></h2>
+                <% end %>
+                <div class="module">
+                  <p class="line-clamp"><%= service.description %></p>
+                </div>
+                <% if service.categories.exists? %>
+                  <p><%= service.categories.first.name %></p>
               <% end %>
             </div>
           </div>
         </div>
-      </div>
       <% end %>
     </div>
-    <div class="col-6">
+
+    <div class="col-6 categories-style">
+      <h1>Categories</h1>
       <div class="row">
-        <div class="col-12">
-          <h1>Categories</h1>
-        </div>
+          <div class="cards-categories mt-4">
+        <% @categories.each do |category| %>
+            <div class="card-category">
+              <%= link_to category.name, root_path %>
+            </div>
+        <% end %>
+          </div>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <h1>Recently Added</h1>
+      <h1>Recently added</h1>
+      <div class="row ml-4">
+        <div class="cards-recent">
+        <% @recently_added.each do |service| %>
+          <div class="card-recent">
+            <svg width="40" height="40" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <% if service.pantherscore <= 39 %>
+                <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FF5252"/>
+              <% elsif service.pantherscore.between?(40, 74) %>
+                <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FFC048"/>
+              <% else %>
+                <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#33D9B2"/>
+              <% end %>
+              <text class="score-text" x="20" y="44" fill="white"><%= service.pantherscore %></text>
+            </svg>
+              <%= image_tag service.icon, class: 'icon ml-4' %>
+            <div class="cards-text ml-4">
+              <%= link_to service_path(service) do %>
+                <h3><%= service.name %></h3>
+              <% end %>
+              <% if service.categories.exists? %>
+                <p style="display: inline;"><%= service.categories.first.name %> |</p>
+              <% end %>
+              <% if service.reviews.count == 1 %>
+                <p style="display: inline;"><%= service.reviews.count %> Review</p>
+              <% else %>
+                <p style="display: inline;"><%= service.reviews.count %> Reviews</p>
+              <% end %>
+            </div>
+          </div>
+        <% end %>
         </div>
       </div>
     </div>
   </div>
 </div>
- -->
+
+
+
+
+
+
+
+

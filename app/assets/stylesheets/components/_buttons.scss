@@ -1,0 +1,22 @@
+.btn {
+  padding: 9px 24px;
+  border-radius: 15px;
+}
+
+.btn-submit {
+  background-color: $panther-green;
+  color: white;
+}
+
+.btn-negative {
+  background-color: #FF5252;
+  color: white;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  line-height: 11px;
+   p {
+    font-size: 30px;
+  }
+}

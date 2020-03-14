@@ -2,11 +2,20 @@
   background-color: $primary-normal;
   background-size: cover;
   background-position: center;
-  padding: 50px;
+  padding: 100px 50px 100px;
   margin-bottom: 48px;
   h1, h2, h3, li, p {
     color: white;
   }
+}
+
+.banner_style {
+  display: flex;
+  flex-direction: column;
+}
+
+.gif-image-container {
+  padding-top: 12px;
 }
 
 .banner-home {
@@ -22,15 +31,16 @@
   margin-left: 25px;
   margin-top: 50px;
   border-left: 4px solid #33D9B2;
+  width: 80%;
+  padding-left: 36px;
 }
 
 .banner-large {
   background-color: #212121;
   background-size: cover;
   background-position: center;
-  margin-bottom: 48px;
-  padding-top: 24px;
-  padding-left: 56px;
+  margin: 48px 0px 48px 0px;
+  padding: 80px 0px 60px 24px;
   p {
     color: white;
   }
@@ -39,15 +49,19 @@
   }
 }
 
+.banner-large-style {
+  padding-bottom: 24px;
+}
+
 .gif-image {
   background-image: url("tenor.gif");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  height: 440px;
-  position: absolute;
-  left: 1020px;
-  top: 120px;
+  // background-size: cover;
+  height: 415px;
+  // position: absolute;
+  // left: 1020px;
+  // top: 120px;
 }
 
 .advocates-text {
@@ -72,4 +86,28 @@ a:hover {
 
 .banner-links a {
   color: white;
+}
+
+.banner-users {
+  background-color: $primary-normal;
+  padding: 40px 0px 65px;
+  h1, h2, h3, h5, li {
+    color: white;
+  }
+  p {
+    color: $background-dark;
+  }
+}
+
+.users-review {
+  display: flex;
+  padding-top: 16px;
+  p {
+    color: white;
+    padding-right: 75px;
+  }
+}
+
+.user-info {
+  margin-left: 36px;
 }
