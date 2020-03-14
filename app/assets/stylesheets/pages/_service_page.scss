@@ -1,0 +1,96 @@
+// Elements
+ul {
+  list-style-type: none;
+}
+
+.service-info {
+  margin: .5rem;
+}
+
+// Image Style
+
+.spacing {
+  margin: 0.2rem;
+}
+
+// Icons styling
+
+.fa-globe {
+  color: $background-dark;
+}
+
+.fa-file-alt {
+  color: $background-dark;
+}
+
+// Service category
+
+.category {
+  padding: 9px 16px;
+  background-color: $primary-light;
+  margin: 1rem;
+  border: solid 2px $background-dark;
+  color: $background-dark !important;
+  border-radius: 5px;
+}
+
+.categories ul {
+  display: flex;
+  padding-left: 0px;
+}
+
+// Score Section
+
+.score-section {
+  display: flex;
+  .verdict {
+    display:flex;
+  }
+}
+
+.verdict svg {
+  margin: 0rem .2rem;
+}
+
+.score-section div {
+  margin: 0 1rem;
+}
+
+// Breakdown Section
+
+.container-fluid {
+  background-color: #fff;
+}
+
+.banner {
+  margin-bottom: 0;
+}
+
+.breakdown {
+  display: flex;
+  i {
+    margin-bottom: 1rem;
+  }
+}
+
+.fa-plus-square {
+  color: $panther-green;
+}
+
+.fa-minus-square {
+  color: $panther-red;
+}
+.fa-equals {
+  color: $panther-yellow;
+}
+
+
+// More Section
+.more {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 2rem;
+  // box-shadow: 3px 3px 50px 20px grey;
+}
+
