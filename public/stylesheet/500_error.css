@@ -62,6 +62,7 @@ html {
 }
 
 .container {
+    background-color: #212121;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -111,6 +112,7 @@ html {
     padding: 0;
     margin: 0;
     font-weight: 700;
+    color: #fff;
 }
 
 .error h2 {
@@ -118,6 +120,11 @@ html {
     padding: 0px;
     font-size: 47px;
     letter-spacing: 12px;
+    color: white;
+}
+
+.error p {
+    color: #fff;
 }
 
 .perspec {
