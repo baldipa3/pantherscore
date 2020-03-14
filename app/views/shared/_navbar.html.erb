@@ -15,7 +15,7 @@
       <div class="search-form-control form-group">
         <input class="form-control string required" placeholder="Try whatsapp..." type="text" name="search[query]" id="search_query" />
           <button name="button" type="submit" class="btn btn-flat">
-            <i class="fas fa-search"></i>
+           <!-- <i class="fas fa-search"></i> -->
           </button>
         </div>
 
@@ -44,10 +44,10 @@
         </li>
       <% else %>
         <li class="nav-item">
-          <%= link_to "Login", new_user_session_path, class: "nav-link" %>
+          <%= link_to "Login", new_user_session_path, class: "login-in-btn" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Sign Up", new_user_registration_path, class: "nav-link sign-up-btn" %>
+          <%= link_to "Sign Up", new_user_registration_path, class: " sign-up-btn" %>
         </li>
       <% end %>
       </ul>
