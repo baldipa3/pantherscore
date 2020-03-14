@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="user_form">
+    <%= simple_form_for(@user, defaults: { input_html: { class: "form-tex" }, label_html: { class: "form-text" } }) do |f| %>
+      <h1>Welcome <%= @user.username %></h1>
+      <div class="form-box">
+        <%= f.input :username %>
+        <%= f.input :email %>
+        <%= f.submit class: "btn-primary" %>
+      </div>
+    <% end %>
+  </div>
+</div>
