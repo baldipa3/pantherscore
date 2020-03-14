@@ -81,13 +81,50 @@
 </div>
   
 
-<div class="container-fluid">
-<div class="col-6">
-  <h1>Write your review</h1>
+<div class="container">
+  <div class="d-flex justify-content-start">
+    <h1> Write your review</h1>
+  </div>
+
+  <div class="review-container">
+    <div class="user-review">
+      <p>Your Score</p>
+      <%= render 'reviews/form', service: @service, review: @review if user_signed_in? %>
+    </div>
+
+    <div class="reviews">
+      <% @service.reviews.reverse.each do |review| %>
+        <div class="row">
+            <div class="col-1">
+              <p><%= review.rating %></p>
+            </div>
+            <div class="col-11">
+
+              <div class="review-details">
+                <div class="start">
+                <p class="username"><%= review.user.username %></p>
+                <p class ="date"><%= review.created_at.strftime("%e %b %Y") %></p>
+                </div>
+
+                <div class="end">
+                  <p class="filter active">By Date</p>
+                  <p class="filter">User Score</p>
+                  <p class="filter">Most Helpful</p>
+                </div>
+                
+              </div>
+                <div class="content">
+                  <p><%= review.content %></p>
+                </div>
+              </div>
+     </div>
+</div>
+  <% end %>
+  </div>
 </div>
 
 
- 
-</div>
+
+
 
 

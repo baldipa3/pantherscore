@@ -94,3 +94,41 @@ ul {
   // box-shadow: 3px 3px 50px 20px grey;
 }
 
+
+// Review Section
+.user-review {
+  margin-bottom: 6rem;
+}
+.username {
+  text-transform: capitalize;
+}
+
+.col-1 {
+  text-align: center;
+  margin: auto 0;
+}
+
+.review-details {
+  display: flex;
+  justify-content: space-between;
+  .start {
+    display: flex;
+  }
+  .end {
+    display: flex;
+    padding: 0 1rem;
+    .filter {
+      padding: 0 .5rem;
+      color: $primary-light;
+    }
+  }
+}
+
+.active {
+  color: #000 !important;
+}
+
+.date {
+  margin: 0rem 2rem;
+  color: $background-dark;
+}
