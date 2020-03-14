@@ -7,7 +7,7 @@ class UsersController < ApplicationController
     @recommended = Service.all
   end
 
-  def edi
+  def edit
   end
 
   def update

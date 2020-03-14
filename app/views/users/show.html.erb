@@ -70,8 +70,8 @@
   <div class="cards-recommended">
     <ul>
       <h1>Recommended services</h1>
-      <% @recommended.each do |service| %>
-        <li>
+      <% @recommended.each_with_index do |service, index| %>
+        <li class="<%= 'd-none' if index > 4 %> container-recommend">
           <div class="container-flex">
             <div class="card-service">
               <div class="card-score">
@@ -106,7 +106,10 @@
       <% end %>
     </ul>
     <div id="load">
-      <h2>Load More <i class="fas fa-chevron-down"></i></h2>
+      <h2>Show more <i class="fas fa-chevron-down"></i></h2>
+    </div>
+    <div id="unload" class="d-none">
+      <h2>Show less <i class="fas fa-chevron-up"></i></h2>
     </div>
   </div>
 </div>

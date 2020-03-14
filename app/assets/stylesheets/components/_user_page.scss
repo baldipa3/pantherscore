@@ -5,9 +5,10 @@
   overflow: hidden;
 }
 
-#load {
+#load, #unload {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  cursor: pointer;
 }
