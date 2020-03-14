@@ -5,13 +5,13 @@ require 'nokogiri'
 require 'json'
 
 puts 'Clearing services, categories, users and reviews'
-ServiceCategory.destroy_all
-UserService.destroy_all
-Service.destroy_all
-Category.destroy_all
-UserService.destroy_all
 Review.destroy_all
 User.destroy_all
+UserService.destroy_all
+ServiceCategory.destroy_all
+Category.destroy_all
+UserService.destroy_all
+Service.destroy_all
 
 puts 'Creating services, categories, users and reviews'
 
@@ -25,7 +25,7 @@ end
 
 # Services
 
-services = JSON.parse(File.read('./db/services_custom.json'))
+services = JSON.parse(File.read('./db/data/services/services_custom.json'))
 services['services'].each do |service|
 
   new_service = Service.create!(
