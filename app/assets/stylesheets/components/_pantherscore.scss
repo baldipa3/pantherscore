@@ -4,3 +4,18 @@
   font-family: 'Hammersmith One', sans-serif;
   text-justify: auto;
 }
+
+.myscore {
+  display: flex;
+  margin-top: 30px;
+  svg {
+    margin-right: 20px;
+    margin-top: -18px;
+  }
+  h3 {
+    margin-right: 12px;
+  }
+  span {
+    text-decoration: underline;
+  }
+}
