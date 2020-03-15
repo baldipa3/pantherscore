@@ -29,15 +29,20 @@
         </div>
         <div class="col-6">
           <h3>Latest Review</h3>
-          <p class="pt-2"><%= @user.reviews.last.content %></p>
-          <div class="users-review">
-            <p>on <%= @user.reviews.last.service.name %></p>
-            <% if @user.reviews.count == 1 %>
-              <p>> View all <%= @user.reviews.count %> Review</p>
-            <% else %>
-              <p>> View all <%= @user.reviews.count %> Reviews</p>
-            <% end %>
-          </div>
+            <% if @user.reviews.first.nil? %>
+              <p>You have no Reviews yet</p>
+              <% else %>
+              <%= raise  %>
+                <p class="pt-2"><%= @user.reviews.last.content %></p>
+                <div class="users-review">
+                  <p>on <%= @user.reviews.last.service.name %></p>
+                  <% if @user.reviews.count == 1 %>
+                    <p>> View all <%= @user.reviews.count %> Review</p>
+                  <% else %>
+                    <p>> View all <%= @user.reviews.count %> Reviews</p>
+                  <% end %>
+                </div>
+              <% end %>
         </div>
       </div>
     </div>
@@ -127,33 +132,3 @@
   </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <p><%= @user.username %></p>
-<p>Latest review:</p>
-<p><%= @user.reviews.last.rating %></p>
-<p><%= @user.reviews.last.content %></p>
-<p><%= @user.reviews.last.service.name %></p>
-<p><%= @user.reviews.last.created_at %></p>
-<ul>
-  <% @user.services.each do |service| %>
-    <li> <%= service.pantherscore %> <%= service.name %> </li>
-  <% end %>
-</ul> -->
