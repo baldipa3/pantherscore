@@ -32,7 +32,6 @@
             <% if @user.reviews.first.nil? %>
               <p>You have no Reviews yet</p>
               <% else %>
-              <%= raise  %>
                 <p class="pt-2"><%= @user.reviews.last.content %></p>
                 <div class="users-review">
                   <p>on <%= @user.reviews.last.service.name %></p>
