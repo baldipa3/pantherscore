@@ -1,3 +1,8 @@
+// footer {
+//   position: fixed;
+//   bottom: 0;
+//   left: 0;
+// }
 .footer {
   background: black;
   display: flex;
@@ -7,6 +12,7 @@
   padding: 0px 50px;
   color: white;
   margin: 0;
+  width: 100%;
 }
 .footer-links {
   display: flex;

@@ -5,50 +5,141 @@
       <h1><%= image_tag @service.icon, class: 'icon-large' %> <%= @service.name %></h1>
       <br>
       <p><%= simple_format @service.description %></p>
-      <%= link_to "Official Website", @service.url%>
+      <i class="fas fa-globe"> </i> <%= link_to "Official Website", @service.url, class: "panther-font"%> 
+      <i class="fas fa-file-alt service-info"></i> <a href="#"> Privacy Policy</a>
+      <i class="fas fa-file-alt service-info"></i> <a href="#"> Terms of service</a>
       <br>
       <br>
-      <h3>Categories</h3>
-      <ul>
+      <div class="categories">
+         <ul>
       <% @service.categories.each do |category| %>
-        <li><%= category.name %></li>
+        <li class="category"><%= category.name %></li>
       <% end %>
       </ul>
-      <h2>Pantherscore: <%= @service.pantherscore %></h2>
+      </div>
+      <div class="score-section">
+        <div class="pantherscore">
+          <h2>Pantherscore <%= @service.pantherscore %></h2>
+          <p> Based on...</p> 
+        </div>
+        <div class="verdict">
+          <svg width="40" height="40" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <% if @service.pantherscore <= 39 %>
+                <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FF5252"/>
+              <% elsif @service.pantherscore.between?(40, 74) %>
+                <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FFC048"/>
+              <% else %>
+                <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#33D9B2"/>
+              <% end %>
+              <text class="score-text" x="20" y="44" fill="white"><%= @service.pantherscore %></text>
+            </svg>
+          <h2> Verdict</h2>
+        </div>
+        <div class="userscore">
+          <h2>User Score</h2>
+          <p> Based on 66 reviews</p>
+        </div>
+      </div>
     </div>
 
     <div class="col-3"></div>
+      <div class="col-3">
       <h3>Alternatives</h3>
       <ul>
         <% @service.alternatives.each do |alternative| %>
-          <li><%= alternative.name %></li>
+          <li><%= image_tag alternative.icon, class: 'icon-small spacing' %> <%= alternative.name %></li>
         <% end %>
       </ul>
+      </div>
+      
     </div>
 
   </div>
 </div>
-
 
 <div class="container-fluid">
-<h1>Write your review</h1>
-<p> Your score</p>
-<%= render 'reviews/form', service: @service, review: @review if user_signed_in? %>
-<% @service.reviews.reverse.each do |review| %>
-  <div class="review-container">
-    <div class="name-date-inline">
-      <p class="username"><%= review.user.username %></p>
-      <i class="date"><%= review.created_at %></i>
+<div class="white-bg">
+  <h1> Breakdown</h1>
+  <section class="breakdown">
+    <div class="plus">
+      <i class="fas fa-plus-square fa-3x"></i>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro dicta placeat suscipit cum ea consectetur. Deserunt saepe accusantium a.</p>
     </div>
-    <div class="rating-container">
-    <p class="rating"><%= review.rating %></p>
+    <div class="minus">
+      <i class="fas fa-minus-square fa-3x"></i>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea est accusantium velit aut natus blanditiis eos quas obcaecati nemo tempora!</p>
     </div>
-     <p><%= review.content %></p>
-    <br>
-    
-  <% end %>
-  </div>
- 
+    <div class="neutral">
+      <i class="fas fa-equals fa-3x"></i>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vel eum iusto enim rem iste fugiat alias ipsum! Maxime, illo!</p>
+    </div>
+  </section>
 </div>
+<div class="more">
+  <h3> More <i class="fas fa-chevron-down"></i> </h3>
+ </div>
+</div>
+  
+
+<div class="container">
+  <div class="d-flex justify-content-start">
+    <h1> Write your review</h1>
+  </div>
+
+  <div class="review-container">
+    <div class="user-review">
+      <p>Your Score</p>
+      <%= render 'reviews/form', service: @service, review: @review if user_signed_in? %>
+    </div>
+
+    <div class="reviews">
+      <% @service.reviews.reverse.each do |review| %>
+        <div class="row">
+            <div class="col-1">
+            <% if review.rating >= 7 %>
+              <p class="green"><%= review.rating %></p>
+            <% elsif review.rating = 5  %>
+              <p class="yellow"><%= review.rating %></p>
+              <% else review.rating < 4 %>
+              <p class="red"><%= review.rating %></p>
+              <% end %>
+            </div>
+            <div class="col-11">
+
+              <div class="review-details">
+                <div class="start">
+                <p class="username"><%= review.user.username %></p>
+                <p class ="date"><%= review.created_at.strftime("%e %b %Y") %></p>
+                </div>
+
+                <div class="end">
+                  <p class="filter active">By Date</p>
+                  <p class="filter">User Score</p>
+                  <p class="filter">Most Helpful</p>
+                </div>
+                
+              </div>
+                <div class="content">
+                  <p><%= review.content %></p>
+                  <div class="votes">
+                    <div class="postive">
+                     <p><i class="far fa-thumbs-up"></i>Helpful</p> 
+                    </div>
+                    <div class="negative">
+                      <p> <i class="far fa-thumbs-down"></i>Unhelpful </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+     </div>
+     <% end %>
+</div>
+  
+  </div>
+</div>
+
+
+
+
 
 

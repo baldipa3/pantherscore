@@ -6,9 +6,10 @@ require 'json'
 require 'pry-rails'
 
 puts 'Clearing services, categories, users and reviews'
-ServiceCategory.destroy_all
+Review.destroy_all
+User.destroy_all
 UserService.destroy_all
-Service.destroy_all
+ServiceCategory.destroy_all
 Category.destroy_all
 UserService.destroy_all
 Review.destroy_all
@@ -20,7 +21,7 @@ Tosdr.destroy_all
 Hibp.destroy_all
 Wikipedia.destroy_all
 WikipediaSource.destroy_all
-
+Service.destroy_all
 
 puts 'Creating services, categories, users and reviews'
 
