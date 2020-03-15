@@ -101,7 +101,7 @@
             <% elsif review.rating = 5  %>
               <p class="yellow"><%= review.rating %></p>
               <% else review.rating < 4 %>
-              <p class="red">2<%= review.rating %></p>
+              <p class="red"><%= review.rating %></p>
               <% end %>
             </div>
             <div class="col-11">

@@ -1,0 +1,16 @@
+.login-in {
+  color: #000;
+  margin-bottom: 4rem;
+}
+
+.sign-up {
+   color: #000;
+}
+
+.forgotten {
+  color: $panther-red;
+  &:hover {
+    color: $panther-red;
+    opacity: 0.8;
+  }
+}
