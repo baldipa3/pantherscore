@@ -96,7 +96,13 @@
       <% @service.reviews.reverse.each do |review| %>
         <div class="row">
             <div class="col-1">
-              <p><%= review.rating %></p>
+            <% if review.rating >= 7 %>
+              <p class="green"><%= review.rating %></p>
+            <% elsif review.rating = 5  %>
+              <p class="yellow"><%= review.rating %></p>
+              <% else review.rating < 4 %>
+              <p class="red"><%= review.rating %></p>
+              <% end %>
             </div>
             <div class="col-11">
 
@@ -115,11 +121,20 @@
               </div>
                 <div class="content">
                   <p><%= review.content %></p>
+                  <div class="votes">
+                    <div class="postive">
+                     <p><i class="far fa-thumbs-up"></i>Helpful</p> 
+                    </div>
+                    <div class="negative">
+                      <p> <i class="far fa-thumbs-down"></i>Unhelpful </p>
+                    </div>
+                  </div>
                 </div>
               </div>
      </div>
+     <% end %>
 </div>
-  <% end %>
+  
   </div>
 </div>
 
