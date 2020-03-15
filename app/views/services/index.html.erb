@@ -1,0 +1,17 @@
+<div class="container-flex">
+  <div class="banner-users">
+    <div class="browse">
+    <h1>Browse services</h1>
+    <div class="category-dropdown">
+      <label for="cars">Category: </label>
+      <select name="categories" id="categories">
+        <option selected disabled>Choose here</option>
+        <% @categories.each do |category| %>
+          <option value="<%= category %>"><%= category.name %></option>
+        <% end %>
+      </select>
+    </div>
+  </div>
+    </div>
+</div>
+
