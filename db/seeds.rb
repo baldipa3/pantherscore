@@ -3,6 +3,7 @@ require 'faker'
 require 'open-uri'
 require 'nokogiri'
 require 'json'
+require 'pry-rails'
 
 puts 'Clearing services, categories, users and reviews'
 Review.destroy_all
@@ -11,6 +12,15 @@ UserService.destroy_all
 ServiceCategory.destroy_all
 Category.destroy_all
 UserService.destroy_all
+Review.destroy_all
+User.destroy_all
+Privacymonitor.destroy_all
+Privacyscore.destroy_all
+Pribot.destroy_all
+Tosdr.destroy_all
+Hibp.destroy_all
+Wikipedia.destroy_all
+WikipediaSource.destroy_all
 Service.destroy_all
 
 puts 'Creating services, categories, users and reviews'
@@ -48,14 +58,111 @@ services['services'].each do |service|
   end
 end
 
-  # Service Alternatives
+# Infosec
+
+puts "Seeding PrivacyMonitor..."
+
+privacymonitor = JSON.parse(File.read('./db/data/infosec/privacymonitor.json'))
+privacymonitor.each do |slug, result|
+  Privacymonitor.create!(
+    slug: slug,
+    score: result['score'],
+    title: result['title'],
+    trend: result['trend']
+    )
+end
+
+puts "Seeding PrivacyScore..."
+
+privacyscore = JSON.parse(File.read('./db/data/infosec/privacyscore.json'))
+privacyscore.each do |slug, factors|
+  factors.each do |factor|
+    Privacyscore.create!(
+      slug: slug,
+      classification: factor['type'],
+      polarity: factor['polarity'],
+      title: factor['title'],
+      description: factor['description']
+      )
+  end
+end
+
+puts "Seeding Pribot..."
+
+pribot = JSON.parse(File.read('./db/data/infosec/pribot.json'))
+pribot.each do |slug, factors|
+  factors.each do |factor|
+    Pribot.create!(
+      slug: slug,
+      polarity: factor['polarity'],
+      title: factor['title']
+      )
+  end
+end
+
+puts "Seeding tosdr..."
+
+tosdr = JSON.parse(File.read('./db/data/infosec/tosdr.json'))
+tosdr['services'].each do |service|
+  service['factors'].each do |factor|
+    Tosdr.create!(
+    name: service['name'],
+    polarity: factor['polarity'],
+    score: factor['score'],
+    title: factor['title'],
+    description: factor['description']
+    )
+  end
+end
+
+puts "Seeding HIBP..."
+
+hibp = JSON.parse(File.read('./db/data/infosec/hibp.json'))
+hibp['breaches'].each do |breach|
+  Hibp.create!(
+    name: breach['entity'],
+    date: breach['date'],
+    records: breach['records'],
+    data: breach['data'],
+    description: breach['description']
+    )
+end
+
+puts "Seeding Wikipedia..."
+
+wikipedia = JSON.parse(File.read('./db/data/infosec/wikipedia.json'))
+wikipedia['breaches'].each do |breach|
+  current_wikipedia = Wikipedia.create!(
+    name: breach['entity'],
+    date: breach['date'],
+    records: breach['records'],
+    sector: breach['sector'],
+    method: breach['method']
+    )
+  breach['sources'].each do |source|
+    wikipedia_source = WikipediaSource.create!(
+      name: source['name'],
+      url: source['url'],
+      wikipedia_id: current_wikipedia
+      )
+  end
+end
+
+# Service Elements
 
 services['services'].each do |service|
-  existing_service = Service.find_by(slug: service['slug'])
+  current_service = Service.find_by(slug: service['slug'])
+
+  # Alternatives
   alternative_services = service['alternatives'].map { |alternative| Service.find_by(slug: alternative['slug']) }
   alternative_services.each do |alternative|
-    existing_service.alternatives << alternative unless alternative.nil?
+    current_service.alternatives << alternative unless alternative.nil?
   end
+
+  # PrivacyMonitor
+  privacymonitor = Privacymonitor.find_by(slug: service['slug'])
+  current_service.privacymonitor = privacymonitor unless privacymonitor.nil?
+
 end
 
 # Users

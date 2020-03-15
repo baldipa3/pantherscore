@@ -4,6 +4,14 @@ class Service < ApplicationRecord
   has_many :alternative_services, foreign_key: :service_id, class_name: 'Alternative'
   has_many :alternatives, through: :alternative_services
 
+  # Pantherscore sources
+  has_one :privacymonitor
+  has_many :privacyscores
+  has_many :pribots
+  has_many :tosdrs
+  has_one :hibp
+  has_one :wikipedia
+
   has_many :reviews
 
   has_many :user_services
