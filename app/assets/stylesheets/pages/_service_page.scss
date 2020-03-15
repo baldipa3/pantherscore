@@ -124,6 +124,18 @@ ul {
   }
 }
 
+.green {
+  color: $panther-green
+}
+
+.yellow {
+  color: $panther-yellow
+}
+
+.red {
+  color: $panther-red;
+}
+
 .active {
   color: #000 !important;
 }
@@ -132,3 +144,18 @@ ul {
   margin: 0rem 2rem;
   color: $background-dark;
 }
+//  Thumbs ups & down
+.votes div {
+  margin: 0 .5rem;
+}
+.votes {
+  display: flex;
+  .postive {
+    color: $panther-green;
+  }
+  
+  .negative {
+    color: $panther-red;
+  }
+}
+
