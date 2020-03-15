@@ -6,7 +6,11 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     pantherscore_sum = @user.services.pluck(:pantherscore).sum
     user_total_services = @user.services.count
-    @myscore = pantherscore_sum / user_total_services
+    if user_total_services.zero?
+      @myscore = 0
+    else
+      @myscore = pantherscore_sum / user_total_services
+    end
     @recommended = Service.all
   end
 
