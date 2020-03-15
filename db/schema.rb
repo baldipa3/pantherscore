@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_06_155223) do
+ActiveRecord::Schema.define(version: 2020_03_15_141156) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,6 +26,18 @@ ActiveRecord::Schema.define(version: 2020_03_06_155223) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "hibps", force: :cascade do |t|
+    t.bigint "service_id"
+    t.string "name"
+    t.string "date"
+    t.string "records"
+    t.string "data"
+    t.string "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["service_id"], name: "index_hibps_on_service_id"
   end
 
   create_table "impressions", force: :cascade do |t|
@@ -52,6 +64,39 @@ ActiveRecord::Schema.define(version: 2020_03_06_155223) do
     t.index ["impressionable_type", "impressionable_id", "session_hash"], name: "poly_session_index"
     t.index ["impressionable_type", "message", "impressionable_id"], name: "impressionable_type_message_index"
     t.index ["user_id"], name: "index_impressions_on_user_id"
+  end
+
+  create_table "pribots", force: :cascade do |t|
+    t.bigint "service_id"
+    t.string "slug"
+    t.string "polarity"
+    t.string "title"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["service_id"], name: "index_pribots_on_service_id"
+  end
+
+  create_table "privacymonitors", force: :cascade do |t|
+    t.bigint "service_id"
+    t.string "slug"
+    t.integer "score"
+    t.string "title"
+    t.string "trend"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["service_id"], name: "index_privacymonitors_on_service_id"
+  end
+
+  create_table "privacyscores", force: :cascade do |t|
+    t.bigint "service_id"
+    t.string "slug"
+    t.string "classification"
+    t.string "polarity"
+    t.string "title"
+    t.string "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["service_id"], name: "index_privacyscores_on_service_id"
   end
 
   create_table "reviews", force: :cascade do |t|
@@ -92,6 +137,18 @@ ActiveRecord::Schema.define(version: 2020_03_06_155223) do
     t.string "icon"
   end
 
+  create_table "tosdrs", force: :cascade do |t|
+    t.bigint "service_id"
+    t.string "name"
+    t.string "polarity"
+    t.string "score"
+    t.string "title"
+    t.string "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["service_id"], name: "index_tosdrs_on_service_id"
+  end
+
   create_table "user_services", force: :cascade do |t|
     t.bigint "user_id"
     t.bigint "service_id"
@@ -115,10 +172,38 @@ ActiveRecord::Schema.define(version: 2020_03_06_155223) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  create_table "wikipedia", force: :cascade do |t|
+    t.bigint "service_id"
+    t.string "name"
+    t.string "date"
+    t.string "records"
+    t.string "sector"
+    t.string "method"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["service_id"], name: "index_wikipedia_on_service_id"
+  end
+
+  create_table "wikipedia_sources", force: :cascade do |t|
+    t.bigint "wikipedia_id"
+    t.string "name"
+    t.string "url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["wikipedia_id"], name: "index_wikipedia_sources_on_wikipedia_id"
+  end
+
+  add_foreign_key "hibps", "services"
+  add_foreign_key "pribots", "services"
+  add_foreign_key "privacymonitors", "services"
+  add_foreign_key "privacyscores", "services"
   add_foreign_key "reviews", "services"
   add_foreign_key "reviews", "users"
   add_foreign_key "service_categories", "categories"
   add_foreign_key "service_categories", "services"
+  add_foreign_key "tosdrs", "services"
   add_foreign_key "user_services", "services"
   add_foreign_key "user_services", "users"
+  add_foreign_key "wikipedia", "services"
+  add_foreign_key "wikipedia_sources", "wikipedia", column: "wikipedia_id"
 end
