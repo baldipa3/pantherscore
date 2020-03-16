@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_15_141156) do
+ActiveRecord::Schema.define(version: 2020_03_16_125307) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,7 +29,6 @@ ActiveRecord::Schema.define(version: 2020_03_15_141156) do
   end
 
   create_table "hibps", force: :cascade do |t|
-    t.bigint "service_id"
     t.string "name"
     t.string "date"
     t.string "records"
@@ -37,7 +36,6 @@ ActiveRecord::Schema.define(version: 2020_03_15_141156) do
     t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["service_id"], name: "index_hibps_on_service_id"
   end
 
   create_table "impressions", force: :cascade do |t|
@@ -121,12 +119,37 @@ ActiveRecord::Schema.define(version: 2020_03_15_141156) do
     t.index ["service_id"], name: "index_service_categories_on_service_id"
   end
 
+  create_table "service_hibps", force: :cascade do |t|
+    t.bigint "service_id"
+    t.bigint "hibp_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["hibp_id"], name: "index_service_hibps_on_hibp_id"
+    t.index ["service_id"], name: "index_service_hibps_on_service_id"
+  end
+
+  create_table "service_tosdrs", force: :cascade do |t|
+    t.bigint "service_id"
+    t.bigint "tosdr_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["service_id"], name: "index_service_tosdrs_on_service_id"
+    t.index ["tosdr_id"], name: "index_service_tosdrs_on_tosdr_id"
+  end
+
+  create_table "service_wikipedia", force: :cascade do |t|
+    t.bigint "service_id"
+    t.bigint "wikipedia_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["service_id"], name: "index_service_wikipedia_on_service_id"
+    t.index ["wikipedia_id"], name: "index_service_wikipedia_on_wikipedia_id"
+  end
+
   create_table "services", force: :cascade do |t|
     t.string "name"
     t.string "url"
     t.text "description"
-    t.integer "pantherscore"
-    t.float "user_score"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "impressions_count"
@@ -138,7 +161,6 @@ ActiveRecord::Schema.define(version: 2020_03_15_141156) do
   end
 
   create_table "tosdrs", force: :cascade do |t|
-    t.bigint "service_id"
     t.string "name"
     t.string "polarity"
     t.string "score"
@@ -146,7 +168,6 @@ ActiveRecord::Schema.define(version: 2020_03_15_141156) do
     t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["service_id"], name: "index_tosdrs_on_service_id"
   end
 
   create_table "user_services", force: :cascade do |t|
@@ -173,7 +194,6 @@ ActiveRecord::Schema.define(version: 2020_03_15_141156) do
   end
 
   create_table "wikipedia", force: :cascade do |t|
-    t.bigint "service_id"
     t.string "name"
     t.string "date"
     t.string "records"
@@ -181,19 +201,17 @@ ActiveRecord::Schema.define(version: 2020_03_15_141156) do
     t.string "method"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["service_id"], name: "index_wikipedia_on_service_id"
   end
 
   create_table "wikipedia_sources", force: :cascade do |t|
     t.bigint "wikipedia_id"
     t.string "name"
-    t.string "url"
+    t.string "link"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["wikipedia_id"], name: "index_wikipedia_sources_on_wikipedia_id"
   end
 
-  add_foreign_key "hibps", "services"
   add_foreign_key "pribots", "services"
   add_foreign_key "privacymonitors", "services"
   add_foreign_key "privacyscores", "services"
@@ -201,9 +219,13 @@ ActiveRecord::Schema.define(version: 2020_03_15_141156) do
   add_foreign_key "reviews", "users"
   add_foreign_key "service_categories", "categories"
   add_foreign_key "service_categories", "services"
-  add_foreign_key "tosdrs", "services"
+  add_foreign_key "service_hibps", "hibps"
+  add_foreign_key "service_hibps", "services"
+  add_foreign_key "service_tosdrs", "services"
+  add_foreign_key "service_tosdrs", "tosdrs"
+  add_foreign_key "service_wikipedia", "services"
+  add_foreign_key "service_wikipedia", "wikipedia", column: "wikipedia_id"
   add_foreign_key "user_services", "services"
   add_foreign_key "user_services", "users"
-  add_foreign_key "wikipedia", "services"
   add_foreign_key "wikipedia_sources", "wikipedia", column: "wikipedia_id"
 end

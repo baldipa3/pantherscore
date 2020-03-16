@@ -1,3 +1,4 @@
 class Tosdr < ApplicationRecord
-  # belongs_to :service
+  has_many :service_tosdrs
+  has_many :services, through: :service_tosdrs
 end
