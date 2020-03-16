@@ -1,3 +1,4 @@
 class Hibp < ApplicationRecord
-  # belongs_to :service
+  has_many :service_hibps
+  has_many :services, through: :service_hibp
 end
