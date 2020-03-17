@@ -47,7 +47,7 @@
       <h3>Alternatives</h3>
       <ul>
         <% @service.alternatives.each do |alternative| %>
-          <li><%= image_tag alternative.icon, class: 'icon-small spacing' %> <%= alternative.name %></li>
+          <li><%= image_tag alternative.icon, class: 'icon-small spacing' %> <%= alternative.name %> <%= link_to service_path(@service) %></li>
         <% end %>
       </ul>
       </div>
