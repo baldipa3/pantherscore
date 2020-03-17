@@ -1,5 +1,5 @@
 <%= simple_form_for [service, review] do |f| %>
   <%= f.input :rating, collection: 1..10, prompt: 'Rating', label: false %>
-  <%= f.input :content, as: :text, placeholder: "Write your review", label: false, class: 'reviewbox' %>
+  <%= f.input :content, as: :text, placeholder: "Write your review", label: false %>
   <%= f.submit "Submit", class: 'btn btn-submit'%>
 <% end %>
