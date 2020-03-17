@@ -47,10 +47,11 @@ class Service < ApplicationRecord
           positive << factor
         end
       end
-      negative_weight = negative.count.to_f * 0.75
+      negative_weight = negative.count.to_f * 0.75 # Too many good points. Tests essential things.
       positive_weight = positive.count.to_f * 0.25
       array = [negative_weight, positive_weight]
       final_score = positive_weight / array.sum(0.0)
+      final_score.nan? ? nil : final_score
     end
   end
 
@@ -65,11 +66,11 @@ class Service < ApplicationRecord
           positive << factor
         end
       end
-      negative_weight = negative.count.to_f * 1.5
-      positive_weight = positive.count.to_f * 1.2
-      total = negative_weight + positive_weight
-      final_score = positive_weight / total
-      final_score
+      negative_weight = negative.count.to_f # Fairly balanced
+      positive_weight = positive.count.to_f
+      array = [negative_weight, positive_weight]
+      final_score = positive_weight / array.sum(0.0)
+      final_score.nan? ? nil : final_score
     end
   end
 
@@ -84,41 +85,41 @@ class Service < ApplicationRecord
           positive << factor
         end
       end
-      negative_weight = negative.count.to_f * 0.2
+      negative_weight = negative.count.to_f * 0.2 # Biased to bad factors
       positive_weight = positive.count.to_f * 0.8
-      total = negative_weight + positive_weight
-      final_score = positive_weight / total
-      final_score
+      array = [negative_weight, positive_weight]
+      final_score = positive_weight / array.sum(0.0)
+      final_score.nan? ? nil : final_score
     end
   end
 
   def hibp_score
-    if hibp.present?
-      0.25
-    else
-      1
-    end
+    hibp.present? ? 0 : nil
   end
 
   def wikipedia_score
-    if wikipedia.present?
-      0.25
-    else
-      1
-    end
-  end
-
-  def shout
-    puts "SHOUT"
+    wikipedias.present? ? 0 : nil
   end
 
   def pantherscore
-    privacymonitor_score * 1
-    privacyscore_score * 0.25
-    pribot_score * 0.5
-    tosdr_score * 0.75
-    hibp_score * 1
-    wikipedia_score * 1
+    scores = [
+    [privacymonitor_score, 0.25],
+    [privacyscore_score, 0.05],
+    [pribot_score, 0.1],
+    [tosdr_score, 0.1],
+    [hibp_score, 0.25],
+    [wikipedia_score, 0.25]
+    ]
+    available_sources = []
+    total_weight = []
+    scores.each do |score|
+      if score[0].present?
+        available_sources << score.inject(:*)
+        weight = score[1]
+        total_weight << weight
+      end
+    end
+    final_score = available_sources.sum(0.0) / total_weight.sum(0.0)
   end
 
   def user_score
