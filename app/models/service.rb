@@ -101,7 +101,7 @@ class Service < ApplicationRecord
     wikipedias.present? ? 0 : nil
   end
 
-  def pantherscore
+  def new_pantherscore
     scores = [
     [privacymonitor_score, 0.25],
     [privacyscore_score, 0.05],
@@ -112,14 +112,20 @@ class Service < ApplicationRecord
     ]
     available_sources = []
     total_weight = []
+    nils = []
     scores.each do |score|
-      if score[0].present?
-        available_sources << score.inject(:*)
-        weight = score[1]
-        total_weight << weight
-      end
+      nils << score if score[0].nil?
+      available_sources << score if score[0].present?
+      weight = score[1] if score[0].present?
+      total_weight << weight
     end
-    final_score = available_sources.sum(0.0) / total_weight.sum(0.0)
+    if nils.count == 5 && available_sources[0][0] == privacyscore_score
+      "Nothing"
+    else
+      available_sources.each { |source| source.inject(:*) }
+      available_sources
+      # final_score = available_sources.sum(0.0) / total_weight.sum(0.0)
+    end
   end
 
   def user_score
