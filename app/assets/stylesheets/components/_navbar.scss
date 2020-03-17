@@ -1,5 +1,6 @@
 .navbar-panther {
   justify-content: space-between;
+  align-items: center;
   background: $primary-normal;
 }
 
@@ -7,8 +8,9 @@
   flex-grow: 0;
 }
 
-.navbar-panther .navbar-brand img {
-  width: 40px;
+ svg {
+  // width: 50px;
+  height: 40px;
 }
 .panther-dark {
   background-color: $primary-normal;
@@ -53,6 +55,10 @@
   padding: 9px 16px;
   border-radius: 16px;
   margin: 0rem 1rem;
+}
+ 
+.sign-up-btn:hover {
+  color: black !important;
 }
 
 .sign-in-btn, a {
