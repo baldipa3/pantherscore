@@ -44,7 +44,7 @@ const request = (url, cat) => {
 
 const option = () => {
   const category = document.getElementById("categories").value;
-  const url = "http://localhost:3000"
+  const url = "index.html.erb"
   request(url, category);
 }
 
