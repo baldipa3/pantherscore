@@ -41,7 +41,7 @@ end
 
 puts "Creating Services..."
 
-services = JSON.parse(File.read('./db/data/services/services_custom.json'))
+services = JSON.parse(File.read('./db/data/services/services_10p.json'))
 services['services'].each do |service|
 
   unless service['discontinued'] == true
@@ -91,6 +91,7 @@ services.each do |service|
   current_service = Service.find_by(slug: service['slug'])
   if current_service.present?
     current_service.pantherscore = service['pantherscore']
+    current_service.save!
   end
 end
 
@@ -98,7 +99,7 @@ end
 
 puts "Creating random Users and Reviews"
 
-100.times do
+50.times do
   user = User.create!(
     username: Faker::Internet.username,
     email: Faker::Internet.free_email,
