@@ -151,10 +151,12 @@ ul {
 .votes {
   display: flex;
   .postive {
+    display: flex;
     color: $panther-green;
   }
   
   .negative {
+    display: flex;
     color: $panther-red;
   }
 }
