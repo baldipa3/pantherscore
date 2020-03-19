@@ -47,7 +47,7 @@
       <h3>Alternatives</h3>
       <ul>
         <% @service.alternatives.each do |alternative| %>
-          <li><%= image_tag alternative.icon, class: 'icon-small spacing' %> <%= alternative.name %></li>
+          <li><%= image_tag alternative.icon, class: 'icon-small spacing' %> <%= alternative.name %> <%= link_to service_path(@service) %></li>
         <% end %>
       </ul>
       </div>
@@ -75,11 +75,15 @@
     </div>
   </section>
 </div>
-<div class="more">
+<div id="load" class="more">
   <h3> More <i class="fas fa-chevron-down"></i> </h3>
  </div>
+
+<!-- <div id="unload">
+  <h3>Less <i class="fas fa-chevron-up"></i> </h3>
+ </div>
 </div>
-  
+-->
 
 <div class="container">
   <div class="d-flex justify-content-start">
@@ -93,7 +97,8 @@
     </div>
 
     <div class="reviews">
-      <% @service.reviews.reverse.each do |review| %>
+      <% @service.reviews.reverse.each_with_index do |review, index| %>
+       <li class="<%= 'd-none' if index > 3 %> container-recommend">
         <div class="row">
             <div class="col-1">
             <% if review.rating >= 7 %>
@@ -134,7 +139,12 @@
      </div>
      <% end %>
 </div>
-  
+  <div id="load">
+      <h2>Show more <i class="fas fa-chevron-down"></i></h2>
+    </div>
+    <div id="unload" class="d-none">
+      <h2>Show less <i class="fas fa-chevron-up"></i></h2>
+    </div>
   </div>
 </div>
 
