@@ -20,7 +20,7 @@
       <div class="score-section">
         <div class="pantherscore">
           <h2>Pantherscore <%= @service.pantherscore %></h2>
-          <p> Based on...</p> 
+          <!-- <p> Based on...</p> -->
         </div>
         <div class="verdict">
           <svg width="40" height="40" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -143,12 +143,12 @@
                   <div class="votes">
                     <div class="postive">
                      <p><i class="far fa-thumbs-up"></i></p>
-                     <p id="up-vote"></p>
+                     <p id="up-vote"> <%= review.upvote%></p>
                      <p>Helpful</p>
                     </div>
                     <div class="negative">
                       <p><i class="far fa-thumbs-up"></i></p>
-                     <p id="down-vote"></p>
+                     <p id="down-vote"><%= review.downvote %></p>
                      <p>Unhelpful</p>
                     </div>
                   </div>
