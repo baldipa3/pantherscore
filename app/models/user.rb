@@ -9,5 +9,5 @@ class User < ApplicationRecord
   has_many :user_services
   has_many :services, through: :user_services
 
-  validates :username, presence: true, uniqueness: true
+  validates :username, presence: true
 end

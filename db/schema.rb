@@ -150,6 +150,7 @@ ActiveRecord::Schema.define(version: 2020_03_16_125307) do
     t.string "name"
     t.string "url"
     t.text "description"
+    t.integer "pantherscore"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "impressions_count"
