@@ -5,3 +5,11 @@
 a:hover {
   color: $panther-green;
 }
+
+.container-recommend {
+  list-style-type: none;  // To remove the bullets points when using the load more
+}
+
+.container-fluid {
+  min-height: 100vh;
+}

@@ -3,6 +3,20 @@ import "bootstrap";
 const load = document.getElementById("load");
 const unload = document.getElementById("unload");
 
+// Reviews counter
+const up = document.querySelector(".fa-thumbs-up")
+const down = document.querySelector(".fa-thumbs-up")
+
+if (up) {
+  up.addEventListener("click", () => {
+  if (up.innerText >= 0) {
+    let counter = 0
+    let newCounter = counter + 1
+    up.insertAdjacentText("beforeend", newCounter)
+  }
+  });
+}
+
 
 if (load) {
   load.addEventListener("click", () => {
