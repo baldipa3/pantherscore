@@ -30,33 +30,64 @@ if (unload) {
   });
 }
 
+const results = document.querySelector("#js-select");
+const opt = document.querySelector("option").value;
 
-const request = (url, cat) => {
-  fetch(url, {
-    method: "POST",
-    body: JSON.stringify({ cat })
-  })
+const request = (url) => {
+  jQuery('#js-select').html('');
+  fetch(url)
     .then(response => response.json())
     .then((data) => {
-      console.log(data);
+      data.forEach((element, index) => {
+        let li = ``
+        if (index > 4) {
+          li = `<li class="d-none container-recommend">`
+        } else {
+          li = `<li class="container-recommend">`
+        }
+
+        const divs = `<div class="container-flex">
+                      <div class="card-service">
+                      <div class="card-score">
+                      <svg width="55" height="55" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">`
+
+        let panter = ``
+        if (element.pantherscore <= 39) {
+        panter = `<path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FF5252"/>`
+        } else if (element.pantherscore > 47 && element.pantherscore < 74) {
+        panter = `<path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FFC048"/>`
+        } else {
+        panter = `<path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#33D9B2"/>`
+        }
+
+        const rest = `<text class="score-text" x="20" y="44" fill="white">${element.pantherscore}</text>
+                      </svg>
+                      </div>
+                      <div class="card-service-icon ml-4">
+                      <img class='icon-large' src='${element.icon}'>
+                      </div>
+                      <div class="card-service-info ml-4">
+                      <a href='http://localhost:3000/services/${element.id}'>${element.name}</a>
+                      <div>
+                      <p class="line-clamp-users">${element.description}</p>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      </li>`
+      const service = li.concat(divs, panter, rest)
+      results.insertAdjacentHTML("beforeend", service);
+      });
     });
+};
+
+const option = (event) => {
+
+  const category = encodeURIComponent((event.currentTarget.options[event.currentTarget.selectedIndex].value));
+  const url = `http://localhost:3000/services/query?category=${category}`;
+  request(url);
 }
 
-const option = () => {
-  const category = document.getElementById("categories").value;
-  const url = "index.html.erb"
-  request(url, category);
-}
-
+// put get post mozilla devs
 
 categories.addEventListener('change', option);
-
-
-// const option = document.querySelector(".select-tag")
-// const optionText = option.innerHTML
-
-// if (optionText) {
-//   optionText.addEventListener("click", () => {
-//     console.log("I clicked");
-//   })
-// }

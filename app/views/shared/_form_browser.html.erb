@@ -1,0 +1,7 @@
+<%= simple_form_for @services do |f| %>
+  <%= f.input :name, :collection => @categories %>
+  <%= f.submit "Submit", class: 'btn btn-submit'%>
+<% end %>
+
+
+

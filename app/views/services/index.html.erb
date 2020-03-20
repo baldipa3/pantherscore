@@ -8,7 +8,7 @@
           <select class="select-css" name="categories" id="categories">
             <option selected disabled>Choose here</option>
             <% @categories.each do |category| %>
-              <option value="<%= category %>"><%= category.name %></option>
+              <option value="<%= category.name %>"><%= category.name %></option>
             <% end %>
           </select>
         </div>
@@ -16,56 +16,18 @@
     </div>
   </div>
 </div>
-<form action="/">
+<!-- <form action="/"> -->
 <div class="container-flex">
   <div class="cards-recommended">
     <ul>
       <h1>Category name services</h1>
-      <% @categories.each do |category| %>
-        <% category.services.each_with_index do |service, index| %>
-          <li class="<%= 'd-none' if index > 4 %> container-recommend">
-            <div class="container-flex">
-              <div class="card-service">
-                <div class="card-score">
-                  <svg width="55" height="55" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <% if service.pantherscore <= 39 %>
-                      <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FF5252"/>
-                    <% elsif service.pantherscore.between?(40, 74) %>
-                      <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FFC048"/>
-                    <% else %>
-                      <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#33D9B2"/>
-                    <% end %>
-                    <text class="score-text" x="20" y="44" fill="white"><%= service.pantherscore %></text>
-                  </svg>
-                </div>
-                <div class="card-service-icon ml-4">
-                  <%= image_tag service.icon, class: 'icon-large' %>
-                </div>
-                <div class="card-service-info ml-4">
-                  <%= link_to service_path(service) do %>
-                    <h2><%= service.name %></h2>
-                  <% end %>
-                  <div>
-                    <p class="line-clamp-users"><%= service.description %></p>
-                  </div>
-                  <div class="compare">
-                    <% if service.categories.exists? %>
-                      <p><%= service.categories.first.name %></p>
-                    <% end %>
-                    <div>
-                      <p>Compare</p>
-                      <input type="checkbox">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        <% end %>
-      <% end %>
+      <div id="js-select">
+
+
+      </div>
     </ul>
-    <h3>Compare selected services</h3>
-    <input type="submit" value="Submit">
+<!--     <h3>Compare selected services</h3>
+    <input type="submit" value="Submit"> -->
     <div id="load">
       <h2>Show more <i class="fas fa-chevron-down"></i></h2>
     </div>
@@ -74,5 +36,5 @@
     </div>
   </div>
 </div>
-</form>
-
+<!-- </form>
+ -->
