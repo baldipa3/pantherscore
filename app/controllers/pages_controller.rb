@@ -11,18 +11,13 @@ class PagesController < ApplicationController
     @categories = Category.all
     @top_reviewed_users = top_advocates(10)
     @recent_reviews = Review.last(4)
-    @crew_picks = Service.all.sample(5)
+    @crew_picks = Service.first(5)
   end
 
   private
 
   def pantherscore_order
-    # Service.all.pantherscore.o(pantherscore: :desc)
-    services = []
-    Service.all.each do |service|
-      if !service.pantherscore.nan?
-
-    end
+    Service.order(pantherscore: :desc)
   end
 
   def top_advocates(num)
