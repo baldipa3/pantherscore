@@ -43,3 +43,34 @@ if (unload) {
     load.classList.remove("d-none")
   });
 }
+
+
+const request = (url, cat) => {
+  fetch(url, {
+    method: "POST",
+    body: JSON.stringify({ cat })
+  })
+    .then(response => response.json())
+    .then((data) => {
+      console.log(data);
+    });
+}
+
+const option = () => {
+  const category = document.getElementById("categories").value;
+  const url = "index.html.erb"
+  request(url, category);
+}
+
+
+categories.addEventListener('change', option);
+
+
+// const option = document.querySelector(".select-tag")
+// const optionText = option.innerHTML
+
+// if (optionText) {
+//   optionText.addEventListener("click", () => {
+//     console.log("I clicked");
+//   })
+// }

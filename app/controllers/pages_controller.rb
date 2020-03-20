@@ -1,3 +1,5 @@
+require "pry"
+
 class PagesController < ApplicationController
   skip_before_action :authenticate_user!, only: :home
 
@@ -15,7 +17,12 @@ class PagesController < ApplicationController
   private
 
   def pantherscore_order
-    Service.order(pantherscore: :desc)
+    # Service.all.pantherscore.o(pantherscore: :desc)
+    services = []
+    Service.all.each do |service|
+      if !service.pantherscore.nan?
+
+    end
   end
 
   def top_advocates(num)
