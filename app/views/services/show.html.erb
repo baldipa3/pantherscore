@@ -1,10 +1,11 @@
-<div class="banner">
+<div class="container-fluid">
+  <div class="banner">
   <div class="row">
 
     <div class="col-6">
-      <h1><%= image_tag @service.icon, class: 'icon-large' %> <%= @service.name %></h1>
+      <h1 class="white"><%= image_tag @service.icon, class: 'icon-large' %> <%= @service.name %></h1>
       <br>
-      <p><%= simple_format @service.description %></p>
+      <p><%= simple_format @service.description, class: "white" %></p>
       <i class="fas fa-globe"> </i> <%= link_to "Official Website", @service.url, class: "panther-font"%> 
       <i class="fas fa-file-alt service-info"></i> <a href="#"> Privacy Policy</a>
       <i class="fas fa-file-alt service-info"></i> <a href="#"> Terms of service</a>
@@ -19,11 +20,8 @@
       </div>
       <div class="score-section">
         <div class="pantherscore">
-          <h2>Pantherscore <%= @service.pantherscore %></h2>
-          <!-- <p> Based on...</p> -->
-        </div>
-        <div class="verdict">
-          <svg width="40" height="40" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <h2 class="white">Pantherscore
+            <svg width="40" height="40" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
               <% if @service.pantherscore <= 39 %>
                 <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FF5252"/>
               <% elsif @service.pantherscore.between?(40, 74) %>
@@ -33,9 +31,19 @@
               <% end %>
               <text class="score-text" x="20" y="44" fill="white"><%= @service.pantherscore %></text>
             </svg>
-          <h2> Verdict</h2>
+           </h2>
+          <!-- <p> Based on...</p> -->
         </div>
-        <div class="userscore">
+        <div class="verdict white ">
+          <% if @service.pantherscore <= 39 %>
+            <h2> Poor</h2>
+            <% elsif @service.pantherscore.between?(40, 74) %>
+            <h2> Fair</h2>
+            <% else %>
+            <h2> Very good</h2>
+        <% end %>
+        </div>
+        <div class="userscore white">
           <h2>User Score</h2>
           <p> Based on 66 reviews</p>
         </div>
@@ -44,7 +52,7 @@
 
     <div class="col-3"></div>
       <div class="col-3">
-      <h3>Alternatives</h3>
+      <h3 class="white">Alternatives</h3>
       <ul>
         <% @service.alternatives.each do |alternative| %> 
           <%= link_to service_path(alternative) do %>
@@ -157,14 +165,16 @@
      </div>
      <% end %>
 </div>
-  <div id="load">
+ <!-- <div id="load">
       <h2>Show more <i class="fas fa-chevron-down"></i></h2>
     </div>
     <div id="unload" class="d-none">
       <h2>Show less <i class="fas fa-chevron-up"></i></h2>
-    </div>
+    </div> -->
   </div>
 </div>
+</div>
+
 
 
 
