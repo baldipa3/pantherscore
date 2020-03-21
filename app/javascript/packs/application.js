@@ -108,7 +108,8 @@ const request = (url) => {
 
 const option = (event) => {
   const category = encodeURIComponent((event.currentTarget.options[event.currentTarget.selectedIndex].value));
-  const url = `http://localhost:3000/services/query?category=${category}`;
+  // const url = `http://localhost:3000/services/query?category=${category}`;
+  const url = `http://www.pantherscore.com/services/query?category=${category}`;
   browseHome.classList.add("d-none")
   request(url);
 }
