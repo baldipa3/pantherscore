@@ -3,7 +3,6 @@ require 'faker'
 require 'open-uri'
 require 'nokogiri'
 require 'json'
-require 'pry-rails'
 
 puts 'Clearing everything.'
 
