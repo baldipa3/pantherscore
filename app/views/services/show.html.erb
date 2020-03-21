@@ -131,13 +131,13 @@
               <p class="red"><%= review.rating %></p>
               <% end %>
             </div>
-            <div class="col-11">
+            <div class="col-10">
 
               <div class="review-details">
                 <div class="start">
-                <p class="username"><%= review.user.username %></p>
-                <p class ="date"><%= review.created_at.strftime("%e %b %Y") %></p>
-                </div>
+                  <p class="username"><%= review.user.username %></p>
+                    <p class ="date"><%= review.created_at.strftime("%e %b %Y") %></p>
+                  </div>
 
                 <div class="end">
                   <p class="filter active">By Date</p>
@@ -149,22 +149,31 @@
                 <div class="content">
                   <p><%= review.content %></p>
                   <div class="votes">
+
                     <div class="postive">
                      <p><i class="far fa-thumbs-up"></i></p>
                      <p id="up-vote"> <%= review.upvote%></p>
                      <p>Helpful</p>
                     </div>
+
                     <div class="negative">
                       <p><i class="far fa-thumbs-up"></i></p>
-                     <p id="down-vote"><%= review.downvote %></p>
-                     <p>Unhelpful</p>
+                      <p id="down-vote"><%= review.downvote %></p>
+                      <p>Unhelpful</p>
                     </div>
-                  </div>
+
                 </div>
               </div>
+            </div>
+            <div class="col-1">
+               <%= link_to service_review_path(@service, review), method: :delete, data: { confirm: "Are you sure?" } do %>
+                <i class="fas fa-minus"></i>
+              <% end %>
+            </div>
      </div>
      <% end %>
 </div>
+
  <!-- <div id="load">
       <h2>Show more <i class="fas fa-chevron-down"></i></h2>
     </div>
