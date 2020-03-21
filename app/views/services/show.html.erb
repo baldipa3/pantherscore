@@ -2,7 +2,7 @@
   <div class="banner">
   <div class="row">
 
-    <div class="col-6">
+    <div class="col-8">
       <div class="row">
         <div class="col-10">
           <h1 class="white"><%= image_tag @service.icon, class: 'icon-large' %> <%= @service.name %></h1>
@@ -29,7 +29,7 @@
       <div class="score-section">
         <div class="pantherscore">
           <h2 class="white">Pantherscore
-            <svg width="40" height="40" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="60" height="60" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
               <% if @service.pantherscore <= 39 %>
                 <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FF5252"/>
               <% elsif @service.pantherscore.between?(40, 74) %>
@@ -40,9 +40,9 @@
               <text class="score-text" x="20" y="44" fill="white"><%= @service.pantherscore %></text>
             </svg>
            </h2>
-          <!-- <p> Based on...</p> -->
+           <p style="color: white">Based on <%= @service.number_of_sources %> sources.</p>
         </div>
-        <div class="verdict white ">
+<!--         <div class="verdict white ">
           <% if @service.pantherscore <= 39 %>
             <h2> Poor</h2>
             <% elsif @service.pantherscore.between?(40, 74) %>
@@ -50,16 +50,15 @@
             <% else %>
             <h2> Very good</h2>
         <% end %>
-        </div>
+        </div> -->
         <div class="userscore white">
-          <%# <h2>User Score</h2>
-          <p> Based on 66 reviews</p> %>
+          <h2>User Score: <%= @service.user_score %></h2>
+          <p> Based on <%= @service.reviews.count %> reviews</p>
         </div>
       </div>
     </div>
 
-    <div class="col-3"></div>
-      <div class="col-3">
+      <div class="col-4">
       <h3 class="white">Alternatives</h3>
       <ul>
         <% @alternatives.each do |alternative| %>
@@ -68,7 +67,7 @@
              <svg width="40" height="40" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
               <% if alternative.pantherscore <= 39 %>
                 <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FF5252"/>
-              <% elsif @service.pantherscore.between?(40, 74) %>
+              <% elsif alternative.pantherscore.between?(40, 74) %>
                 <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#FFC048"/>
               <% else %>
                 <path d="M61.0651 65.3803C40.3322 76.0751 13.5042 66.3695 3.30462 44.6461C-3.43328 30.3288 0.510549 12.7226 11.6992 6.6396C17.7818 3.35081 30.9486 5.15593 43.1263 10.7444C75.0478 25.7294 84.2584 53.6965 61.0651 65.3803Z" fill="#33D9B2"/>
