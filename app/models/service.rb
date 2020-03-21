@@ -101,6 +101,17 @@ class Service < ApplicationRecord
     wikipedias.present? ? 0 : nil
   end
 
+  def number_of_sources
+    sources = [privacymonitor_score, privacyscore_score, pribot_score, tosdr_score ,hibp_score, wikipedia_score]
+    available_sources = []
+    sources.each do |source|
+      if source.present?
+        available_sources << source
+      end
+    end
+    sources.count
+  end
+
   def calc_pantherscore
     scores = [
     [privacymonitor_score, 0.25],

@@ -80,6 +80,7 @@ ul {
 
 .white-bg {
   background-color: #fff;
+  padding: 50px;
 }
 
 .banner {
@@ -91,11 +92,18 @@ ul {
 }
 
 .breakdown {
-  li.negative {
-    color: $panther-red;
+  li::before {
+    display: inline-block;
+    width: 2em;
+    margin-left: -2em;
   }
-  li.positive {
+  li.positive::before {
+    content: "▲";
     color: $panther-green;
+  }
+  li.negative::before {
+    content: "▼";
+    color: $panther-red;
   }
 }
 
