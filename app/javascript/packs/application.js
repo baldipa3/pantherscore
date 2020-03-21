@@ -45,9 +45,14 @@ if (unload) {
 }
 
 const results = document.querySelector("#js-select");
-const opt = document.querySelector("option").value;
+const browseHome = document.querySelector(".browse-cat");
+const none = document.querySelector(".remove");
+
+
 
 const request = (url) => {
+  none.classList.add("d-none")
+  browseHome.classList.add("d-none")
   jQuery('#js-select').html('');
   fetch(url)
     .then(response => response.json())
@@ -90,18 +95,32 @@ const request = (url) => {
                       </div>
                       </li>`
       const service = li.concat(divs, panter, rest)
-      results.insertAdjacentHTML("beforeend", service);
+      if (results !== null) {
+        results.insertAdjacentHTML("beforeend", service);
+      }
+      none.classList.remove("d-none")
       });
     });
 };
 
 const option = (event) => {
-
   const category = encodeURIComponent((event.currentTarget.options[event.currentTarget.selectedIndex].value));
   const url = `http://localhost:3000/services/query?category=${category}`;
   request(url);
 }
 
-// put get post mozilla devs
+// const home = (event) => {
+//   console.log(event)
+//   const category = encodeURIComponent();
+//   const url = `http://localhost:3000/services/query?category=${category}`;
+//   request(url);
+// }
 
-categories.addEventListener('change', option);
+if (results) {
+  categories.addEventListener('change', option);
+};
+
+// if (categoryHome) {
+//   categoryHome.addEventListener('click', home);
+// };
+

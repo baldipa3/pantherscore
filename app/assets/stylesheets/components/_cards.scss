@@ -66,10 +66,12 @@
 
 .card-category {
   width: 90%;
-  flex-basis: 7.5%;
+  flex-basis: 8%;
   flex-direction: column;
   text-align: left;
-  margin-left: 18px;
+  margin-left: -8px;
+  margin-right: 28px;
+  margin-bottom: 24px;
 }
 
 .card-category a {
