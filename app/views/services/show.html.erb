@@ -11,7 +11,7 @@
           <i class="fas fa-plus fa-2x"></i>
         </div>
       </div>
-      
+
       <br>
       <p><%= simple_format @service.description, class: "white" %></p>
       <i class="fas fa-globe"> </i> <%= link_to "Official Website", @service.url, class: "panther-font"%>
@@ -62,7 +62,7 @@
       <div class="col-3">
       <h3 class="white">Alternatives</h3>
       <ul>
-        <% @service.alternatives.each do |alternative| %>
+        <% @alternatives.each do |alternative| %>
           <%= link_to service_path(alternative) do %>
             <li>
              <svg width="40" height="40" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -91,102 +91,103 @@
   <div class="white-bg">
     <h1> Breakdown</h1>
     <section class="breakdown">
-      <div class="plus">
-        <i class="fas fa-plus-square fa-3x"></i>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro dicta placeat suscipit cum ea consectetur. Deserunt saepe accusantium a.</p>
-      </div>
-      <div class="minus">
-        <i class="fas fa-minus-square fa-3x"></i>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea est accusantium velit aut natus blanditiis eos quas obcaecati nemo tempora!</p>
-      </div>
-      <div class="neutral">
-        <i class="fas fa-equals fa-3x"></i>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vel eum iusto enim rem iste fugiat alias ipsum! Maxime, illo!</p>
-      </div>
-    </section>
-    <section class="breakdown">
-      <div class="plus">
-        <i class="fas fa-plus-square fa-3x"></i>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro dicta placeat suscipit cum ea consectetur. Deserunt saepe accusantium a.</p>
-      </div>
-      <div class="minus">
-        <i class="fas fa-minus-square fa-3x"></i>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea est accusantium velit aut natus blanditiis eos quas obcaecati nemo tempora!</p>
-      </div>
-      <div class="neutral">
-        <i class="fas fa-equals fa-3x"></i>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vel eum iusto enim rem iste fugiat alias ipsum! Maxime, illo!</p>
-      </div>
-    </section>
-    <section class="breakdown">
-      <div class="plus">
-        <i class="fas fa-plus-square fa-3x"></i>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro dicta placeat suscipit cum ea consectetur. Deserunt saepe accusantium a.</p>
-      </div>
-      <div class="minus">
-        <i class="fas fa-minus-square fa-3x"></i>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea est accusantium velit aut natus blanditiis eos quas obcaecati nemo tempora!</p>
-      </div>
-      <div class="neutral">
-        <i class="fas fa-equals fa-3x"></i>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vel eum iusto enim rem iste fugiat alias ipsum! Maxime, illo!</p>
-      </div>
-    </section>
-    <section class="breakdown">
-      <div class="plus">
-        <i class="fas fa-plus-square fa-3x"></i>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro dicta placeat suscipit cum ea consectetur. Deserunt saepe accusantium a.</p>
-      </div>
-      <div class="minus">
-        <i class="fas fa-minus-square fa-3x"></i>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea est accusantium velit aut natus blanditiis eos quas obcaecati nemo tempora!</p>
-      </div>
-      <div class="neutral">
-        <i class="fas fa-equals fa-3x"></i>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vel eum iusto enim rem iste fugiat alias ipsum! Maxime, illo!</p>
-      </div>
-    </section>
-    <section class="breakdown">
-      <div class="plus">
-        <i class="fas fa-plus-square fa-3x"></i>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro dicta placeat suscipit cum ea consectetur. Deserunt saepe accusantium a.</p>
-      </div>
-      <div class="minus">
-        <i class="fas fa-minus-square fa-3x"></i>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea est accusantium velit aut natus blanditiis eos quas obcaecati nemo tempora!</p>
-      </div>
-      <div class="neutral">
-        <i class="fas fa-equals fa-3x"></i>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vel eum iusto enim rem iste fugiat alias ipsum! Maxime, illo!</p>
-      </div>
-    </section>
-    <section class="breakdown">
-      <div class="plus">
-        <i class="fas fa-plus-square fa-3x"></i>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro dicta placeat suscipit cum ea consectetur. Deserunt saepe accusantium a.</p>
-      </div>
-      <div class="minus">
-        <i class="fas fa-minus-square fa-3x"></i>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea est accusantium velit aut natus blanditiis eos quas obcaecati nemo tempora!</p>
-      </div>
-      <div class="neutral">
-        <i class="fas fa-equals fa-3x"></i>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vel eum iusto enim rem iste fugiat alias ipsum! Maxime, illo!</p>
-      </div>
-    </section>
-    <section class="breakdown">
-      <div class="plus">
-        <i class="fas fa-plus-square fa-3x"></i>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro dicta placeat suscipit cum ea consectetur. Deserunt saepe accusantium a.</p>
-      </div>
-      <div class="minus">
-        <i class="fas fa-minus-square fa-3x"></i>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea est accusantium velit aut natus blanditiis eos quas obcaecati nemo tempora!</p>
-      </div>
-      <div class="neutral">
-        <i class="fas fa-equals fa-3x"></i>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vel eum iusto enim rem iste fugiat alias ipsum! Maxime, illo!</p>
-      </div>
+
+      <% if @service.privacymonitor.present? %>
+        <h2>Score sourced from Privacy Monitor</h2>
+        <ul>
+          <li class="neutral">This service got a score of <%= @service.privacymonitor.score %> / 850 (<%= @service.privacymonitor.title %>), with the following trend: <%= @service.privacymonitor.trend %>.</li>
+        </ul>
+      <% end %>
+
+      <% if @service.hibp.present? %>
+        <h2>Breach sourced from Have I Been Pwned?</h2>
+        <ul>
+          <li class="negative">Breached on <%= @service.hibp.date %> with <%= @service.hibp.records %> records.</li>
+        </ul>
+      <% end %>
+
+      <% if @service.wikipedias.present? %>
+        <h2>Breaches sourced from Wikipedia</h2>
+        <ul>
+          <% @service.wikipedias.each do |breach| %>
+          <li class="negative">Breached on <%= breach.date %> with <%= breach.records %> records. Reason: <%= breach.method %>.</li>
+          <% end %>
+        </ul>
+      <% end %>
+
+      <% if @service.tosdrs.present? %>
+        <h2>Factors sourced from Tosdr</h2>
+      <% end %>
+      <% if @service.tosdrs.each { |factor| factor.polarity.include?('negative') } %>
+          <p><strong>Negative</strong></p>
+      <% end %>
+        <ul>
+          <% @service.tosdrs.each do |factor| %>
+            <% if factor.polarity == 'negative' %>
+              <li class="negative"><%= factor.title %></li>
+            <% end %>
+          <% end %>
+        </ul>
+        <% if @service.tosdrs.each { |factor| factor.polarity.include?('positive') } %>
+        <p><strong>Positive</strong></p>
+        <% end %>
+          <ul>
+            <% @service.tosdrs.each do |factor| %>
+              <% if factor.polarity == 'positive' %>
+                <li class="positive"><%= factor.title %></li>
+              <% end %>
+            <% end %>
+          </ul>
+
+          <% if @service.pribots.present? %>
+            <h2>Factors sourced from Pribot</h2>
+          <% end %>
+          <% if @service.pribots.each { |factor| factor.polarity.include?('negative') } %>
+              <p><strong>Negative</strong></p>
+          <% end %>
+            <ul>
+              <% @service.pribots.each do |factor| %>
+                <% if factor.polarity == 'negative' %>
+                  <li class="negative"><%= factor.title %></li>
+                <% end %>
+              <% end %>
+            </ul>
+            <% if @service.pribots.each { |factor| factor.polarity.include?('positive') } %>
+            <p><strong>Positive</strong></p>
+            <% end %>
+              <ul>
+                <% @service.pribots.each do |factor| %>
+                  <% if factor.polarity == 'positive' %>
+                    <li class="positive"><%= factor.title %></li>
+                  <% end %>
+                <% end %>
+              </ul>
+
+              <% if @service.privacyscores.present? %>
+                <h2>Factors sourced from Privacy Score</h2>
+              <% end %>
+              <% if @service.privacyscores.each { |factor| factor.polarity.include?('negative') } %>
+                  <p><strong>Negative</strong></p>
+              <% end %>
+                <ul>
+                  <% @service.privacyscores.each do |factor| %>
+                    <% if factor.polarity == 'negative' %>
+                      <li class="negative"><%= factor.title %></li>
+                    <% end %>
+                  <% end %>
+                </ul>
+                <% if @service.privacyscores.each { |factor| factor.polarity.include?('positive') } %>
+                <p><strong>Positive</strong></p>
+                <% end %>
+                  <ul>
+                    <% @service.privacyscores.each do |factor| %>
+                      <% if factor.polarity == 'positive' %>
+                        <li class="positive"><%= factor.title %></li>
+                      <% end %>
+                    <% end %>
+                  </ul>
+
+
     </section>
     <div id="load">
       <h2>More <i class="fas fa-chevron-down"></i></h2>
