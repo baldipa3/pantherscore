@@ -4,20 +4,21 @@ class PagesController < ApplicationController
   skip_before_action :authenticate_user!, only: :home
 
   def home
-    @most_viewed = Service.limit(12).order('impressions_count')
+    @services = Service.all.where.not(pantherscore: 0)
+    @most_viewed = @services.limit(12).order('impressions_count')
     @top_five_services = pantherscore_order.first(5)
     @last_five_services = pantherscore_order.last(5).reverse
-    @recently_added = Service.last(3)
+    @recently_added = @services.last(3)
     @categories = Category.all
     @top_reviewed_users = top_advocates(10)
     @recent_reviews = Review.last(4)
-    @crew_picks = Service.first(5)
+    @crew_picks = @services.first(5)
   end
 
   private
 
   def pantherscore_order
-    Service.order(pantherscore: :desc)
+    @services.order(pantherscore: :desc)
   end
 
   def top_advocates(num)

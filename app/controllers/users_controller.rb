@@ -3,6 +3,7 @@ class UsersController < ApplicationController
   before_action :set_user, only: %i[show edit update]
 
   def show
+    @services = Service.all.where.not(pantherscore: 0)
     @user = User.find(params[:id])
     pantherscore_sum = @user.services.pluck(:pantherscore).sum
     user_total_services = @user.services.count
@@ -11,7 +12,7 @@ class UsersController < ApplicationController
     else
       @myscore = pantherscore_sum / user_total_services
     end
-    @recommended = Service.all
+    @recommended = @services
   end
 
   def edit
