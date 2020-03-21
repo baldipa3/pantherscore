@@ -1,6 +1,5 @@
 class ServicesController < ApplicationController
   skip_before_action :authenticate_user!
-  before_action :set_user, only: %i[show]
 
   def index
     if params[:search].present?
@@ -13,7 +12,6 @@ class ServicesController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:id])
     @service = Service.find(params[:id])
     impressionist(@service)
     @review = Review.new
@@ -26,11 +24,5 @@ class ServicesController < ApplicationController
       # Service.joins(:categories).where("categories.name=?", params[:category]).all
     end
     render json: @services_by_category
-  end
-
-  private
-
-  def set_user
-    @user = User.find(params[:id])
   end
 end
