@@ -81,11 +81,8 @@ services['services'].each do |service|
     end
   end
 end
-<<<<<<< HEAD
 
-# Infosec seed
-=======
->>>>>>> master
+# Infosec seeds
 
 # Pantherscore
 
