@@ -5,7 +5,6 @@
 .container {
   margin-top: 2rem;
 }
-
 // Elements
 .white {
   color: white;
@@ -34,7 +33,17 @@ ul {
   color: $background-dark;
 }
 
+.fa-plus {
+  margin-top: 1rem;
+  color: white;
+  &:hover {
+    color: $panther-green;
+  }
+}
+
 // Service category
+
+
 
 .category {
   padding: 9px 16px;

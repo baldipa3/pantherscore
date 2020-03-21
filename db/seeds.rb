@@ -67,19 +67,19 @@ end
 
 # # Alternatives
 
-# puts "Creating Alternatives..."
+puts "Creating Alternatives..."
 
-# services['services'].each do |service|
-#   current_service = Service.find_by(slug: service['slug'])
-#   unless current_service.nil? # Because it would be a discontinued service
-#     # puts current_service.name
-#     alternative_services = service['alternatives'].map { |alternative| Service.find_by(slug: alternative['slug']) }
-#     alternative_services.each do |alternative|
-#       # puts "Alternative: #{alternative.name unless alternative.nil?}"
-#       current_service.alternatives << alternative unless alternative.nil?
-#     end
-#   end
-# end
+services['services'].each do |service|
+  current_service = Service.find_by(slug: service['slug'])
+  unless current_service.nil? # Because it would be a discontinued service
+    # puts current_service.name
+    alternative_services = service['alternatives'].map { |alternative| Service.find_by(slug: alternative['slug']) }
+    alternative_services.each do |alternative|
+      # puts "Alternative: #{alternative.name unless alternative.nil?}"
+      current_service.alternatives << alternative unless alternative.nil?
+    end
+  end
+end
 
 # Pantherscore
 

@@ -3,7 +3,15 @@
   <div class="row">
 
     <div class="col-6">
-      <h1 class="white"><%= image_tag @service.icon, class: 'icon-large' %> <%= @service.name %></h1>
+      <div class="row">
+        <div class="col-10">
+          <h1 class="white"><%= image_tag @service.icon, class: 'icon-large' %> <%= @service.name %></h1>
+        </div>
+        <div class="col-2">
+          <i class="fas fa-plus fa-2x"></i>
+        </div>
+      </div>
+      
       <br>
       <p><%= simple_format @service.description, class: "white" %></p>
       <i class="fas fa-globe"> </i> <%= link_to "Official Website", @service.url, class: "panther-font"%>
