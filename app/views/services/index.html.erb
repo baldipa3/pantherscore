@@ -18,8 +18,6 @@
       </div>
     </div>
   </div>
-</div>
-
 <% if params[:search].present? %>
   <div class="search">
     <% @services.each do |service| %>
@@ -56,9 +54,9 @@
     <% end %>
   </div>
 <% end %>
-
-<div class="browse-cat container-flex">
+<div class="browse-cat">
   <% @categories.each do |category| %>
+    <div class="container">
     <div class="category-browse">
       <h1><%= category.name %></h1>
     </div>
@@ -99,10 +97,11 @@
           </div>
         </div>
       <% end %>
+      </div>
+
     </div>
   <% end %>
 </div>
-
 <div class="container-flex mb-4">
   <div class="remove d-none">
     <div class="cards-recommended">
@@ -120,6 +119,10 @@
     </div>
   </div>
 </div>
+</div>
+
+
+
 
 <!--   <div class="container-fluid">
     <div class="remove d-none">
