@@ -52,7 +52,6 @@ const none = document.querySelector(".remove");
 
 const request = (url) => {
   none.classList.add("d-none")
-  browseHome.classList.add("d-none")
   jQuery('#js-select').html('');
   fetch(url)
     .then(response => response.json())
@@ -106,6 +105,7 @@ const request = (url) => {
 const option = (event) => {
   const category = encodeURIComponent((event.currentTarget.options[event.currentTarget.selectedIndex].value));
   const url = `http://localhost:3000/services/query?category=${category}`;
+  browseHome.classList.add("d-none")
   request(url);
 }
 

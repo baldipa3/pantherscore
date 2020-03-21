@@ -10,7 +10,7 @@
 
  svg {
   // width: 50px;
-  height: 40px;
+  // height: 40px;
 }
 .panther-dark {
   background-color: $primary-normal;
@@ -74,7 +74,7 @@
   border-radius: 16px;
   margin: 0rem 1rem;
 }
- 
+
 .sign-up-btn:hover {
   color: black !important;
 }
@@ -144,7 +144,7 @@
     color: #262626;
     // background-color: #999;
   }
-   
+
   @media (max-width: 767px) {
     .dropdown-menu.multi-column {
       min-width: 240px !important;
