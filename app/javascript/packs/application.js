@@ -45,13 +45,14 @@ if (unload) {
 }
 
 const results = document.querySelector("#js-select");
-const categoryHome = document.querySelector(".cathome");
+const browseHome = document.querySelector(".browse-cat");
 const none = document.querySelector(".remove");
 
 
 
 const request = (url) => {
   none.classList.add("d-none")
+  browseHome.classList.add("d-none")
   jQuery('#js-select').html('');
   fetch(url)
     .then(response => response.json())
@@ -108,19 +109,18 @@ const option = (event) => {
   request(url);
 }
 
-const home = (event) => {
-  console.log(event)
-  window.location.href='http://localhost:3000/services'
-  const category = encodeURIComponent();
-  const url = `http://localhost:3000/services/query?category=${category}`;
-  request(url);
-}
+// const home = (event) => {
+//   console.log(event)
+//   const category = encodeURIComponent();
+//   const url = `http://localhost:3000/services/query?category=${category}`;
+//   request(url);
+// }
 
 if (results) {
   categories.addEventListener('change', option);
 };
 
-if (categoryHome) {
-  categoryHome.addEventListener('click', home);
-};
+// if (categoryHome) {
+//   categoryHome.addEventListener('click', home);
+// };
 
