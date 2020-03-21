@@ -91,9 +91,11 @@ ul {
 }
 
 .breakdown {
-  display: flex;
-  i {
-    margin-bottom: 1rem;
+  li.negative {
+    color: $panther-red;
+  }
+  li.positive {
+    color: $panther-green;
   }
 }
 
@@ -186,7 +188,7 @@ ul {
     display: flex;
     color: $panther-green;
   }
-  
+
   .negative {
     display: flex;
     color: $panther-red;

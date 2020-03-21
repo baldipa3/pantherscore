@@ -13,6 +13,7 @@ class ServicesController < ApplicationController
     @service = Service.find(params[:id])
     impressionist(@service)
     @review = Review.new
+    @alternatives = Service.find(params[:id]).alternatives.where.not(pantherscore: 0).order(pantherscore: :desc).first(5)
   end
 
   def query
