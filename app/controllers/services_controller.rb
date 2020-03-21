@@ -5,7 +5,7 @@ class ServicesController < ApplicationController
     if params[:search].present?
       @services = Service.where("name ILIKE ?", "%#{params[:search]}%")
     else
-      @services = Service.all
+      @services = Service.all.where.not(pantherscore: 0)
     end
     @categories = Category.all
     # @services = Category.where(name: @category).first.services
