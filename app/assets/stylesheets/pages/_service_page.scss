@@ -139,6 +139,14 @@ ul {
   }
 }
 
+.fa-minus {
+  margin-bottom: 50px;
+  color: black;
+  &:hover {
+    color: $panther-red;
+  }
+}
+
 .green {
   color: $panther-green
 }
@@ -174,5 +182,13 @@ ul {
     display: flex;
     color: $panther-red;
   }
+}
+
+#up-vote {
+  margin-right: 0.5rem;
+}
+
+#down-vote {
+  margin-right: 0.5rem;
 }
 
