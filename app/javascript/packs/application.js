@@ -1,5 +1,7 @@
 import "bootstrap";
 
+const browseHome = document.querySelector(".browse-cat");
+
 const load = document.getElementById("load");
 const unload = document.getElementById("unload");
 
@@ -26,6 +28,8 @@ if (load) {
     });
     load.classList.add("d-none");
     unload.classList.remove("d-none");
+    browseHome.classList.add("d-none")
+
   });
 }
 
@@ -41,11 +45,11 @@ if (unload) {
     });
     unload.classList.add("d-none");
     load.classList.remove("d-none")
+    browseHome.classList.add("d-none")
   });
 }
 
 const results = document.querySelector("#js-select");
-const browseHome = document.querySelector(".browse-cat");
 const none = document.querySelector(".remove");
 
 
