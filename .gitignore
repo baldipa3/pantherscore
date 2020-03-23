@@ -42,4 +42,4 @@ yarn-debug.log*
 
 # Ignore scrape data
 /db/scrapers
-/db/data
+#/db/data
