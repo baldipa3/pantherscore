@@ -43,7 +43,7 @@ end
 
 puts "Creating Services..."
 
-services = JSON.parse(File.read('./db/data/services/services_custom.json'))
+services = JSON.parse(File.read('./db/data/test/services_custom.json'))
 services['services'].each do |service|
 
   unless service['discontinued'] == true
@@ -87,7 +87,7 @@ end
 
 puts "Adding pre-compiled Pantherscores to Services"
 
-services = JSON.parse(File.read('./db/data/infosec/pantherscores.json'))
+services = JSON.parse(File.read('./db/data/test/pantherscores.json'))
 
 services.each do |service|
   current_service = Service.find_by(slug: service['slug'])
