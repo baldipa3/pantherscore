@@ -41,5 +41,5 @@ yarn-debug.log*
 .DS_Store
 
 # Ignore scrape data
-# /db/scraperss
+/db/scrapers
 /db/data
