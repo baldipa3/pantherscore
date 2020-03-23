@@ -14,6 +14,7 @@ Category.destroy_all
 UserService.destroy_all
 Review.destroy_all
 User.destroy_all
+Service.destroy_all
 Privacymonitor.destroy_all
 Privacyscore.destroy_all
 Pribot.destroy_all
@@ -24,7 +25,6 @@ WikipediaSource.destroy_all
 # ServiceTosdr.destroy_all
 # ServiceHibp.destroy_all
 # ServiceWikipedia.destroy_all
-Service.destroy_all
 
 # Categories from AlternativeTo
 
