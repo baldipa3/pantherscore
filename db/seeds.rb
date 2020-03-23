@@ -21,9 +21,9 @@ Tosdr.destroy_all
 Hibp.destroy_all
 Wikipedia.destroy_all
 WikipediaSource.destroy_all
-ServiceTosdr.destroy_all
-ServiceHibp.destroy_all
-ServiceWikipedia.destroy_all
+# ServiceTosdr.destroy_all
+# ServiceHibp.destroy_all
+# ServiceWikipedia.destroy_all
 Service.destroy_all
 
 # Categories from AlternativeTo
