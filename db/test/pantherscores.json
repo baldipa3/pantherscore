@@ -1,0 +1,9494 @@
+[
+  {
+    "slug": "firefox",
+    "pantherscore": 73
+  },
+  {
+    "slug": "dropbox",
+    "pantherscore": 36
+  },
+  {
+    "slug": "google-chrome",
+    "pantherscore": 62
+  },
+  {
+    "slug": "gmail",
+    "pantherscore": 41
+  },
+  {
+    "slug": "skype",
+    "pantherscore": 43
+  },
+  {
+    "slug": "evernote",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "libreoffice",
+    "pantherscore": 56
+  },
+  {
+    "slug": "trello",
+    "pantherscore": 63
+  },
+  {
+    "slug": "roundcube",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "google-drive",
+    "pantherscore": 63
+  },
+  {
+    "slug": "mozilla-thunderbird",
+    "pantherscore": 77
+  },
+  {
+    "slug": "inkscape",
+    "pantherscore": 75
+  },
+  {
+    "slug": "telegram",
+    "pantherscore": 60
+  },
+  {
+    "slug": "foxit-reader",
+    "pantherscore": 59
+  },
+  {
+    "slug": "sumatra-pdf",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "calibre",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ixquick",
+    "pantherscore": 81
+  },
+  {
+    "slug": "google-hangouts",
+    "pantherscore": 62
+  },
+  {
+    "slug": "microsoft-onenote",
+    "pantherscore": 36
+  },
+  {
+    "slug": "libreoffice-writer",
+    "pantherscore": 69
+  },
+  {
+    "slug": "google-calendar",
+    "pantherscore": 62
+  },
+  {
+    "slug": "f-lux",
+    "pantherscore": 91
+  },
+  {
+    "slug": "microsoft-word",
+    "pantherscore": 55
+  },
+  {
+    "slug": "google-docs---word-processor",
+    "pantherscore": 74
+  },
+  {
+    "slug": "owncloud",
+    "pantherscore": 70
+  },
+  {
+    "slug": "standard-notes",
+    "pantherscore": 96
+  },
+  {
+    "slug": "total-commander",
+    "pantherscore": 59
+  },
+  {
+    "slug": "openoffice",
+    "pantherscore": 63
+  },
+  {
+    "slug": "slack",
+    "pantherscore": 47
+  },
+  {
+    "slug": "autohotkey",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "write-",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "google-keep",
+    "pantherscore": 62
+  },
+  {
+    "slug": "wunderlist",
+    "pantherscore": 70
+  },
+  {
+    "slug": "discord-app",
+    "pantherscore": 45
+  },
+  {
+    "slug": "microsoft-office-suite",
+    "pantherscore": 34
+  },
+  {
+    "slug": "open-office---writer",
+    "pantherscore": 63
+  },
+  {
+    "slug": "diagramly",
+    "pantherscore": 52
+  },
+  {
+    "slug": "google-translate",
+    "pantherscore": 62
+  },
+  {
+    "slug": "nextcloud",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "1password",
+    "pantherscore": 61
+  },
+  {
+    "slug": "lucidchart",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "protonmail",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "prezi",
+    "pantherscore": 44
+  },
+  {
+    "slug": "libreoffice---calc",
+    "pantherscore": 56
+  },
+  {
+    "slug": "microsoft-excel",
+    "pantherscore": 69
+  },
+  {
+    "slug": "simplenote",
+    "pantherscore": 51
+  },
+  {
+    "slug": "freemind",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tox",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "asana",
+    "pantherscore": 54
+  },
+  {
+    "slug": "boxnet",
+    "pantherscore": 68
+  },
+  {
+    "slug": "dia",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "evince",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "notezilla",
+    "pantherscore": 90
+  },
+  {
+    "slug": "zim---a-desktop-wiki",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "yed",
+    "pantherscore": 69
+  },
+  {
+    "slug": "adobe-reader",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bitbucket",
+    "pantherscore": 71
+  },
+  {
+    "slug": "outlook-com",
+    "pantherscore": 37
+  },
+  {
+    "slug": "pdf-xchange-viewer",
+    "pantherscore": 57
+  },
+  {
+    "slug": "ifttt",
+    "pantherscore": 11
+  },
+  {
+    "slug": "papaly",
+    "pantherscore": 92
+  },
+  {
+    "slug": "redmine",
+    "pantherscore": 91
+  },
+  {
+    "slug": "xnviewmp",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "windows-10",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "microsoft-office-outlook",
+    "pantherscore": 69
+  },
+  {
+    "slug": "remember-the-milk",
+    "pantherscore": 59
+  },
+  {
+    "slug": "xmind",
+    "pantherscore": 60
+  },
+  {
+    "slug": "qiqqa",
+    "pantherscore": 42
+  },
+  {
+    "slug": "todoist",
+    "pantherscore": 44
+  },
+  {
+    "slug": "sugarsync",
+    "pantherscore": 49
+  },
+  {
+    "slug": "aptana",
+    "pantherscore": 59
+  },
+  {
+    "slug": "sip-communicator",
+    "pantherscore": 67
+  },
+  {
+    "slug": "ditto",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "affinity-photo",
+    "pantherscore": 77
+  },
+  {
+    "slug": "wrike",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wps-office",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "coda",
+    "pantherscore": 77
+  },
+  {
+    "slug": "mailbird",
+    "pantherscore": 64
+  },
+  {
+    "slug": "riot-im",
+    "pantherscore": 77
+  },
+  {
+    "slug": "trillian-astra",
+    "pantherscore": 30
+  },
+  {
+    "slug": "tutanota",
+    "pantherscore": 91
+  },
+  {
+    "slug": "onlyoffice",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mendeley",
+    "pantherscore": 52
+  },
+  {
+    "slug": "pdfcreator",
+    "pantherscore": 50
+  },
+  {
+    "slug": "taiga-io",
+    "pantherscore": 92
+  },
+  {
+    "slug": "abiword",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "seamonkey",
+    "pantherscore": 93
+  },
+  {
+    "slug": "alfred",
+    "pantherscore": 65
+  },
+  {
+    "slug": "bitwarden--free-password-manager",
+    "pantherscore": 73
+  },
+  {
+    "slug": "microsoft-visio",
+    "pantherscore": 55
+  },
+  {
+    "slug": "tomboy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "dbeaver",
+    "pantherscore": 41
+  },
+  {
+    "slug": "libreoffice---draw",
+    "pantherscore": 56
+  },
+  {
+    "slug": "k-9",
+    "pantherscore": 77
+  },
+  {
+    "slug": "lyx",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mysql-community-edition",
+    "pantherscore": 71
+  },
+  {
+    "slug": "apple-mail",
+    "pantherscore": 34
+  },
+  {
+    "slug": "google-sheets",
+    "pantherscore": 62
+  },
+  {
+    "slug": "workflowy",
+    "pantherscore": 56
+  },
+  {
+    "slug": "taskade",
+    "pantherscore": 71
+  },
+  {
+    "slug": "okular",
+    "pantherscore": 96
+  },
+  {
+    "slug": "cherrytree",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cintanotes",
+    "pantherscore": 60
+  },
+  {
+    "slug": "scrivener",
+    "pantherscore": 57
+  },
+  {
+    "slug": "codecademy",
+    "pantherscore": 64
+  },
+  {
+    "slug": "google-docs",
+    "pantherscore": 64
+  },
+  {
+    "slug": "basecamp",
+    "pantherscore": 75
+  },
+  {
+    "slug": "teamclerk",
+    "pantherscore": 63
+  },
+  {
+    "slug": "microsoft-powerpoint",
+    "pantherscore": 36
+  },
+  {
+    "slug": "google-tasks",
+    "pantherscore": 74
+  },
+  {
+    "slug": "raindrop-io",
+    "pantherscore": 73
+  },
+  {
+    "slug": "em-client",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "libreoffice-impress",
+    "pantherscore": 56
+  },
+  {
+    "slug": "freeplane",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "linux-kernel",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "workpuls",
+    "pantherscore": 69
+  },
+  {
+    "slug": "activitywatch",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "joplin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "startme",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tiddlywiki",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "rescuetime",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pages",
+    "pantherscore": 34
+  },
+  {
+    "slug": "focuswriter",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "notion",
+    "pantherscore": 68
+  },
+  {
+    "slug": "cloudapp",
+    "pantherscore": 66
+  },
+  {
+    "slug": "omnigraffle",
+    "pantherscore": 46
+  },
+  {
+    "slug": "lightning",
+    "pantherscore": 67
+  },
+  {
+    "slug": "pdfsam",
+    "pantherscore": 75
+  },
+  {
+    "slug": "phraseexpress",
+    "pantherscore": 68
+  },
+  {
+    "slug": "mattermost",
+    "pantherscore": 70
+  },
+  {
+    "slug": "toodledo",
+    "pantherscore": 90
+  },
+  {
+    "slug": "zenkit",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "codenvy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "evolution",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "copyq",
+    "pantherscore": 66
+  },
+  {
+    "slug": "zapier",
+    "pantherscore": 66
+  },
+  {
+    "slug": "things",
+    "pantherscore": 81
+  },
+  {
+    "slug": "adobe-acrobat",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ubuntu-touch-1",
+    "pantherscore": 62
+  },
+  {
+    "slug": "glip",
+    "pantherscore": 54
+  },
+  {
+    "slug": "winalfred",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "zoho",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "microsoft-edge",
+    "pantherscore": 36
+  },
+  {
+    "slug": "zulip-chat-server",
+    "pantherscore": 38
+  },
+  {
+    "slug": "valentina-studio",
+    "pantherscore": 10
+  },
+  {
+    "slug": "seafile",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "matrix-org",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "acmarket",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "yandex-browser",
+    "pantherscore": 65
+  },
+  {
+    "slug": "mindomo",
+    "pantherscore": 73
+  },
+  {
+    "slug": "vlc-media-player",
+    "pantherscore": 69
+  },
+  {
+    "slug": "notepad-plus-plus",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sublime-text",
+    "pantherscore": 44
+  },
+  {
+    "slug": "wordpress",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "github",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "blender",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "vim",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "python",
+    "pantherscore": 52
+  },
+  {
+    "slug": "eclipse",
+    "pantherscore": 91
+  },
+  {
+    "slug": "atom",
+    "pantherscore": 93
+  },
+  {
+    "slug": "visual-studio",
+    "pantherscore": 36
+  },
+  {
+    "slug": "git",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "visual-studio-code",
+    "pantherscore": 40
+  },
+  {
+    "slug": "netbeans",
+    "pantherscore": 63
+  },
+  {
+    "slug": "winscp",
+    "pantherscore": 81
+  },
+  {
+    "slug": "gedit",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "java",
+    "pantherscore": 62
+  },
+  {
+    "slug": "mp3tag",
+    "pantherscore": 65
+  },
+  {
+    "slug": "gitlab",
+    "pantherscore": 80
+  },
+  {
+    "slug": "javascript",
+    "pantherscore": 72
+  },
+  {
+    "slug": "geany",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "google-sketchup",
+    "pantherscore": 59
+  },
+  {
+    "slug": "xampp",
+    "pantherscore": 60
+  },
+  {
+    "slug": "drupal",
+    "pantherscore": 33
+  },
+  {
+    "slug": "apache",
+    "pantherscore": 64
+  },
+  {
+    "slug": "php",
+    "pantherscore": 61
+  },
+  {
+    "slug": "stackoverflow",
+    "pantherscore": 60
+  },
+  {
+    "slug": "cyberduck",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "brackets",
+    "pantherscore": 5
+  },
+  {
+    "slug": "intellij-idea",
+    "pantherscore": 59
+  },
+  {
+    "slug": "conemu",
+    "pantherscore": 73
+  },
+  {
+    "slug": "meld",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gnu-emacs",
+    "pantherscore": 70
+  },
+  {
+    "slug": "joomla",
+    "pantherscore": 72
+  },
+  {
+    "slug": "smartgit",
+    "pantherscore": 63
+  },
+  {
+    "slug": "pinta",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "godot-engine",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "adobe-dreamweaver",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "unity",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "noscript",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "aptoide",
+    "pantherscore": 75
+  },
+  {
+    "slug": "opensuse",
+    "pantherscore": 78
+  },
+  {
+    "slug": "sourceforge",
+    "pantherscore": 75
+  },
+  {
+    "slug": "beyond-compare",
+    "pantherscore": 58
+  },
+  {
+    "slug": "vectornator",
+    "pantherscore": 80
+  },
+  {
+    "slug": "tortoisesvn",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sqlite",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sourcetree",
+    "pantherscore": 61
+  },
+  {
+    "slug": "nginx",
+    "pantherscore": 66
+  },
+  {
+    "slug": "phpmyadmin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "crashplan",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "node-js",
+    "pantherscore": 66
+  },
+  {
+    "slug": "textmate",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mysql-workbench",
+    "pantherscore": 71
+  },
+  {
+    "slug": "ruby",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "shopsavvy",
+    "pantherscore": 66
+  },
+  {
+    "slug": "codeblocks",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "phpstorm",
+    "pantherscore": 58
+  },
+  {
+    "slug": "postgressql",
+    "pantherscore": 33
+  },
+  {
+    "slug": "nano",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "qt",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "komodo-edit",
+    "pantherscore": 70
+  },
+  {
+    "slug": "jquery",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pycharm",
+    "pantherscore": 58
+  },
+  {
+    "slug": "changelly",
+    "pantherscore": 85
+  },
+  {
+    "slug": "bootstrap",
+    "pantherscore": 42
+  },
+  {
+    "slug": "sketch",
+    "pantherscore": 34
+  },
+  {
+    "slug": "webmin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "dbforge-studio",
+    "pantherscore": 46
+  },
+  {
+    "slug": "heidisql",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kate",
+    "pantherscore": 96
+  },
+  {
+    "slug": "android-studio",
+    "pantherscore": 56
+  },
+  {
+    "slug": "cmder",
+    "pantherscore": 71
+  },
+  {
+    "slug": "pspad",
+    "pantherscore": 72
+  },
+  {
+    "slug": "jira",
+    "pantherscore": 65
+  },
+  {
+    "slug": "fiddler",
+    "pantherscore": 79
+  },
+  {
+    "slug": "c--programming-language-",
+    "pantherscore": 45
+  },
+  {
+    "slug": "matlab",
+    "pantherscore": 67
+  },
+  {
+    "slug": "picpick",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ghost",
+    "pantherscore": 53
+  },
+  {
+    "slug": "bash",
+    "pantherscore": 70
+  },
+  {
+    "slug": "rambox",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "piwik",
+    "pantherscore": 58
+  },
+  {
+    "slug": "gravit-io",
+    "pantherscore": 61
+  },
+  {
+    "slug": "xyplorer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "opengl",
+    "pantherscore": 80
+  },
+  {
+    "slug": "r-project",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "notepad",
+    "pantherscore": 36
+  },
+  {
+    "slug": "autoit",
+    "pantherscore": 74
+  },
+  {
+    "slug": "pastebin",
+    "pantherscore": 81
+  },
+  {
+    "slug": "minecraft",
+    "pantherscore": 68
+  },
+  {
+    "slug": "construct-2",
+    "pantherscore": 59
+  },
+  {
+    "slug": "resource-hacker",
+    "pantherscore": 84
+  },
+  {
+    "slug": "cryptomator",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ultraedit",
+    "pantherscore": 54
+  },
+  {
+    "slug": "ispmanager",
+    "pantherscore": 56
+  },
+  {
+    "slug": "gitkraken",
+    "pantherscore": 43
+  },
+  {
+    "slug": "coursera",
+    "pantherscore": 53
+  },
+  {
+    "slug": "xcode",
+    "pantherscore": 33
+  },
+  {
+    "slug": "google-chrome-developer-tools",
+    "pantherscore": 68
+  },
+  {
+    "slug": "firefox-developer-edition",
+    "pantherscore": 73
+  },
+  {
+    "slug": "github-gist",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "lua",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bluefish-editor",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "processwire",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cheat-engine",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "powershell",
+    "pantherscore": 69
+  },
+  {
+    "slug": "scite",
+    "pantherscore": 8
+  },
+  {
+    "slug": "laragon",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "grand-theft-auto",
+    "pantherscore": 56
+  },
+  {
+    "slug": "tagspaces",
+    "pantherscore": 48
+  },
+  {
+    "slug": "trac",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sequel-pro",
+    "pantherscore": 41
+  },
+  {
+    "slug": "game-develop",
+    "pantherscore": 42
+  },
+  {
+    "slug": "tails",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "useresponse",
+    "pantherscore": 49
+  },
+  {
+    "slug": "mongodb",
+    "pantherscore": 35
+  },
+  {
+    "slug": "jsfiddle",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "steam",
+    "pantherscore": 41
+  },
+  {
+    "slug": "angry-birds",
+    "pantherscore": 73
+  },
+  {
+    "slug": "portal-2",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "plants-vs-zombies",
+    "pantherscore": 62
+  },
+  {
+    "slug": "half-life",
+    "pantherscore": 78
+  },
+  {
+    "slug": "world-of-goo",
+    "pantherscore": 65
+  },
+  {
+    "slug": "team-fortress-2",
+    "pantherscore": 60
+  },
+  {
+    "slug": "2048-by-gabriele-cirulli",
+    "pantherscore": 73
+  },
+  {
+    "slug": "agar-io",
+    "pantherscore": 70
+  },
+  {
+    "slug": "0-a-d-",
+    "pantherscore": 50
+  },
+  {
+    "slug": "terraria",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "battle-for-wesnoth",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "counter-strike",
+    "pantherscore": 70
+  },
+  {
+    "slug": "unreal-tournament",
+    "pantherscore": 34
+  },
+  {
+    "slug": "minetest-c55",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "age-of-empires-series",
+    "pantherscore": 51
+  },
+  {
+    "slug": "starcraft",
+    "pantherscore": 68
+  },
+  {
+    "slug": "world-of-warcraft",
+    "pantherscore": 68
+  },
+  {
+    "slug": "civilization-v",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "the-elder-scrolls",
+    "pantherscore": 59
+  },
+  {
+    "slug": "scummvm",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "openttd",
+    "pantherscore": 94
+  },
+  {
+    "slug": "league-of-legends",
+    "pantherscore": 43
+  },
+  {
+    "slug": "quake",
+    "pantherscore": 59
+  },
+  {
+    "slug": "canva",
+    "pantherscore": 26
+  },
+  {
+    "slug": "battlefield",
+    "pantherscore": 74
+  },
+  {
+    "slug": "warcraft",
+    "pantherscore": 27
+  },
+  {
+    "slug": "xonotic",
+    "pantherscore": 92
+  },
+  {
+    "slug": "supertuxkart",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "slither-io",
+    "pantherscore": 68
+  },
+  {
+    "slug": "construct-3",
+    "pantherscore": 58
+  },
+  {
+    "slug": "fallout",
+    "pantherscore": 36
+  },
+  {
+    "slug": "akinator",
+    "pantherscore": 56
+  },
+  {
+    "slug": "angry-bird-rio",
+    "pantherscore": 73
+  },
+  {
+    "slug": "dwarf-fortress",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "dota-2",
+    "pantherscore": 70
+  },
+  {
+    "slug": "mame",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "supertux",
+    "pantherscore": 63
+  },
+  {
+    "slug": "lichess-org",
+    "pantherscore": 55
+  },
+  {
+    "slug": "limbo",
+    "pantherscore": 57
+  },
+  {
+    "slug": "diablo-2",
+    "pantherscore": 41
+  },
+  {
+    "slug": "machinarium",
+    "pantherscore": 63
+  },
+  {
+    "slug": "gmod",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kongregate",
+    "pantherscore": 80
+  },
+  {
+    "slug": "playnite",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "call-of-duty",
+    "pantherscore": 65
+  },
+  {
+    "slug": "angry-birds-seasons",
+    "pantherscore": 73
+  },
+  {
+    "slug": "left-4-dead",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "doodle-jump",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "teeworlds",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "freeciv",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "path-of-exile",
+    "pantherscore": 52
+  },
+  {
+    "slug": "torchlight",
+    "pantherscore": 60
+  },
+  {
+    "slug": "borderlands",
+    "pantherscore": 66
+  },
+  {
+    "slug": "doom-series-",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "osmos",
+    "pantherscore": 90
+  },
+  {
+    "slug": "warzone-2100",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "roblox",
+    "pantherscore": 48
+  },
+  {
+    "slug": "braid",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "survivalcraft",
+    "pantherscore": 57
+  },
+  {
+    "slug": "lumosity",
+    "pantherscore": 80
+  },
+  {
+    "slug": "pokemon-go",
+    "pantherscore": 58
+  },
+  {
+    "slug": "cut-the-rope",
+    "pantherscore": 66
+  },
+  {
+    "slug": "ingress",
+    "pantherscore": 63
+  },
+  {
+    "slug": "need-for-speed-saga",
+    "pantherscore": 63
+  },
+  {
+    "slug": "fruit-ninja",
+    "pantherscore": 56
+  },
+  {
+    "slug": "hedgewars",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tiny-wings",
+    "pantherscore": 11
+  },
+  {
+    "slug": "renpy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "king-arthur--39-s-gold",
+    "pantherscore": 42
+  },
+  {
+    "slug": "phun",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "super-meat-boy",
+    "pantherscore": 91
+  },
+  {
+    "slug": "cave-story",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bioshock",
+    "pantherscore": 68
+  },
+  {
+    "slug": "synthesia",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ut3",
+    "pantherscore": 34
+  },
+  {
+    "slug": "clash-of-clans",
+    "pantherscore": 57
+  },
+  {
+    "slug": "simcity",
+    "pantherscore": 63
+  },
+  {
+    "slug": "ut2004",
+    "pantherscore": 34
+  },
+  {
+    "slug": "stalker-shadow-of-chernobyl",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "torque-3d",
+    "pantherscore": 66
+  },
+  {
+    "slug": "red-eclipse",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "openra",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "guild-wars",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bejeweled",
+    "pantherscore": 75
+  },
+  {
+    "slug": "the-witcher-2",
+    "pantherscore": 22
+  },
+  {
+    "slug": "bastion",
+    "pantherscore": 64
+  },
+  {
+    "slug": "eve-online",
+    "pantherscore": 67
+  },
+  {
+    "slug": "parsec",
+    "pantherscore": 48
+  },
+  {
+    "slug": "second-life",
+    "pantherscore": 64
+  },
+  {
+    "slug": "starcraft-ii",
+    "pantherscore": 68
+  },
+  {
+    "slug": "a-google-a-day",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gameranger",
+    "pantherscore": 91
+  },
+  {
+    "slug": "soldat",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mari0",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pixel-dungeon",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tipp10",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "widelands",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "crush-the-castle",
+    "pantherscore": 39
+  },
+  {
+    "slug": "playerunknowns-battlegrounds",
+    "pantherscore": 70
+  },
+  {
+    "slug": "sdl",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "warsow",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "urban-terror",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "blockscape",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "armor-games",
+    "pantherscore": 39
+  },
+  {
+    "slug": "blob-io",
+    "pantherscore": 48
+  },
+  {
+    "slug": "assassin-creed",
+    "pantherscore": 67
+  },
+  {
+    "slug": "spore",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "magicka",
+    "pantherscore": 65
+  },
+  {
+    "slug": "minesweeper",
+    "pantherscore": 36
+  },
+  {
+    "slug": "killing-floor",
+    "pantherscore": 67
+  },
+  {
+    "slug": "game-center",
+    "pantherscore": 42
+  },
+  {
+    "slug": "pokerth",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "monument-valley",
+    "pantherscore": 58
+  },
+  {
+    "slug": "titan-quest",
+    "pantherscore": 60
+  },
+  {
+    "slug": "runescape",
+    "pantherscore": 69
+  },
+  {
+    "slug": "jet-trains",
+    "pantherscore": 62
+  },
+  {
+    "slug": "minecraft-pocket-edition",
+    "pantherscore": 68
+  },
+  {
+    "slug": "alien-swarm",
+    "pantherscore": 71
+  },
+  {
+    "slug": "stepmania",
+    "pantherscore": 90
+  },
+  {
+    "slug": "flightgear",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "saints-row-series-",
+    "pantherscore": 56
+  },
+  {
+    "slug": "worms",
+    "pantherscore": 64
+  },
+  {
+    "slug": "command-and-conquer",
+    "pantherscore": 63
+  },
+  {
+    "slug": "fifa-soccer",
+    "pantherscore": 63
+  },
+  {
+    "slug": "codecombat",
+    "pantherscore": 62
+  },
+  {
+    "slug": "mafia-ii",
+    "pantherscore": 54
+  },
+  {
+    "slug": "osu",
+    "pantherscore": 76
+  },
+  {
+    "slug": "ninchanese",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "candy-crush-saga",
+    "pantherscore": 89
+  },
+  {
+    "slug": "enigma-lateralgm",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "playir",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "hearthstone",
+    "pantherscore": 72
+  },
+  {
+    "slug": "vice",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "heroes-of-newerth",
+    "pantherscore": 16
+  },
+  {
+    "slug": "freezecrowd",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "stardew-valley",
+    "pantherscore": 74
+  },
+  {
+    "slug": "clash-royale",
+    "pantherscore": 66
+  },
+  {
+    "slug": "agar-io-clone",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cities-skylines",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bundle-stars",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "starbound",
+    "pantherscore": 67
+  },
+  {
+    "slug": "signal-private-messenger",
+    "pantherscore": 85
+  },
+  {
+    "slug": "heroes-of-the-storm",
+    "pantherscore": 67
+  },
+  {
+    "slug": "spotify",
+    "pantherscore": 68
+  },
+  {
+    "slug": "pidgin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "twitter",
+    "pantherscore": 36
+  },
+  {
+    "slug": "facebook",
+    "pantherscore": 30
+  },
+  {
+    "slug": "whatsapp",
+    "pantherscore": 35
+  },
+  {
+    "slug": "openvpn",
+    "pantherscore": 88
+  },
+  {
+    "slug": "shazam",
+    "pantherscore": 52
+  },
+  {
+    "slug": "soundcloud",
+    "pantherscore": 64
+  },
+  {
+    "slug": "reddit",
+    "pantherscore": 35
+  },
+  {
+    "slug": "sharex",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tumblr",
+    "pantherscore": 26
+  },
+  {
+    "slug": "mumble",
+    "pantherscore": 92
+  },
+  {
+    "slug": "flickr",
+    "pantherscore": 65
+  },
+  {
+    "slug": "tweetdeck",
+    "pantherscore": 36
+  },
+  {
+    "slug": "diaspora",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "adium",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "viber",
+    "pantherscore": 65
+  },
+  {
+    "slug": "instagram",
+    "pantherscore": 61
+  },
+  {
+    "slug": "mastodon",
+    "pantherscore": 95
+  },
+  {
+    "slug": "waze",
+    "pantherscore": 68
+  },
+  {
+    "slug": "digikam",
+    "pantherscore": 55
+  },
+  {
+    "slug": "wire",
+    "pantherscore": 91
+  },
+  {
+    "slug": "miranda-im",
+    "pantherscore": 91
+  },
+  {
+    "slug": "google-photos",
+    "pantherscore": 64
+  },
+  {
+    "slug": "foursquare",
+    "pantherscore": 68
+  },
+  {
+    "slug": "geogebra",
+    "pantherscore": 73
+  },
+  {
+    "slug": "linkedin",
+    "pantherscore": 40
+  },
+  {
+    "slug": "minds",
+    "pantherscore": 87
+  },
+  {
+    "slug": "imo",
+    "pantherscore": 64
+  },
+  {
+    "slug": "facebook-messenger",
+    "pantherscore": 69
+  },
+  {
+    "slug": "tixati",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "hootsuite",
+    "pantherscore": 75
+  },
+  {
+    "slug": "hexchat",
+    "pantherscore": 73
+  },
+  {
+    "slug": "blogger",
+    "pantherscore": 64
+  },
+  {
+    "slug": "pinterest",
+    "pantherscore": 47
+  },
+  {
+    "slug": "teamspeak",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "shotwell",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "helpcrunch",
+    "pantherscore": 55
+  },
+  {
+    "slug": "buffer",
+    "pantherscore": 68
+  },
+  {
+    "slug": "tonido",
+    "pantherscore": 54
+  },
+  {
+    "slug": "desura",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "nimbuzz",
+    "pantherscore": 55
+  },
+  {
+    "slug": "multcloud",
+    "pantherscore": 72
+  },
+  {
+    "slug": "gab",
+    "pantherscore": 62
+  },
+  {
+    "slug": "4shared",
+    "pantherscore": 72
+  },
+  {
+    "slug": "jamendo",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "google-voice",
+    "pantherscore": 63
+  },
+  {
+    "slug": "vkontakte",
+    "pantherscore": 37
+  },
+  {
+    "slug": "pinboard",
+    "pantherscore": 48
+  },
+  {
+    "slug": "medium",
+    "pantherscore": 76
+  },
+  {
+    "slug": "ring",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bloglovin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "linphone",
+    "pantherscore": 91
+  },
+  {
+    "slug": "discourse",
+    "pantherscore": 54
+  },
+  {
+    "slug": "gog-galaxy",
+    "pantherscore": 55
+  },
+  {
+    "slug": "retroshare",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "friendika",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "im",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "franz",
+    "pantherscore": 73
+  },
+  {
+    "slug": "line",
+    "pantherscore": 67
+  },
+  {
+    "slug": "bazqux-reader",
+    "pantherscore": 78
+  },
+  {
+    "slug": "cozy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tweetbot",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "rocket-chat",
+    "pantherscore": 90
+  },
+  {
+    "slug": "voat",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tagpacker",
+    "pantherscore": 65
+  },
+  {
+    "slug": "pinegrow-web-editor",
+    "pantherscore": 63
+  },
+  {
+    "slug": "grav",
+    "pantherscore": 79
+  },
+  {
+    "slug": "restyaboard",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "paperwork-by-twostairs",
+    "pantherscore": 51
+  },
+  {
+    "slug": "tikiwiki",
+    "pantherscore": 42
+  },
+  {
+    "slug": "pixelfed",
+    "pantherscore": 96
+  },
+  {
+    "slug": "zoho-mail",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mirc",
+    "pantherscore": 81
+  },
+  {
+    "slug": "disqus",
+    "pantherscore": 33
+  },
+  {
+    "slug": "sendinblue",
+    "pantherscore": 71
+  },
+  {
+    "slug": "tawk-to",
+    "pantherscore": 91
+  },
+  {
+    "slug": "mint",
+    "pantherscore": 56
+  },
+  {
+    "slug": "userlike",
+    "pantherscore": 80
+  },
+  {
+    "slug": "gnusocial",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "samepage",
+    "pantherscore": 50
+  },
+  {
+    "slug": "wechat",
+    "pantherscore": 75
+  },
+  {
+    "slug": "modx",
+    "pantherscore": 71
+  },
+  {
+    "slug": "mediagoblin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cloudbuckit",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "chatroulette",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "psi",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "jekyll",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "phpbb",
+    "pantherscore": 51
+  },
+  {
+    "slug": "lambda-test",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "irssi",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "echofon",
+    "pantherscore": 65
+  },
+  {
+    "slug": "conversations",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "chocolatey",
+    "pantherscore": 72
+  },
+  {
+    "slug": "steemit",
+    "pantherscore": 77
+  },
+  {
+    "slug": "imdb",
+    "pantherscore": 49
+  },
+  {
+    "slug": "bitcoin",
+    "pantherscore": 92
+  },
+  {
+    "slug": "gnucash",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "paypal",
+    "pantherscore": 68
+  },
+  {
+    "slug": "google-analytics",
+    "pantherscore": 64
+  },
+  {
+    "slug": "amazon",
+    "pantherscore": 45
+  },
+  {
+    "slug": "mailchimp",
+    "pantherscore": 57
+  },
+  {
+    "slug": "shopping-cart-elite",
+    "pantherscore": 50
+  },
+  {
+    "slug": "ebay",
+    "pantherscore": 40
+  },
+  {
+    "slug": "campayn",
+    "pantherscore": 52
+  },
+  {
+    "slug": "dokuwiki",
+    "pantherscore": 92
+  },
+  {
+    "slug": "goodreads",
+    "pantherscore": 39
+  },
+  {
+    "slug": "toggl",
+    "pantherscore": 58
+  },
+  {
+    "slug": "quire",
+    "pantherscore": 91
+  },
+  {
+    "slug": "mediawiki",
+    "pantherscore": 75
+  },
+  {
+    "slug": "omnifocus",
+    "pantherscore": 48
+  },
+  {
+    "slug": "freedcamp",
+    "pantherscore": 71
+  },
+  {
+    "slug": "mindmeister",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "countabout",
+    "pantherscore": 90
+  },
+  {
+    "slug": "flattr",
+    "pantherscore": 43
+  },
+  {
+    "slug": "kanboard",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "homebank",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "you-need-a-budget",
+    "pantherscore": 69
+  },
+  {
+    "slug": "freshdesk",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "openerp",
+    "pantherscore": 62
+  },
+  {
+    "slug": "gantter",
+    "pantherscore": 91
+  },
+  {
+    "slug": "platformly",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "launchpad",
+    "pantherscore": 53
+  },
+  {
+    "slug": "supportbee",
+    "pantherscore": 65
+  },
+  {
+    "slug": "metacritic",
+    "pantherscore": 44
+  },
+  {
+    "slug": "ganttproject",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "impresspages-cms",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "Concrete5",
+    "pantherscore": 65
+  },
+  {
+    "slug": "teambox",
+    "pantherscore": 70
+  },
+  {
+    "slug": "rotten-tomatoes",
+    "pantherscore": 68
+  },
+  {
+    "slug": "invgate-service-desk",
+    "pantherscore": 66
+  },
+  {
+    "slug": "meistertask",
+    "pantherscore": 56
+  },
+  {
+    "slug": "teston",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "aliexpress",
+    "pantherscore": 91
+  },
+  {
+    "slug": "uservoice",
+    "pantherscore": 67
+  },
+  {
+    "slug": "mindmanager",
+    "pantherscore": 67
+  },
+  {
+    "slug": "manuskript",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pph--project-portfolio-hub",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "erpnext",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "spiceworks",
+    "pantherscore": 68
+  },
+  {
+    "slug": "microsoft-project",
+    "pantherscore": 55
+  },
+  {
+    "slug": "fluxday",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "nirvana",
+    "pantherscore": 91
+  },
+  {
+    "slug": "zero-bs-crm-for-wordpress",
+    "pantherscore": 48
+  },
+  {
+    "slug": "paymo",
+    "pantherscore": 54
+  },
+  {
+    "slug": "squarespace",
+    "pantherscore": 69
+  },
+  {
+    "slug": "paperform",
+    "pantherscore": 41
+  },
+  {
+    "slug": "quintadb",
+    "pantherscore": 43
+  },
+  {
+    "slug": "upwork",
+    "pantherscore": 76
+  },
+  {
+    "slug": "sli-do",
+    "pantherscore": 71
+  },
+  {
+    "slug": "spekfy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "toptal",
+    "pantherscore": 59
+  },
+  {
+    "slug": "phabricator",
+    "pantherscore": 44
+  },
+  {
+    "slug": "openproject",
+    "pantherscore": 69
+  },
+  {
+    "slug": "taskulu",
+    "pantherscore": 87
+  },
+  {
+    "slug": "litecoin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "conceptdraw-mindmap",
+    "pantherscore": 63
+  },
+  {
+    "slug": "hubspot",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "clever-elements",
+    "pantherscore": 60
+  },
+  {
+    "slug": "invoiceplane",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "xwiki",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bric",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "humhub--social-network-kit",
+    "pantherscore": 55
+  },
+  {
+    "slug": "calendarbudget",
+    "pantherscore": 6
+  },
+  {
+    "slug": "my-storybook",
+    "pantherscore": 71
+  },
+  {
+    "slug": "hubzilla",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kanbantool",
+    "pantherscore": 54
+  },
+  {
+    "slug": "exo-platform",
+    "pantherscore": 55
+  },
+  {
+    "slug": "monero",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "opencart",
+    "pantherscore": 24
+  },
+  {
+    "slug": "plone",
+    "pantherscore": 48
+  },
+  {
+    "slug": "gnunet",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "osticket",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "fiverr",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "get-satisfaction",
+    "pantherscore": 72
+  },
+  {
+    "slug": "smartsupp",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "email-it--online-email-marketing-software",
+    "pantherscore": 46
+  },
+  {
+    "slug": "letterboxd",
+    "pantherscore": 43
+  },
+  {
+    "slug": "phraseexpander",
+    "pantherscore": 67
+  },
+  {
+    "slug": "lime-talk",
+    "pantherscore": 53
+  },
+  {
+    "slug": "ubirimi",
+    "pantherscore": 91
+  },
+  {
+    "slug": "prestashop",
+    "pantherscore": 60
+  },
+  {
+    "slug": "zendesk",
+    "pantherscore": 72
+  },
+  {
+    "slug": "userecho",
+    "pantherscore": 71
+  },
+  {
+    "slug": "salesflare",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "money-manager-ex",
+    "pantherscore": 65
+  },
+  {
+    "slug": "ora",
+    "pantherscore": 78
+  },
+  {
+    "slug": "getresponse",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mailerlite",
+    "pantherscore": 61
+  },
+  {
+    "slug": "avaza",
+    "pantherscore": 66
+  },
+  {
+    "slug": "projectlibre",
+    "pantherscore": 46
+  },
+  {
+    "slug": "dogecoin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "django-cms",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "awes-io",
+    "pantherscore": 50
+  },
+  {
+    "slug": "7-zip",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "teamviewer",
+    "pantherscore": 67
+  },
+  {
+    "slug": "ccleaner",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ubuntu",
+    "pantherscore": 33
+  },
+  {
+    "slug": "opera",
+    "pantherscore": 49
+  },
+  {
+    "slug": "handbrake",
+    "pantherscore": 83
+  },
+  {
+    "slug": "foobar2000",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "putty",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "rufus",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "winrar",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gparted",
+    "pantherscore": 70
+  },
+  {
+    "slug": "openssh",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "debian",
+    "pantherscore": 58
+  },
+  {
+    "slug": "windirstat",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "linux-mint",
+    "pantherscore": 24
+  },
+  {
+    "slug": "vivaldi-browser",
+    "pantherscore": 95
+  },
+  {
+    "slug": "android",
+    "pantherscore": 55
+  },
+  {
+    "slug": "process-explorer",
+    "pantherscore": 69
+  },
+  {
+    "slug": "unetbootin",
+    "pantherscore": 73
+  },
+  {
+    "slug": "launchy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "arch-linux",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "defraggler",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "daum-potplayer",
+    "pantherscore": 63
+  },
+  {
+    "slug": "ninite",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "recuva",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "android-market",
+    "pantherscore": 62
+  },
+  {
+    "slug": "cpu-z",
+    "pantherscore": 75
+  },
+  {
+    "slug": "wine",
+    "pantherscore": 89
+  },
+  {
+    "slug": "mac-os",
+    "pantherscore": 44
+  },
+  {
+    "slug": "portableappscom",
+    "pantherscore": 79
+  },
+  {
+    "slug": "safari",
+    "pantherscore": 34
+  },
+  {
+    "slug": "revo-uninstaller",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bleachbit",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "syncthing",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "peazip",
+    "pantherscore": 89
+  },
+  {
+    "slug": "freefilesync",
+    "pantherscore": 65
+  },
+  {
+    "slug": "speccy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wizard101",
+    "pantherscore": 55
+  },
+  {
+    "slug": "fedora",
+    "pantherscore": 71
+  },
+  {
+    "slug": "f-droid",
+    "pantherscore": 96
+  },
+  {
+    "slug": "gnome",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ffmpeg",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "etcher",
+    "pantherscore": 55
+  },
+  {
+    "slug": "rainmeter",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wget",
+    "pantherscore": 70
+  },
+  {
+    "slug": "mobaxterm",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "freecommander",
+    "pantherscore": 62
+  },
+  {
+    "slug": "bluestacks",
+    "pantherscore": 40
+  },
+  {
+    "slug": "dosbox",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "vmware-workstation",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "autoruns",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "glary-utilities",
+    "pantherscore": 72
+  },
+  {
+    "slug": "mplayer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "xfce",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kde",
+    "pantherscore": 96
+  },
+  {
+    "slug": "synergy",
+    "pantherscore": 61
+  },
+  {
+    "slug": "testdisk",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mpv",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "spacesniffer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "elementary-os",
+    "pantherscore": 90
+  },
+  {
+    "slug": "fences",
+    "pantherscore": 66
+  },
+  {
+    "slug": "filehippo",
+    "pantherscore": 44
+  },
+  {
+    "slug": "redshift",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "reactos",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "process-hacker",
+    "pantherscore": 57
+  },
+  {
+    "slug": "xubuntu",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "windows-media-player",
+    "pantherscore": 36
+  },
+  {
+    "slug": "sysinternals-suite",
+    "pantherscore": 69
+  },
+  {
+    "slug": "youtube-dl",
+    "pantherscore": 74
+  },
+  {
+    "slug": "airdroid",
+    "pantherscore": 79
+  },
+  {
+    "slug": "treesize",
+    "pantherscore": 69
+  },
+  {
+    "slug": "fman",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gpu-z",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kubuntu",
+    "pantherscore": 65
+  },
+  {
+    "slug": "vmware-player",
+    "pantherscore": 74
+  },
+  {
+    "slug": "hiren39s-bootcd",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "freebsd",
+    "pantherscore": 93
+  },
+  {
+    "slug": "lubuntu",
+    "pantherscore": 65
+  },
+  {
+    "slug": "acronis-true-image",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "multibootisos",
+    "pantherscore": 92
+  },
+  {
+    "slug": "rsync",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "htop",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "manjaro-linux",
+    "pantherscore": 59
+  },
+  {
+    "slug": "cygwin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "snipping-tool",
+    "pantherscore": 68
+  },
+  {
+    "slug": "open-hardware-monitor",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "midnight-commander",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kali-linux",
+    "pantherscore": 67
+  },
+  {
+    "slug": "windows-explorer",
+    "pantherscore": 36
+  },
+  {
+    "slug": "qemu",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "disk-drill",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "lineage-os",
+    "pantherscore": 92
+  },
+  {
+    "slug": "hwinfo32",
+    "pantherscore": 46
+  },
+  {
+    "slug": "crystaldiskinfo",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "appcleaner",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "directory-opus",
+    "pantherscore": 79
+  },
+  {
+    "slug": "docker",
+    "pantherscore": 48
+  },
+  {
+    "slug": "baobab",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "aria2",
+    "pantherscore": 74
+  },
+  {
+    "slug": "4k-video-downloader",
+    "pantherscore": 70
+  },
+  {
+    "slug": "auslogics-disk-defrag",
+    "pantherscore": 72
+  },
+  {
+    "slug": "universal-usb-installer",
+    "pantherscore": 92
+  },
+  {
+    "slug": "kitty",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "minitool-partition-wizard",
+    "pantherscore": 63
+  },
+  {
+    "slug": "time-machine",
+    "pantherscore": 33
+  },
+  {
+    "slug": "zabbix",
+    "pantherscore": 58
+  },
+  {
+    "slug": "cinnamon",
+    "pantherscore": 67
+  },
+  {
+    "slug": "easeus-partition-manager",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "far-manager",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "compiz",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "microsoft-paint",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gimp",
+    "pantherscore": 81
+  },
+  {
+    "slug": "adobe-photoshop",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "shapeshift",
+    "pantherscore": 69
+  },
+  {
+    "slug": "feedly",
+    "pantherscore": 57
+  },
+  {
+    "slug": "paintnet",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "jdownloader",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "irfanview",
+    "pantherscore": 94
+  },
+  {
+    "slug": "krita",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "downthemall",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "greenshot",
+    "pantherscore": 72
+  },
+  {
+    "slug": "avidemux",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "openshot",
+    "pantherscore": 69
+  },
+  {
+    "slug": "xnview",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "faststone-image-viewer",
+    "pantherscore": 92
+  },
+  {
+    "slug": "adobe-illustrator",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "fl-studio",
+    "pantherscore": 45
+  },
+  {
+    "slug": "mypaint",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "uphold-the-internet-of-money-",
+    "pantherscore": 39
+  },
+  {
+    "slug": "pixelmator",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pencil-project",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "adobe-lightroom",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "imgur",
+    "pantherscore": 30
+  },
+  {
+    "slug": "scribus",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "autodesk-pixlr",
+    "pantherscore": 62
+  },
+  {
+    "slug": "shutter",
+    "pantherscore": 57
+  },
+  {
+    "slug": "adobe-premiere-pro",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "deviantart",
+    "pantherscore": 59
+  },
+  {
+    "slug": "affinity-designer",
+    "pantherscore": 76
+  },
+  {
+    "slug": "freecad",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "photoscape",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sweet-home-3d",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "formatfactory",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "camtasia-studio",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "faststone-capture",
+    "pantherscore": 92
+  },
+  {
+    "slug": "snagit",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "lightshot",
+    "pantherscore": 83
+  },
+  {
+    "slug": "darktable",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "autocad",
+    "pantherscore": 66
+  },
+  {
+    "slug": "raw-therapee",
+    "pantherscore": 78
+  },
+  {
+    "slug": "animation-desk",
+    "pantherscore": 60
+  },
+  {
+    "slug": "riot---radical-image-optimization-tool",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "corel-draw",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "renamer",
+    "pantherscore": 92
+  },
+  {
+    "slug": "photopea",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "duplicate-cleaner",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pdf-reader",
+    "pantherscore": 60
+  },
+  {
+    "slug": "jing",
+    "pantherscore": 76
+  },
+  {
+    "slug": "cheese",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "imagemagick",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "hugin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "keynote",
+    "pantherscore": 34
+  },
+  {
+    "slug": "acdsee",
+    "pantherscore": 70
+  },
+  {
+    "slug": "caduntu",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "latex",
+    "pantherscore": 49
+  },
+  {
+    "slug": "icofx",
+    "pantherscore": 50
+  },
+  {
+    "slug": "painttool-sai",
+    "pantherscore": 93
+  },
+  {
+    "slug": "variety-wallpaper-changer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "abbyy-finereader",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "flamory",
+    "pantherscore": 88
+  },
+  {
+    "slug": "nomacs",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "maya",
+    "pantherscore": 66
+  },
+  {
+    "slug": "skitch",
+    "pantherscore": 60
+  },
+  {
+    "slug": "adobe-indesign",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "open-office-draw",
+    "pantherscore": 63
+  },
+  {
+    "slug": "jpegview",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "autodesk-sketchbook",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "photoshopcom-mobile",
+    "pantherscore": 46
+  },
+  {
+    "slug": "synfig",
+    "pantherscore": 36
+  },
+  {
+    "slug": "bitcommander",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "preview",
+    "pantherscore": 34
+  },
+  {
+    "slug": "3ds-max",
+    "pantherscore": 66
+  },
+  {
+    "slug": "imageglass",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "photofiltre",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "make-human",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "polarr",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "not-another-pdf-scanner-2",
+    "pantherscore": 91
+  },
+  {
+    "slug": "paint-shop-pro",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gthumb",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ashampoo-burning-studio",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "draft-sight",
+    "pantherscore": 60
+  },
+  {
+    "slug": "conceptdraw",
+    "pantherscore": 63
+  },
+  {
+    "slug": "icons8-lunacy",
+    "pantherscore": 89
+  },
+  {
+    "slug": "quickpic-android",
+    "pantherscore": 53
+  },
+  {
+    "slug": "wings-3d",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "org-mode",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "clip-studio-paint",
+    "pantherscore": 87
+  },
+  {
+    "slug": "sozi",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kicad",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "medibang-paint",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ezvid",
+    "pantherscore": 79
+  },
+  {
+    "slug": "stickies",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "moqups",
+    "pantherscore": 79
+  },
+  {
+    "slug": "volafile",
+    "pantherscore": 94
+  },
+  {
+    "slug": "alternativeto",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wikipedia",
+    "pantherscore": 63
+  },
+  {
+    "slug": "anki",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "stellarium",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "duolingo",
+    "pantherscore": 69
+  },
+  {
+    "slug": "khan-academy",
+    "pantherscore": 56
+  },
+  {
+    "slug": "stack-exchange",
+    "pantherscore": 74
+  },
+  {
+    "slug": "maxthon",
+    "pantherscore": 73
+  },
+  {
+    "slug": "speedcrunch",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "quora",
+    "pantherscore": 32
+  },
+  {
+    "slug": "kindle",
+    "pantherscore": 44
+  },
+  {
+    "slug": "gnu-octave",
+    "pantherscore": 70
+  },
+  {
+    "slug": "goldendict",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "grammarly-grammar-checker",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "memrise",
+    "pantherscore": 66
+  },
+  {
+    "slug": "mathematica",
+    "pantherscore": 44
+  },
+  {
+    "slug": "bingcom",
+    "pantherscore": 35
+  },
+  {
+    "slug": "sage",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "google-books",
+    "pantherscore": 62
+  },
+  {
+    "slug": "musicbrainz",
+    "pantherscore": 95
+  },
+  {
+    "slug": "google-sky-map",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "free-code-camp",
+    "pantherscore": 65
+  },
+  {
+    "slug": "w3schools",
+    "pantherscore": 67
+  },
+  {
+    "slug": "udemy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "celestia",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "slant",
+    "pantherscore": 51
+  },
+  {
+    "slug": "gogs-go-git-service-",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "libreoffice-math",
+    "pantherscore": 56
+  },
+  {
+    "slug": "raspberry-pi",
+    "pantherscore": 60
+  },
+  {
+    "slug": "texmaker",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "boinc",
+    "pantherscore": 77
+  },
+  {
+    "slug": "google-dictionary",
+    "pantherscore": 74
+  },
+  {
+    "slug": "scilab",
+    "pantherscore": 75
+  },
+  {
+    "slug": "nuclino",
+    "pantherscore": 78
+  },
+  {
+    "slug": "fritzing",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "scipy--numpy",
+    "pantherscore": 46
+  },
+  {
+    "slug": "slite",
+    "pantherscore": 93
+  },
+  {
+    "slug": "sololearn",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "jabref",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "udacity",
+    "pantherscore": 62
+  },
+  {
+    "slug": "basket",
+    "pantherscore": 76
+  },
+  {
+    "slug": "cleanmymac",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "dictionarycom",
+    "pantherscore": 46
+  },
+  {
+    "slug": "edx",
+    "pantherscore": 64
+  },
+  {
+    "slug": "linkedin-learning",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "exiftool",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wikibooks",
+    "pantherscore": 68
+  },
+  {
+    "slug": "swad",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ludwig-guru",
+    "pantherscore": 67
+  },
+  {
+    "slug": "moodle",
+    "pantherscore": 52
+  },
+  {
+    "slug": "maxima",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sci-hub",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "arduino-ide",
+    "pantherscore": 61
+  },
+  {
+    "slug": "wikia",
+    "pantherscore": 59
+  },
+  {
+    "slug": "quizlet",
+    "pantherscore": 64
+  },
+  {
+    "slug": "everipedia",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bookstack",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gnuplot",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "superuser",
+    "pantherscore": 58
+  },
+  {
+    "slug": "tutorialspoint",
+    "pantherscore": 66
+  },
+  {
+    "slug": "ultrasurf",
+    "pantherscore": 75
+  },
+  {
+    "slug": "how-to-geek",
+    "pantherscore": 51
+  },
+  {
+    "slug": "klavaro",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "poedit",
+    "pantherscore": 48
+  },
+  {
+    "slug": "deepl-translator",
+    "pantherscore": 64
+  },
+  {
+    "slug": "wordweb",
+    "pantherscore": 70
+  },
+  {
+    "slug": "edabit",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kiwix",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ahaslides",
+    "pantherscore": 50
+  },
+  {
+    "slug": "data-crow",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "questsoft-qtranslate",
+    "pantherscore": 50
+  },
+  {
+    "slug": "urban-dictionary",
+    "pantherscore": 32
+  },
+  {
+    "slug": "slimjet-web-browser",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wxmaxima",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "activepresenter",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "intercom-io",
+    "pantherscore": 47
+  },
+  {
+    "slug": "wiktionary",
+    "pantherscore": 59
+  },
+  {
+    "slug": "ankidroid",
+    "pantherscore": 78
+  },
+  {
+    "slug": "circuit-simulator",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wordreference",
+    "pantherscore": 35
+  },
+  {
+    "slug": "qalculate",
+    "pantherscore": 75
+  },
+  {
+    "slug": "pluralsight",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "paperpile",
+    "pantherscore": 54
+  },
+  {
+    "slug": "fxsolver",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "text-united",
+    "pantherscore": 55
+  },
+  {
+    "slug": "ted-ed",
+    "pantherscore": 60
+  },
+  {
+    "slug": "edraw-max",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "rosetta-stone",
+    "pantherscore": 42
+  },
+  {
+    "slug": "crowdin",
+    "pantherscore": 93
+  },
+  {
+    "slug": "albert",
+    "pantherscore": 75
+  },
+  {
+    "slug": "artha",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "po-editor",
+    "pantherscore": 76
+  },
+  {
+    "slug": "maple",
+    "pantherscore": 77
+  },
+  {
+    "slug": "papers",
+    "pantherscore": 72
+  },
+  {
+    "slug": "tatoeba",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bower",
+    "pantherscore": 51
+  },
+  {
+    "slug": "apertium",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "geenio",
+    "pantherscore": 57
+  },
+  {
+    "slug": "code-org",
+    "pantherscore": 68
+  },
+  {
+    "slug": "pspp",
+    "pantherscore": 70
+  },
+  {
+    "slug": "google-calculator",
+    "pantherscore": 61
+  },
+  {
+    "slug": "stardict",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "transifex",
+    "pantherscore": 53
+  },
+  {
+    "slug": "idisplay",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wikiversity",
+    "pantherscore": 67
+  },
+  {
+    "slug": "ethercalc",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cynin",
+    "pantherscore": 49
+  },
+  {
+    "slug": "mythware",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kahoot",
+    "pantherscore": 45
+  },
+  {
+    "slug": "google-scholar",
+    "pantherscore": 62
+  },
+  {
+    "slug": "gns3",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "onesky",
+    "pantherscore": 68
+  },
+  {
+    "slug": "lastpass",
+    "pantherscore": 67
+  },
+  {
+    "slug": "tor",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "keepass",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ublock-origin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "duckduckgo",
+    "pantherscore": 84
+  },
+  {
+    "slug": "truecrypt",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "avast-home-edition",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wireshark",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "malwarebytes-anti-malware",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mega",
+    "pantherscore": 59
+  },
+  {
+    "slug": "spideroak",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tor-browser",
+    "pantherscore": 98
+  },
+  {
+    "slug": "spybot-sd",
+    "pantherscore": 48
+  },
+  {
+    "slug": "avira-antivir-personal",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "brave",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "hotspot-shield",
+    "pantherscore": 70
+  },
+  {
+    "slug": "chrome-remote-desktop",
+    "pantherscore": 64
+  },
+  {
+    "slug": "virustotal",
+    "pantherscore": 69
+  },
+  {
+    "slug": "sandboxie",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ghostery",
+    "pantherscore": 63
+  },
+  {
+    "slug": "veracrypt",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "palemoon",
+    "pantherscore": 88
+  },
+  {
+    "slug": "avg-anti-virus",
+    "pantherscore": 56
+  },
+  {
+    "slug": "ommwriter",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wot",
+    "pantherscore": 81
+  },
+  {
+    "slug": "nod32",
+    "pantherscore": 46
+  },
+  {
+    "slug": "comodo-internet-security",
+    "pantherscore": 57
+  },
+  {
+    "slug": "duplicati",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "zenmate",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "firefox-sync",
+    "pantherscore": 44
+  },
+  {
+    "slug": "privacy-badger",
+    "pantherscore": 79
+  },
+  {
+    "slug": "keepassxc",
+    "pantherscore": 96
+  },
+  {
+    "slug": "psiphon",
+    "pantherscore": 75
+  },
+  {
+    "slug": "keepassdroid",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "hamachi",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cyberghost",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ublock",
+    "pantherscore": 92
+  },
+  {
+    "slug": "clam-antivirus",
+    "pantherscore": 70
+  },
+  {
+    "slug": "dolphin-hd",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "adwcleaner",
+    "pantherscore": 34
+  },
+  {
+    "slug": "i2p",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "authy",
+    "pantherscore": 69
+  },
+  {
+    "slug": "reboot-restore-rx",
+    "pantherscore": 67
+  },
+  {
+    "slug": "comodo-firewall-pro",
+    "pantherscore": 57
+  },
+  {
+    "slug": "avg-pc-tuneup",
+    "pantherscore": 56
+  },
+  {
+    "slug": "kaspersky-anti-virus",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "prey",
+    "pantherscore": 67
+  },
+  {
+    "slug": "auslogic-boostspeed",
+    "pantherscore": 72
+  },
+  {
+    "slug": "bandizip",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "startpage",
+    "pantherscore": 81
+  },
+  {
+    "slug": "photorec",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "umatrix",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "turtl",
+    "pantherscore": 90
+  },
+  {
+    "slug": "eraser",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "teamdrive",
+    "pantherscore": 76
+  },
+  {
+    "slug": "glasswire",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "terms-of-service-didn-t-read",
+    "pantherscore": 93
+  },
+  {
+    "slug": "goodsync",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gnupg",
+    "pantherscore": 74
+  },
+  {
+    "slug": "cloudflare",
+    "pantherscore": 72
+  },
+  {
+    "slug": "disconnect",
+    "pantherscore": 92
+  },
+  {
+    "slug": "tunnelbear",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "yahoo-mail",
+    "pantherscore": 36
+  },
+  {
+    "slug": "superantispyware",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "adguard",
+    "pantherscore": 89
+  },
+  {
+    "slug": "windows-defender",
+    "pantherscore": 36
+  },
+  {
+    "slug": "little-snitch",
+    "pantherscore": 84
+  },
+  {
+    "slug": "mailpile",
+    "pantherscore": 52
+  },
+  {
+    "slug": "yacy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "privacytools-io",
+    "pantherscore": 100
+  },
+  {
+    "slug": "opendns",
+    "pantherscore": 65
+  },
+  {
+    "slug": "xbmc-media-center",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "hidemyass-vpn",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "keepass2android-offline",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "prism-break",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "clamwin",
+    "pantherscore": 46
+  },
+  {
+    "slug": "deep-freeze",
+    "pantherscore": 67
+  },
+  {
+    "slug": "protonvpn",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "rollback-rx",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "techcrunch",
+    "pantherscore": 58
+  },
+  {
+    "slug": "pcloud",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "fastcopy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "dashlane",
+    "pantherscore": 46
+  },
+  {
+    "slug": "keeweb",
+    "pantherscore": 71
+  },
+  {
+    "slug": "let-s-encrypt",
+    "pantherscore": 87
+  },
+  {
+    "slug": "roboform",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "icloud",
+    "pantherscore": 34
+  },
+  {
+    "slug": "filecloud",
+    "pantherscore": 61
+  },
+  {
+    "slug": "bitport-io",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "youtube",
+    "pantherscore": 63
+  },
+  {
+    "slug": "mpc-hc",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "itunes",
+    "pantherscore": 44
+  },
+  {
+    "slug": "winamp",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "plex",
+    "pantherscore": 44
+  },
+  {
+    "slug": "open-broadcaster-software",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mediamonkey",
+    "pantherscore": 90
+  },
+  {
+    "slug": "the-kmplayer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "popcorn-time",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "netbalancer",
+    "pantherscore": 77
+  },
+  {
+    "slug": "netflix",
+    "pantherscore": 64
+  },
+  {
+    "slug": "free-download-manager",
+    "pantherscore": 79
+  },
+  {
+    "slug": "amarok",
+    "pantherscore": 96
+  },
+  {
+    "slug": "smplayer",
+    "pantherscore": 60
+  },
+  {
+    "slug": "kdenlive",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "vimeo",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "opera-mini",
+    "pantherscore": 49
+  },
+  {
+    "slug": "k-lite-codec-pack",
+    "pantherscore": 75
+  },
+  {
+    "slug": "google-play-music",
+    "pantherscore": 61
+  },
+  {
+    "slug": "freemake-video-converter",
+    "pantherscore": 60
+  },
+  {
+    "slug": "internet-download-manager",
+    "pantherscore": 49
+  },
+  {
+    "slug": "downloadhelper",
+    "pantherscore": 63
+  },
+  {
+    "slug": "mediahuman-youtube-to-mp3-converter",
+    "pantherscore": 69
+  },
+  {
+    "slug": "gom-player",
+    "pantherscore": 46
+  },
+  {
+    "slug": "shotcut",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "deezer",
+    "pantherscore": 56
+  },
+  {
+    "slug": "aktuell",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sony-vegas",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "seedr",
+    "pantherscore": 93
+  },
+  {
+    "slug": "mx-player",
+    "pantherscore": 80
+  },
+  {
+    "slug": "tunein-radio",
+    "pantherscore": 49
+  },
+  {
+    "slug": "newpipe",
+    "pantherscore": 81
+  },
+  {
+    "slug": "mkvtoolnix",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "davinci-resolve",
+    "pantherscore": 58
+  },
+  {
+    "slug": "sonarr",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "hulu",
+    "pantherscore": 40
+  },
+  {
+    "slug": "windows-movie-maker",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "stremio",
+    "pantherscore": 47
+  },
+  {
+    "slug": "uget",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "adobe-after-effects",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "openhab",
+    "pantherscore": 65
+  },
+  {
+    "slug": "dailymotion",
+    "pantherscore": 30
+  },
+  {
+    "slug": "quod-libet",
+    "pantherscore": 79
+  },
+  {
+    "slug": "lightworks",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "peertube",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "media-browser",
+    "pantherscore": 47
+  },
+  {
+    "slug": "quicktime",
+    "pantherscore": 42
+  },
+  {
+    "slug": "mpc-be",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "frostwire",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mediainfo",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "webtorrent",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "universal-media-server",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "imovie",
+    "pantherscore": 44
+  },
+  {
+    "slug": "freemake-video-downloader",
+    "pantherscore": 58
+  },
+  {
+    "slug": "simkl-tv-tracker",
+    "pantherscore": 75
+  },
+  {
+    "slug": "write-on-video",
+    "pantherscore": 60
+  },
+  {
+    "slug": "youtubedlg",
+    "pantherscore": 71
+  },
+  {
+    "slug": "mediacoder",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "twitch",
+    "pantherscore": 29
+  },
+  {
+    "slug": "subtitle-edit",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "totem",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bandicam",
+    "pantherscore": 92
+  },
+  {
+    "slug": "citavi",
+    "pantherscore": 57
+  },
+  {
+    "slug": "splayer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bitchute",
+    "pantherscore": 82
+  },
+  {
+    "slug": "trakt",
+    "pantherscore": 92
+  },
+  {
+    "slug": "keepvid",
+    "pantherscore": 78
+  },
+  {
+    "slug": "easytag",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "msi-afterburner",
+    "pantherscore": 51
+  },
+  {
+    "slug": "natron",
+    "pantherscore": 68
+  },
+  {
+    "slug": "makemkv",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "butter-project",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "xmedia-recode",
+    "pantherscore": 91
+  },
+  {
+    "slug": "nomachine",
+    "pantherscore": 80
+  },
+  {
+    "slug": "koofr",
+    "pantherscore": 76
+  },
+  {
+    "slug": "final-cut-pro",
+    "pantherscore": 44
+  },
+  {
+    "slug": "eagleget",
+    "pantherscore": 78
+  },
+  {
+    "slug": "simplescreenrecorder",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "subsonic",
+    "pantherscore": 65
+  },
+  {
+    "slug": "gcstar",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "xtreme-download-manager",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "any-video-converter",
+    "pantherscore": 90
+  },
+  {
+    "slug": "show-box",
+    "pantherscore": 95
+  },
+  {
+    "slug": "burnaware",
+    "pantherscore": 74
+  },
+  {
+    "slug": "aimp",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mythtv",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "osmc",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pitivi",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "splash",
+    "pantherscore": 57
+  },
+  {
+    "slug": "download-videos-",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "audacity",
+    "pantherscore": 17
+  },
+  {
+    "slug": "lastfm",
+    "pantherscore": 22
+  },
+  {
+    "slug": "clementine",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pandora-radio",
+    "pantherscore": 58
+  },
+  {
+    "slug": "cdburnerxp",
+    "pantherscore": 49
+  },
+  {
+    "slug": "flac",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "simkl-radio",
+    "pantherscore": 72
+  },
+  {
+    "slug": "musicbee",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "lmms",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "rhythmbox",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "musicbrainz-picard",
+    "pantherscore": 92
+  },
+  {
+    "slug": "lame",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ogg-vorbis",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "soundhound",
+    "pantherscore": 62
+  },
+  {
+    "slug": "k3b",
+    "pantherscore": 96
+  },
+  {
+    "slug": "garageband",
+    "pantherscore": 44
+  },
+  {
+    "slug": "audacious",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "nero-burning-rom",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cdex",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "exact-audio-copy-",
+    "pantherscore": 88
+  },
+  {
+    "slug": "ardour",
+    "pantherscore": 63
+  },
+  {
+    "slug": "pocket-casts",
+    "pantherscore": 63
+  },
+  {
+    "slug": "musescore",
+    "pantherscore": 52
+  },
+  {
+    "slug": "deadbeef",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "power-iso",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tubemate",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bonkenc",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "reaper",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "adobe-audition",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ableton-live",
+    "pantherscore": 56
+  },
+  {
+    "slug": "noteledge-cloud",
+    "pantherscore": 60
+  },
+  {
+    "slug": "tagscanner",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mixxx",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "copytrans-manager",
+    "pantherscore": 64
+  },
+  {
+    "slug": "librefm",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "vox",
+    "pantherscore": 37
+  },
+  {
+    "slug": "tuxguitar",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "exaile",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "reason",
+    "pantherscore": 57
+  },
+  {
+    "slug": "burn",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "logic-pro",
+    "pantherscore": 34
+  },
+  {
+    "slug": "gpodder",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sharepod",
+    "pantherscore": 75
+  },
+  {
+    "slug": "poweramp",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "volume2",
+    "pantherscore": 55
+  },
+  {
+    "slug": "snaptube",
+    "pantherscore": 62
+  },
+  {
+    "slug": "xmplay",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ocenaudio",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sony-sound-forge",
+    "pantherscore": 64
+  },
+  {
+    "slug": "bandcamp",
+    "pantherscore": 64
+  },
+  {
+    "slug": "minilyrics",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mp3directcut",
+    "pantherscore": 97
+  },
+  {
+    "slug": "digitalocean",
+    "pantherscore": 65
+  },
+  {
+    "slug": "balabolka",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cubase",
+    "pantherscore": 67
+  },
+  {
+    "slug": "apple-music",
+    "pantherscore": 34
+  },
+  {
+    "slug": "mp3gain",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wiznote",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "musixmatch",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "airfoil",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "x-lossless-decoder-xld",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "doubletwist",
+    "pantherscore": 70
+  },
+  {
+    "slug": "audiotool",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "clipgrab",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "antennapod",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "radio-sure",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "strawberry",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tune-up",
+    "pantherscore": 61
+  },
+  {
+    "slug": "yubo",
+    "pantherscore": 69
+  },
+  {
+    "slug": "nimbus-note",
+    "pantherscore": 73
+  },
+  {
+    "slug": "discogs",
+    "pantherscore": 64
+  },
+  {
+    "slug": "free-youtube-download",
+    "pantherscore": 79
+  },
+  {
+    "slug": "cloudconvert",
+    "pantherscore": 92
+  },
+  {
+    "slug": "dbpoweramp",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "jango",
+    "pantherscore": 62
+  },
+  {
+    "slug": "bitwig-studio",
+    "pantherscore": 67
+  },
+  {
+    "slug": "algolia",
+    "pantherscore": 75
+  },
+  {
+    "slug": "google-maps",
+    "pantherscore": 61
+  },
+  {
+    "slug": "google-search",
+    "pantherscore": 61
+  },
+  {
+    "slug": "thepiratebay",
+    "pantherscore": 39
+  },
+  {
+    "slug": "wolfram-alpha",
+    "pantherscore": 47
+  },
+  {
+    "slug": "netvibes",
+    "pantherscore": 69
+  },
+  {
+    "slug": "tineye",
+    "pantherscore": 43
+  },
+  {
+    "slug": "wayback-machine",
+    "pantherscore": 62
+  },
+  {
+    "slug": "demonoid",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "google-images",
+    "pantherscore": 63
+  },
+  {
+    "slug": "app-store",
+    "pantherscore": 44
+  },
+  {
+    "slug": "ohloh",
+    "pantherscore": 53
+  },
+  {
+    "slug": "searx",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pointsprizes",
+    "pantherscore": 57
+  },
+  {
+    "slug": "filehorse-com",
+    "pantherscore": 61
+  },
+  {
+    "slug": "yandex-mail",
+    "pantherscore": 65
+  },
+  {
+    "slug": "similarsites",
+    "pantherscore": 76
+  },
+  {
+    "slug": "softpedia",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "software-informer",
+    "pantherscore": 72
+  },
+  {
+    "slug": "cpanel",
+    "pantherscore": 67
+  },
+  {
+    "slug": "distrowatch",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "qwant",
+    "pantherscore": 83
+  },
+  {
+    "slug": "dynalist",
+    "pantherscore": 35
+  },
+  {
+    "slug": "maildrop-cc",
+    "pantherscore": 86
+  },
+  {
+    "slug": "ubuntu-software-centre",
+    "pantherscore": 51
+  },
+  {
+    "slug": "yandex",
+    "pantherscore": 65
+  },
+  {
+    "slug": "forklift",
+    "pantherscore": 57
+  },
+  {
+    "slug": "google-forms",
+    "pantherscore": 61
+  },
+  {
+    "slug": "ecosia",
+    "pantherscore": 48
+  },
+  {
+    "slug": "limesurvey",
+    "pantherscore": 66
+  },
+  {
+    "slug": "kickstarter",
+    "pantherscore": 37
+  },
+  {
+    "slug": "gmx",
+    "pantherscore": 78
+  },
+  {
+    "slug": "yelp",
+    "pantherscore": 64
+  },
+  {
+    "slug": "hitabs",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "library-genesis",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kopete",
+    "pantherscore": 96
+  },
+  {
+    "slug": "clearos",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "torrentproject",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "riseup",
+    "pantherscore": 78
+  },
+  {
+    "slug": "typeform",
+    "pantherscore": 39
+  },
+  {
+    "slug": "presearch",
+    "pantherscore": 46
+  },
+  {
+    "slug": "mailinator",
+    "pantherscore": 59
+  },
+  {
+    "slug": "gboard",
+    "pantherscore": 79
+  },
+  {
+    "slug": "uptodown",
+    "pantherscore": 81
+  },
+  {
+    "slug": "zentyal",
+    "pantherscore": 57
+  },
+  {
+    "slug": "vendder",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "posteo",
+    "pantherscore": 96
+  },
+  {
+    "slug": "protopage",
+    "pantherscore": 66
+  },
+  {
+    "slug": "appcrawlr",
+    "pantherscore": 71
+  },
+  {
+    "slug": "rainloop",
+    "pantherscore": 91
+  },
+  {
+    "slug": "serpstat",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "fossdroid",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "fastmail",
+    "pantherscore": 77
+  },
+  {
+    "slug": "microsoft-azure",
+    "pantherscore": 36
+  },
+  {
+    "slug": "disconnect-search",
+    "pantherscore": 85
+  },
+  {
+    "slug": "mediaportal",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "serverpilot",
+    "pantherscore": 80
+  },
+  {
+    "slug": "amazon-ec2-elastic-compute-cloud",
+    "pantherscore": 54
+  },
+  {
+    "slug": "craigslist",
+    "pantherscore": 57
+  },
+  {
+    "slug": "camelcamelcamel",
+    "pantherscore": 68
+  },
+  {
+    "slug": "miranda-ng",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "awesome-new-tab-page",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "picreel",
+    "pantherscore": 77
+  },
+  {
+    "slug": "site-pro",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "responster",
+    "pantherscore": 71
+  },
+  {
+    "slug": "bitninja-io",
+    "pantherscore": 50
+  },
+  {
+    "slug": "open-source-software-directory",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "soapui",
+    "pantherscore": 59
+  },
+  {
+    "slug": "libre-projects",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kolab-now",
+    "pantherscore": 94
+  },
+  {
+    "slug": "justwatch",
+    "pantherscore": 20
+  },
+  {
+    "slug": "wallhaven",
+    "pantherscore": 86
+  },
+  {
+    "slug": "iconfinder",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cnet",
+    "pantherscore": 40
+  },
+  {
+    "slug": "namecheap",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "qlearly",
+    "pantherscore": 63
+  },
+  {
+    "slug": "primewire",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "1mobile",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "google-groups",
+    "pantherscore": 61
+  },
+  {
+    "slug": "contactology",
+    "pantherscore": 62
+  },
+  {
+    "slug": "gmelius",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wibki",
+    "pantherscore": 55
+  },
+  {
+    "slug": "my-yahoo",
+    "pantherscore": 40
+  },
+  {
+    "slug": "virtualbox",
+    "pantherscore": 92
+  },
+  {
+    "slug": "transmission",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "http-file-server",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "everything",
+    "pantherscore": 92
+  },
+  {
+    "slug": "speed-test",
+    "pantherscore": 59
+  },
+  {
+    "slug": "logmein",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "remote-desktop-connection",
+    "pantherscore": 70
+  },
+  {
+    "slug": "anydesk",
+    "pantherscore": 66
+  },
+  {
+    "slug": "ultra-vnc",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "nmap",
+    "pantherscore": 88
+  },
+  {
+    "slug": "tightvnc",
+    "pantherscore": 61
+  },
+  {
+    "slug": "networx",
+    "pantherscore": 73
+  },
+  {
+    "slug": "mremoteng",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "remmina",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "inssider",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "conky",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "realvnc",
+    "pantherscore": 52
+  },
+  {
+    "slug": "connectify",
+    "pantherscore": 72
+  },
+  {
+    "slug": "port-monitor",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bittorrent",
+    "pantherscore": 17
+  },
+  {
+    "slug": "appbeat",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "parallels-desktop",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "logmein-express",
+    "pantherscore": 63
+  },
+  {
+    "slug": "ajenti",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "nox-app-player",
+    "pantherscore": 93
+  },
+  {
+    "slug": "plesk",
+    "pantherscore": 57
+  },
+  {
+    "slug": "mucommander",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "netspot",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "fing",
+    "pantherscore": 66
+  },
+  {
+    "slug": "serva32-64",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "vmware-fusion",
+    "pantherscore": 74
+  },
+  {
+    "slug": "docfetcher",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "uptimerobot",
+    "pantherscore": 41
+  },
+  {
+    "slug": "memu",
+    "pantherscore": 73
+  },
+  {
+    "slug": "connectbot",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "network-inventory-advisor",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "angry-ip-scanner",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "genymotion",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cameyo",
+    "pantherscore": 58
+  },
+  {
+    "slug": "nagios",
+    "pantherscore": 63
+  },
+  {
+    "slug": "vagrant",
+    "pantherscore": 73
+  },
+  {
+    "slug": "zenmap",
+    "pantherscore": 91
+  },
+  {
+    "slug": "vm-manager",
+    "pantherscore": 56
+  },
+  {
+    "slug": "kvm-kernel-based-virtual-machine-",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wifi-analyzer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "datadog",
+    "pantherscore": 55
+  },
+  {
+    "slug": "ansible",
+    "pantherscore": 64
+  },
+  {
+    "slug": "proxmox-virtual-environment",
+    "pantherscore": 46
+  },
+  {
+    "slug": "netlimiter",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tigervnc",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "dyndns",
+    "pantherscore": 57
+  },
+  {
+    "slug": "zoc",
+    "pantherscore": 70
+  },
+  {
+    "slug": "ammyy-admin",
+    "pantherscore": 2
+  },
+  {
+    "slug": "xen",
+    "pantherscore": 78
+  },
+  {
+    "slug": "dart",
+    "pantherscore": 61
+  },
+  {
+    "slug": "qubes-os",
+    "pantherscore": 93
+  },
+  {
+    "slug": "moon-reader",
+    "pantherscore": 49
+  },
+  {
+    "slug": "sqlite-database-browser",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pandora-fms",
+    "pantherscore": 67
+  },
+  {
+    "slug": "samba",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pingdom",
+    "pantherscore": 62
+  },
+  {
+    "slug": "google-public-dns",
+    "pantherscore": 74
+  },
+  {
+    "slug": "mouseflow",
+    "pantherscore": 72
+  },
+  {
+    "slug": "remote-desktop-manager",
+    "pantherscore": 62
+  },
+  {
+    "slug": "unified-remote",
+    "pantherscore": 72
+  },
+  {
+    "slug": "vmware-esxi",
+    "pantherscore": 74
+  },
+  {
+    "slug": "purevpn",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "robo-3t",
+    "pantherscore": 52
+  },
+  {
+    "slug": "lighttpd",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "advanced-ip-scanner",
+    "pantherscore": 20
+  },
+  {
+    "slug": "pgadmin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "rabbit",
+    "pantherscore": 53
+  },
+  {
+    "slug": "splashtop-remote-desktop",
+    "pantherscore": 64
+  },
+  {
+    "slug": "radmin",
+    "pantherscore": 43
+  },
+  {
+    "slug": "zerotier-one",
+    "pantherscore": 92
+  },
+  {
+    "slug": "nirlauncher",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "goaccess",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "no-ip",
+    "pantherscore": 65
+  },
+  {
+    "slug": "piratepad",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tunnelier-bitvise",
+    "pantherscore": 61
+  },
+  {
+    "slug": "windows-firewall-control",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "scrcpy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "inspectlet",
+    "pantherscore": 42
+  },
+  {
+    "slug": "tcpdump",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "alexa",
+    "pantherscore": 46
+  },
+  {
+    "slug": "grafana",
+    "pantherscore": 92
+  },
+  {
+    "slug": "inoreader",
+    "pantherscore": 72
+  },
+  {
+    "slug": "pocket",
+    "pantherscore": 37
+  },
+  {
+    "slug": "newsblur",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "the-old-reader",
+    "pantherscore": 91
+  },
+  {
+    "slug": "flipboard",
+    "pantherscore": 56
+  },
+  {
+    "slug": "tiny-tiny-rss",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "reeder",
+    "pantherscore": 68
+  },
+  {
+    "slug": "pushbullet",
+    "pantherscore": 79
+  },
+  {
+    "slug": "commafeed",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "product-hunt",
+    "pantherscore": 51
+  },
+  {
+    "slug": "feedbin",
+    "pantherscore": 82
+  },
+  {
+    "slug": "instapaper",
+    "pantherscore": 86
+  },
+  {
+    "slug": "wallabag",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "fbreader",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "feedspot",
+    "pantherscore": 85
+  },
+  {
+    "slug": "quiterss",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "liferea",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sabnzbd",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "feed-wrangler",
+    "pantherscore": 91
+  },
+  {
+    "slug": "project-gutenberg",
+    "pantherscore": 54
+  },
+  {
+    "slug": "hacker-news",
+    "pantherscore": 68
+  },
+  {
+    "slug": "cdisplayex",
+    "pantherscore": 95
+  },
+  {
+    "slug": "news360",
+    "pantherscore": 78
+  },
+  {
+    "slug": "sigil",
+    "pantherscore": 96
+  },
+  {
+    "slug": "putio",
+    "pantherscore": 58
+  },
+  {
+    "slug": "claws-mail",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ibooks",
+    "pantherscore": 44
+  },
+  {
+    "slug": "freshrss",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ia-writer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "feedreader",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "etherpad-lite",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "honeyview",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "evernote-web-clipper",
+    "pantherscore": 32
+  },
+  {
+    "slug": "reddit-enhancement-suite",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cryptpad",
+    "pantherscore": 39
+  },
+  {
+    "slug": "google-news",
+    "pantherscore": 74
+  },
+  {
+    "slug": "internet-archive",
+    "pantherscore": 61
+  },
+  {
+    "slug": "haroopad",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bluegriffon",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cool-reader",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "beyondpod",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "couchpotato",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bibisco",
+    "pantherscore": 90
+  },
+  {
+    "slug": "digg",
+    "pantherscore": 44
+  },
+  {
+    "slug": "podcast-addict",
+    "pantherscore": 67
+  },
+  {
+    "slug": "my-anime-list",
+    "pantherscore": 51
+  },
+  {
+    "slug": "scribd",
+    "pantherscore": 41
+  },
+  {
+    "slug": "ulysses",
+    "pantherscore": 62
+  },
+  {
+    "slug": "delicious-library",
+    "pantherscore": 41
+  },
+  {
+    "slug": "ywriter",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "dolphin",
+    "pantherscore": 96
+  },
+  {
+    "slug": "microsoft-publisher",
+    "pantherscore": 69
+  },
+  {
+    "slug": "miniflux",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "allmynotes",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gingko",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "feedbro",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "netnewswire",
+    "pantherscore": 92
+  },
+  {
+    "slug": "polar-1",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "nuzzel",
+    "pantherscore": 50
+  },
+  {
+    "slug": "tex-live",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "goodreader",
+    "pantherscore": 89
+  },
+  {
+    "slug": "google-alerts",
+    "pantherscore": 61
+  },
+  {
+    "slug": "brief",
+    "pantherscore": 84
+  },
+  {
+    "slug": "appshopper",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "serviio",
+    "pantherscore": 65
+  },
+  {
+    "slug": "selfoss",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "writelatex",
+    "pantherscore": 54
+  },
+  {
+    "slug": "yacreader",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "biglybt",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "qpdfview",
+    "pantherscore": 66
+  },
+  {
+    "slug": "blogtrottr",
+    "pantherscore": 88
+  },
+  {
+    "slug": "online-convert",
+    "pantherscore": 61
+  },
+  {
+    "slug": "update-scanner",
+    "pantherscore": 75
+  },
+  {
+    "slug": "feeder",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "vienna",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "livejournal",
+    "pantherscore": 10
+  },
+  {
+    "slug": "utorrent",
+    "pantherscore": 26
+  },
+  {
+    "slug": "filezilla",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "1337x",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "qbittorrent",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "microsoft-onedrive",
+    "pantherscore": 40
+  },
+  {
+    "slug": "deluge",
+    "pantherscore": 89
+  },
+  {
+    "slug": "mediafire",
+    "pantherscore": 63
+  },
+  {
+    "slug": "bittorrent-sync",
+    "pantherscore": 19
+  },
+  {
+    "slug": "vuze",
+    "pantherscore": 53
+  },
+  {
+    "slug": "webstorm",
+    "pantherscore": 58
+  },
+  {
+    "slug": "kickass-torrents",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pyload",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "yandexdisk",
+    "pantherscore": 65
+  },
+  {
+    "slug": "transmit",
+    "pantherscore": 77
+  },
+  {
+    "slug": "curl",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "emule",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "freenet",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "syncback",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ipfs",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ajaxplorer",
+    "pantherscore": 58
+  },
+  {
+    "slug": "sparkleshare",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "soulseek",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "adobe-flash",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "adaway",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "send-anywhere",
+    "pantherscore": 89
+  },
+  {
+    "slug": "rarbg",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wetransfer",
+    "pantherscore": 58
+  },
+  {
+    "slug": "ea-origin",
+    "pantherscore": 65
+  },
+  {
+    "slug": "rtorrent",
+    "pantherscore": 71
+  },
+  {
+    "slug": "filezilla-server",
+    "pantherscore": 61
+  },
+  {
+    "slug": "ktorrent",
+    "pantherscore": 96
+  },
+  {
+    "slug": "zeronet",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tresorit",
+    "pantherscore": 56
+  },
+  {
+    "slug": "webdrive",
+    "pantherscore": 91
+  },
+  {
+    "slug": "owndrive",
+    "pantherscore": 90
+  },
+  {
+    "slug": "freenas",
+    "pantherscore": 72
+  },
+  {
+    "slug": "waterfox",
+    "pantherscore": 74
+  },
+  {
+    "slug": "windscribe",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "adblock-plus",
+    "pantherscore": 75
+  },
+  {
+    "slug": "chromium",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "xmarks",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "greasemonkey",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "https-everywhere",
+    "pantherscore": 79
+  },
+  {
+    "slug": "adblock-for-chrome",
+    "pantherscore": 73
+  },
+  {
+    "slug": "httrack",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "zotero",
+    "pantherscore": 83
+  },
+  {
+    "slug": "diigo",
+    "pantherscore": 90
+  },
+  {
+    "slug": "midori",
+    "pantherscore": 87
+  },
+  {
+    "slug": "clover",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "nightly",
+    "pantherscore": 44
+  },
+  {
+    "slug": "bit-ly",
+    "pantherscore": 59
+  },
+  {
+    "slug": "srware-iron",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mozilla-pdf-viewer",
+    "pantherscore": 73
+  },
+  {
+    "slug": "qupzilla",
+    "pantherscore": 96
+  },
+  {
+    "slug": "chrome-os",
+    "pantherscore": 63
+  },
+  {
+    "slug": "mozilla-add-ons",
+    "pantherscore": 60
+  },
+  {
+    "slug": "postman",
+    "pantherscore": 56
+  },
+  {
+    "slug": "google-bookmarks",
+    "pantherscore": 61
+  },
+  {
+    "slug": "chrome-web-store",
+    "pantherscore": 74
+  },
+  {
+    "slug": "stylish",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "k-meleon",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "lynx",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "personal-brain",
+    "pantherscore": 61
+  },
+  {
+    "slug": "creately",
+    "pantherscore": 54
+  },
+  {
+    "slug": "recentx",
+    "pantherscore": 90
+  },
+  {
+    "slug": "uc-browser",
+    "pantherscore": 85
+  },
+  {
+    "slug": "gnome-web",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tampermonkey",
+    "pantherscore": 51
+  },
+  {
+    "slug": "tmetric",
+    "pantherscore": 52
+  },
+  {
+    "slug": "similarweb",
+    "pantherscore": 66
+  },
+  {
+    "slug": "icecat",
+    "pantherscore": 70
+  },
+  {
+    "slug": "links2",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "languagetool",
+    "pantherscore": 69
+  },
+  {
+    "slug": "decentraleyes",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ungoogled-chromium",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "comodo-dragon-internet-browser",
+    "pantherscore": 57
+  },
+  {
+    "slug": "wappalyzer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "shaarli",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "firefox-send",
+    "pantherscore": 38
+  },
+  {
+    "slug": "iridium",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "otter-browser",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "any-do",
+    "pantherscore": 44
+  },
+  {
+    "slug": "sleipnir",
+    "pantherscore": 50
+  },
+  {
+    "slug": "puffin",
+    "pantherscore": 80
+  },
+  {
+    "slug": "bear-writer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "anonymox",
+    "pantherscore": 69
+  },
+  {
+    "slug": "onetab",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "js-bin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "daemon-tools",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wincdemu",
+    "pantherscore": 76
+  },
+  {
+    "slug": "double-commander",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "clonezilla",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "vobla",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "macrium-reflect",
+    "pantherscore": 80
+  },
+  {
+    "slug": "applepi-baker",
+    "pantherscore": 89
+  },
+  {
+    "slug": "nova-launcher",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "g-suite",
+    "pantherscore": 74
+  },
+  {
+    "slug": "alcohol-120",
+    "pantherscore": 71
+  },
+  {
+    "slug": "ios",
+    "pantherscore": 34
+  },
+  {
+    "slug": "rainlendar",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "parted-magic",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "link-shell-extension",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "titanium-backup",
+    "pantherscore": 51
+  },
+  {
+    "slug": "sikuli",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "myphoneexplorer",
+    "pantherscore": 78
+  },
+  {
+    "slug": "backblaze",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "syncplicity",
+    "pantherscore": 61
+  },
+  {
+    "slug": "carbon-copy-cloner",
+    "pantherscore": 62
+  },
+  {
+    "slug": "unison",
+    "pantherscore": 49
+  },
+  {
+    "slug": "doodle",
+    "pantherscore": 65
+  },
+  {
+    "slug": "odrive",
+    "pantherscore": 78
+  },
+  {
+    "slug": "gett",
+    "pantherscore": 57
+  },
+  {
+    "slug": "nomadesk",
+    "pantherscore": 36
+  },
+  {
+    "slug": "imdisk-virtual-disk-driver",
+    "pantherscore": 75
+  },
+  {
+    "slug": "keybase",
+    "pantherscore": 96
+  },
+  {
+    "slug": "smestorage",
+    "pantherscore": 73
+  },
+  {
+    "slug": "archive-is",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "threema",
+    "pantherscore": 96
+  },
+  {
+    "slug": "amazon-drive",
+    "pantherscore": 46
+  },
+  {
+    "slug": "win32-disk-imager",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bvckup-2",
+    "pantherscore": 92
+  },
+  {
+    "slug": "rclone",
+    "pantherscore": 93
+  },
+  {
+    "slug": "sync-com",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "filemenu-tools",
+    "pantherscore": 53
+  },
+  {
+    "slug": "vboxxcloud",
+    "pantherscore": 70
+  },
+  {
+    "slug": "google-earth",
+    "pantherscore": 63
+  },
+  {
+    "slug": "openstreetmap",
+    "pantherscore": 88
+  },
+  {
+    "slug": "osmand",
+    "pantherscore": 83
+  },
+  {
+    "slug": "nokia-ovi-maps",
+    "pantherscore": 52
+  },
+  {
+    "slug": "runkeeper-pro",
+    "pantherscore": 60
+  },
+  {
+    "slug": "mapswithme",
+    "pantherscore": 64
+  },
+  {
+    "slug": "quantum-gis",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "runtastic",
+    "pantherscore": 59
+  },
+  {
+    "slug": "badger-maps",
+    "pantherscore": 72
+  },
+  {
+    "slug": "2gis",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "hellospy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "google-street-view",
+    "pantherscore": 64
+  },
+  {
+    "slug": "yandex-maps",
+    "pantherscore": 65
+  },
+  {
+    "slug": "skyscanner",
+    "pantherscore": 77
+  },
+  {
+    "slug": "tripadvisor",
+    "pantherscore": 50
+  },
+  {
+    "slug": "airbnb",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "strava",
+    "pantherscore": 56
+  },
+  {
+    "slug": "leaflet",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "jsonwhois-by-jsonwhois-io",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "marble",
+    "pantherscore": 96
+  },
+  {
+    "slug": "tripit",
+    "pantherscore": 75
+  },
+  {
+    "slug": "nasa-world-wind",
+    "pantherscore": 53
+  },
+  {
+    "slug": "geosetter",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sportstracker",
+    "pantherscore": 74
+  },
+  {
+    "slug": "bing-maps",
+    "pantherscore": 36
+  },
+  {
+    "slug": "uebermaps",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "meetme",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "songkick",
+    "pantherscore": 62
+  },
+  {
+    "slug": "the-weather-channel",
+    "pantherscore": 60
+  },
+  {
+    "slug": "kayak",
+    "pantherscore": 64
+  },
+  {
+    "slug": "apple-maps",
+    "pantherscore": 34
+  },
+  {
+    "slug": "glympse",
+    "pantherscore": 77
+  },
+  {
+    "slug": "mapme-com",
+    "pantherscore": 80
+  },
+  {
+    "slug": "sportypal",
+    "pantherscore": 75
+  },
+  {
+    "slug": "roadtrippers",
+    "pantherscore": 70
+  },
+  {
+    "slug": "webcargo",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "xandaro",
+    "pantherscore": 93
+  },
+  {
+    "slug": "rezdy",
+    "pantherscore": 46
+  },
+  {
+    "slug": "chatous",
+    "pantherscore": 90
+  },
+  {
+    "slug": "whoisapi",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "citymapper",
+    "pantherscore": 73
+  },
+  {
+    "slug": "sygic-mobile-maps",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "qustodio",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "grass-gis",
+    "pantherscore": 92
+  },
+  {
+    "slug": "josm",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "maptitude",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mapbox",
+    "pantherscore": 70
+  },
+  {
+    "slug": "brain-fm",
+    "pantherscore": 63
+  },
+  {
+    "slug": "cmissync",
+    "pantherscore": 69
+  },
+  {
+    "slug": "oruxmaps",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "channels",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cheap-flights--farefirst",
+    "pantherscore": 49
+  },
+  {
+    "slug": "turitop",
+    "pantherscore": 91
+  },
+  {
+    "slug": "travelerbuddy",
+    "pantherscore": 62
+  },
+  {
+    "slug": "talkatone",
+    "pantherscore": 61
+  },
+  {
+    "slug": "spike",
+    "pantherscore": 59
+  },
+  {
+    "slug": "hound",
+    "pantherscore": 62
+  },
+  {
+    "slug": "postgis",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "blablacar",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "places-directory",
+    "pantherscore": 62
+  },
+  {
+    "slug": "gps-status",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "geozilla",
+    "pantherscore": 77
+  },
+  {
+    "slug": "todo",
+    "pantherscore": 63
+  },
+  {
+    "slug": "umap",
+    "pantherscore": 78
+  },
+  {
+    "slug": "mapquest",
+    "pantherscore": 41
+  },
+  {
+    "slug": "bikemap",
+    "pantherscore": 60
+  },
+  {
+    "slug": "source-sdk",
+    "pantherscore": 72
+  },
+  {
+    "slug": "transit",
+    "pantherscore": 72
+  },
+  {
+    "slug": "star-chart",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "google-flights",
+    "pantherscore": 62
+  },
+  {
+    "slug": "runabase",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "yandex-navigator",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "life360",
+    "pantherscore": 89
+  },
+  {
+    "slug": "wikimapia",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "dasher-messenger",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "grubhub",
+    "pantherscore": 62
+  },
+  {
+    "slug": "locus",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "scheduleonce",
+    "pantherscore": 57
+  },
+  {
+    "slug": "arcgisdesktop",
+    "pantherscore": 79
+  },
+  {
+    "slug": "checkfront",
+    "pantherscore": 70
+  },
+  {
+    "slug": "modest-maps",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wikivoyage",
+    "pantherscore": 74
+  },
+  {
+    "slug": "turtle-sport",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "fling-dating",
+    "pantherscore": 33
+  },
+  {
+    "slug": "3nder",
+    "pantherscore": 63
+  },
+  {
+    "slug": "yogaandme",
+    "pantherscore": 62
+  },
+  {
+    "slug": "mapillary",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "geocaching",
+    "pantherscore": 68
+  },
+  {
+    "slug": "geocha--local-interaction-platform",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "flightradar24",
+    "pantherscore": 44
+  },
+  {
+    "slug": "swarmapp",
+    "pantherscore": 70
+  },
+  {
+    "slug": "inn-style",
+    "pantherscore": 73
+  },
+  {
+    "slug": "midas",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "quick-settings",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "blue-donut",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "travelbank",
+    "pantherscore": 42
+  },
+  {
+    "slug": "geoserver",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "androidlost",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sambapos",
+    "pantherscore": 32
+  },
+  {
+    "slug": "qwant-maps",
+    "pantherscore": 74
+  },
+  {
+    "slug": "gpsies",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "magic-earth",
+    "pantherscore": 69
+  },
+  {
+    "slug": "copilot-gps",
+    "pantherscore": 79
+  },
+  {
+    "slug": "oruapp",
+    "pantherscore": 51
+  },
+  {
+    "slug": "flavorit",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "transformap",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "trippeo",
+    "pantherscore": 62
+  },
+  {
+    "slug": "wanderant",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cnn",
+    "pantherscore": 42
+  },
+  {
+    "slug": "waze-live-map",
+    "pantherscore": 68
+  },
+  {
+    "slug": "openmaps",
+    "pantherscore": 42
+  },
+  {
+    "slug": "eyemaps",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "aroglyph",
+    "pantherscore": 81
+  },
+  {
+    "slug": "geotag",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "maptiler-cloud",
+    "pantherscore": 91
+  },
+  {
+    "slug": "teracopy",
+    "pantherscore": 90
+  },
+  {
+    "slug": "winmerge",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "the-unarchiver",
+    "pantherscore": 76
+  },
+  {
+    "slug": "listary",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "nautilus",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "es-file-explorer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "lockhunter",
+    "pantherscore": 63
+  },
+  {
+    "slug": "q-dir",
+    "pantherscore": 72
+  },
+  {
+    "slug": "keypirinha",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "iterm2",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "qttabbar",
+    "pantherscore": 53
+  },
+  {
+    "slug": "bulk-rename-utility",
+    "pantherscore": 91
+  },
+  {
+    "slug": "quicksilver",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "thunar",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kdiff3",
+    "pantherscore": 96
+  },
+  {
+    "slug": "dupeguru",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "izarc",
+    "pantherscore": 61
+  },
+  {
+    "slug": "devonthink",
+    "pantherscore": 79
+  },
+  {
+    "slug": "wiztree",
+    "pantherscore": 8
+  },
+  {
+    "slug": "filebot",
+    "pantherscore": 52
+  },
+  {
+    "slug": "agent-ransack",
+    "pantherscore": 75
+  },
+  {
+    "slug": "tabbles",
+    "pantherscore": 55
+  },
+  {
+    "slug": "xplorer",
+    "pantherscore": 49
+  },
+  {
+    "slug": "multicommander",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "lookeen",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "explorer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "keka",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "file-roller",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "krusader",
+    "pantherscore": 96
+  },
+  {
+    "slug": "savefrom-net",
+    "pantherscore": 62
+  },
+  {
+    "slug": "amaze-file-manager",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ant-renamer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "winzip",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "totalfinder",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ultracopier",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "fslint",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "astro",
+    "pantherscore": 69
+  },
+  {
+    "slug": "xtrafinder",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "solid-explorer",
+    "pantherscore": 57
+  },
+  {
+    "slug": "grepwin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "nemo",
+    "pantherscore": 24
+  },
+  {
+    "slug": "dropit",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "unreal-commander",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "advanced-renamer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "commander-one",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gmusicbrowser",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "path-finder",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "finder",
+    "pantherscore": 42
+  },
+  {
+    "slug": "andotp",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "clonespy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "copywhiz",
+    "pantherscore": 90
+  },
+  {
+    "slug": "pcmanfm",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "spybunker",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "adrive",
+    "pantherscore": 58
+  },
+  {
+    "slug": "workrave",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "endomondo",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "stretchly",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "myfitnesspal",
+    "pantherscore": 36
+  },
+  {
+    "slug": "declutter-the-mind",
+    "pantherscore": 63
+  },
+  {
+    "slug": "time-out",
+    "pantherscore": 92
+  },
+  {
+    "slug": "1mole",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "humble-bundle",
+    "pantherscore": 47
+  },
+  {
+    "slug": "accuweathercom",
+    "pantherscore": 58
+  },
+  {
+    "slug": "noisli",
+    "pantherscore": 65
+  },
+  {
+    "slug": "iristech-co",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "android-007",
+    "pantherscore": 73
+  },
+  {
+    "slug": "mynoise",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "nike-gps",
+    "pantherscore": 65
+  },
+  {
+    "slug": "hubstaff",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "timely",
+    "pantherscore": 51
+  },
+  {
+    "slug": "primed-mind",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "google-fit",
+    "pantherscore": 63
+  },
+  {
+    "slug": "zombies-run-",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pro-evolution-soccer",
+    "pantherscore": 69
+  },
+  {
+    "slug": "deep-sleep-sounds",
+    "pantherscore": 42
+  },
+  {
+    "slug": "nomie",
+    "pantherscore": 88
+  },
+  {
+    "slug": "seven-7-minute-workout",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bizimply",
+    "pantherscore": 72
+  },
+  {
+    "slug": "aura",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kinovea",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gyroscope",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "rainy-mood",
+    "pantherscore": 90
+  },
+  {
+    "slug": "cron-o-meter",
+    "pantherscore": 62
+  },
+  {
+    "slug": "runalyze",
+    "pantherscore": 59
+  },
+  {
+    "slug": "fitbit",
+    "pantherscore": 57
+  },
+  {
+    "slug": "gnaural",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "rsibreak",
+    "pantherscore": 96
+  },
+  {
+    "slug": "fubotv",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "exist",
+    "pantherscore": 62
+  },
+  {
+    "slug": "rapid-typing-tutor",
+    "pantherscore": 89
+  },
+  {
+    "slug": "the-jefit-android-bodybuilding-app",
+    "pantherscore": 88
+  },
+  {
+    "slug": "nature-sounds-for-me",
+    "pantherscore": 76
+  },
+  {
+    "slug": "safe-eyes-linux",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "score-hero",
+    "pantherscore": 61
+  },
+  {
+    "slug": "bigoven",
+    "pantherscore": 90
+  },
+  {
+    "slug": "runnerup",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bce-premium-tv",
+    "pantherscore": 79
+  },
+  {
+    "slug": "lovecycles",
+    "pantherscore": 61
+  },
+  {
+    "slug": "hoverwatch",
+    "pantherscore": 67
+  },
+  {
+    "slug": "avast-mobile-security",
+    "pantherscore": 66
+  },
+  {
+    "slug": "health-companion-app-by-e-telequote-insurance",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "runbit",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "rubitrack",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tidyhq",
+    "pantherscore": 80
+  },
+  {
+    "slug": "fadetop",
+    "pantherscore": 89
+  },
+  {
+    "slug": "openmrs",
+    "pantherscore": 89
+  },
+  {
+    "slug": "thetruthspy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "hubii",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sportlyzer",
+    "pantherscore": 91
+  },
+  {
+    "slug": "open-food-facts",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "noom-weight-loss",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ambiance",
+    "pantherscore": 74
+  },
+  {
+    "slug": "simplynoise",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "fitocracy",
+    "pantherscore": 70
+  },
+  {
+    "slug": "peak",
+    "pantherscore": 67
+  },
+  {
+    "slug": "period-tracker",
+    "pantherscore": 63
+  },
+  {
+    "slug": "intuo",
+    "pantherscore": 64
+  },
+  {
+    "slug": "gadgetbridge",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cookbook-calendar",
+    "pantherscore": 90
+  },
+  {
+    "slug": "talk-to-a-doctor",
+    "pantherscore": 49
+  },
+  {
+    "slug": "smiling-mind",
+    "pantherscore": 39
+  },
+  {
+    "slug": "lose-it",
+    "pantherscore": 64
+  },
+  {
+    "slug": "trailrunner",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "clappy--snap-timer-and-interval-stopwatch-for-yoga-and-meditation-just-snap-or-clap-to-start-your-practice-",
+    "pantherscore": 41
+  },
+  {
+    "slug": "synap",
+    "pantherscore": 63
+  },
+  {
+    "slug": "pacifica",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "calm",
+    "pantherscore": 58
+  },
+  {
+    "slug": "elevate",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gravitus",
+    "pantherscore": 50
+  },
+  {
+    "slug": "motionx-gps",
+    "pantherscore": 71
+  },
+  {
+    "slug": "natura-sound-therapy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mapmyride",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "idoo--the-new-generation-of-fitness-apps",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "velotton",
+    "pantherscore": 42
+  },
+  {
+    "slug": "libra---weight-manager",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pytrainer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mi-fit",
+    "pantherscore": 69
+  },
+  {
+    "slug": "fitnetix-fitness-tracker",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "thapos",
+    "pantherscore": 83
+  },
+  {
+    "slug": "ureka-earth-heart-community",
+    "pantherscore": 100
+  },
+  {
+    "slug": "arc-app",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "opensports",
+    "pantherscore": 90
+  },
+  {
+    "slug": "body24",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "antirsi",
+    "pantherscore": 43
+  },
+  {
+    "slug": "imdisk-toolkit",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "open-mhealth",
+    "pantherscore": 95
+  },
+  {
+    "slug": "eat-this-much",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "apple-watch",
+    "pantherscore": 34
+  },
+  {
+    "slug": "clappia",
+    "pantherscore": 92
+  },
+  {
+    "slug": "fameelee--family-locator",
+    "pantherscore": 67
+  },
+  {
+    "slug": "remente",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "minergate",
+    "pantherscore": 65
+  },
+  {
+    "slug": "bmi-calculator-2",
+    "pantherscore": 66
+  },
+  {
+    "slug": "dutrition",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "noizio",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "flashscore",
+    "pantherscore": 91
+  },
+  {
+    "slug": "my-tourbook",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "golden-cheetah",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mytrails",
+    "pantherscore": 80
+  },
+  {
+    "slug": "espn",
+    "pantherscore": 42
+  },
+  {
+    "slug": "rest",
+    "pantherscore": 74
+  },
+  {
+    "slug": "calm-radio",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "virtual-wifi-hotspot",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "myplate",
+    "pantherscore": 57
+  },
+  {
+    "slug": "the-4-hour-body-app",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "chest-workout",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "abs-workout",
+    "pantherscore": 41
+  },
+  {
+    "slug": "dream-league-soccer",
+    "pantherscore": 69
+  },
+  {
+    "slug": "lifehacker",
+    "pantherscore": 26
+  },
+  {
+    "slug": "gramps",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "panda-antivirus",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "k9-web-protection",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "spyrix-free-keylogger",
+    "pantherscore": 72
+  },
+  {
+    "slug": "autodesk-homestyler",
+    "pantherscore": 67
+  },
+  {
+    "slug": "spyrix-employee-monitoring",
+    "pantherscore": 75
+  },
+  {
+    "slug": "ikeymonitor",
+    "pantherscore": 72
+  },
+  {
+    "slug": "zone-alarm",
+    "pantherscore": 73
+  },
+  {
+    "slug": "product-chart",
+    "pantherscore": 94
+  },
+  {
+    "slug": "wikitree-com",
+    "pantherscore": 82
+  },
+  {
+    "slug": "listonic",
+    "pantherscore": 75
+  },
+  {
+    "slug": "colornote-notepad-notes",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "spyrix-personal-monitor",
+    "pantherscore": 72
+  },
+  {
+    "slug": "kidinspector",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mspy",
+    "pantherscore": 24
+  },
+  {
+    "slug": "gourmet-recipe-manager",
+    "pantherscore": 71
+  },
+  {
+    "slug": "shopcloud",
+    "pantherscore": 69
+  },
+  {
+    "slug": "dealextreme",
+    "pantherscore": 58
+  },
+  {
+    "slug": "wikihow",
+    "pantherscore": 54
+  },
+  {
+    "slug": "whisk-com",
+    "pantherscore": 75
+  },
+  {
+    "slug": "spyrix-keylogger-for-mac",
+    "pantherscore": 72
+  },
+  {
+    "slug": "invisible-hand",
+    "pantherscore": 66
+  },
+  {
+    "slug": "the-trustbadge",
+    "pantherscore": 68
+  },
+  {
+    "slug": "vocabla--vocabulary-app",
+    "pantherscore": 91
+  },
+  {
+    "slug": "micro-keylogger",
+    "pantherscore": 88
+  },
+  {
+    "slug": "spy-phone-app",
+    "pantherscore": 86
+  },
+  {
+    "slug": "flexispy",
+    "pantherscore": 77
+  },
+  {
+    "slug": "homeguard-activity-monitor",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "needora",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "actual-keylogger",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "myheritage",
+    "pantherscore": 16
+  },
+  {
+    "slug": "floorplanner",
+    "pantherscore": 70
+  },
+  {
+    "slug": "cram",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "instructables",
+    "pantherscore": 74
+  },
+  {
+    "slug": "amac-keylogger",
+    "pantherscore": 84
+  },
+  {
+    "slug": "clear",
+    "pantherscore": 41
+  },
+  {
+    "slug": "nettuts",
+    "pantherscore": 47
+  },
+  {
+    "slug": "lingualeo",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "aobo-keylogger-for-mac",
+    "pantherscore": 84
+  },
+  {
+    "slug": "easemon-employee-monitor-for-mac",
+    "pantherscore": 91
+  },
+  {
+    "slug": "familysearchorg",
+    "pantherscore": 65
+  },
+  {
+    "slug": "mobile-tracker-free",
+    "pantherscore": 86
+  },
+  {
+    "slug": "bring-shopping-list",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kimovil",
+    "pantherscore": 61
+  },
+  {
+    "slug": "codegym-cc",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ancestry",
+    "pantherscore": 48
+  },
+  {
+    "slug": "pcpartpicker",
+    "pantherscore": 76
+  },
+  {
+    "slug": "gamegator",
+    "pantherscore": 71
+  },
+  {
+    "slug": "dontpayfull",
+    "pantherscore": 73
+  },
+  {
+    "slug": "newegg",
+    "pantherscore": 63
+  },
+  {
+    "slug": "webtrees",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ourgroceries",
+    "pantherscore": 71
+  },
+  {
+    "slug": "norton-online-family",
+    "pantherscore": 74
+  },
+  {
+    "slug": "wikitude",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "honey",
+    "pantherscore": 60
+  },
+  {
+    "slug": "codeasy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "fetchee",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "savelist",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "out-of-milk",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "blomming",
+    "pantherscore": 75
+  },
+  {
+    "slug": "nextdns",
+    "pantherscore": 88
+  },
+  {
+    "slug": "robocode",
+    "pantherscore": 67
+  },
+  {
+    "slug": "talking-dog-max",
+    "pantherscore": 65
+  },
+  {
+    "slug": "legacy-family-tree",
+    "pantherscore": 61
+  },
+  {
+    "slug": "candygames",
+    "pantherscore": 63
+  },
+  {
+    "slug": "freaking-math",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "quester",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "easy-phone-track--cell-phone-tracker",
+    "pantherscore": 69
+  },
+  {
+    "slug": "shoptimate",
+    "pantherscore": 79
+  },
+  {
+    "slug": "yousician",
+    "pantherscore": 80
+  },
+  {
+    "slug": "owlr",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "geni",
+    "pantherscore": 56
+  },
+  {
+    "slug": "globe-master-geography-game-in-3d",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "xnspy",
+    "pantherscore": 71
+  },
+  {
+    "slug": "alice",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cooktimer",
+    "pantherscore": 80
+  },
+  {
+    "slug": "price-snoop",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "walmart-com",
+    "pantherscore": 18
+  },
+  {
+    "slug": "bestbuy-com",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "anti-porn",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "talking-tom",
+    "pantherscore": 61
+  },
+  {
+    "slug": "cozi",
+    "pantherscore": 53
+  },
+  {
+    "slug": "live-interior-3d-pro",
+    "pantherscore": 81
+  },
+  {
+    "slug": "ahnenblatt",
+    "pantherscore": 52
+  },
+  {
+    "slug": "don-t-forget",
+    "pantherscore": 57
+  },
+  {
+    "slug": "wish",
+    "pantherscore": 60
+  },
+  {
+    "slug": "home-designer",
+    "pantherscore": 85
+  },
+  {
+    "slug": "socialcompare",
+    "pantherscore": 67
+  },
+  {
+    "slug": "groupon",
+    "pantherscore": 48
+  },
+  {
+    "slug": "mobiledit",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "h5p",
+    "pantherscore": 55
+  },
+  {
+    "slug": "genealogyj",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "5miles",
+    "pantherscore": 67
+  },
+  {
+    "slug": "kong--easycommerce",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gearbest",
+    "pantherscore": 76
+  },
+  {
+    "slug": "pangoly",
+    "pantherscore": 92
+  },
+  {
+    "slug": "pimsleur-unlimited",
+    "pantherscore": 72
+  },
+  {
+    "slug": "kids-preschool-games",
+    "pantherscore": 88
+  },
+  {
+    "slug": "macfamilytree",
+    "pantherscore": 75
+  },
+  {
+    "slug": "ancestris",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "servicewhale",
+    "pantherscore": 76
+  },
+  {
+    "slug": "netgear-genie",
+    "pantherscore": 57
+  },
+  {
+    "slug": "ethereum",
+    "pantherscore": 32
+  },
+  {
+    "slug": "private-internet-access",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "electrum",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bettergram-messenger",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "openbazaar",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "coinbase",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mintme",
+    "pantherscore": 68
+  },
+  {
+    "slug": "mullvad",
+    "pantherscore": 97
+  },
+  {
+    "slug": "back4app",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "namecoin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "x-cloud",
+    "pantherscore": 35
+  },
+  {
+    "slug": "tiktok",
+    "pantherscore": 53
+  },
+  {
+    "slug": "golos",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "home-assistant-io",
+    "pantherscore": 75
+  },
+  {
+    "slug": "nxt",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "coinimp",
+    "pantherscore": 61
+  },
+  {
+    "slug": "simpleswap-io",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "stakedwallet-io",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "local-bitcoin-com",
+    "pantherscore": 47
+  },
+  {
+    "slug": "revolut",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "localbitcoins-com",
+    "pantherscore": 58
+  },
+  {
+    "slug": "stealthex-io",
+    "pantherscore": 86
+  },
+  {
+    "slug": "coinmarketcap",
+    "pantherscore": 83
+  },
+  {
+    "slug": "bitcoin-cash",
+    "pantherscore": 5
+  },
+  {
+    "slug": "blockchain-info",
+    "pantherscore": 96
+  },
+  {
+    "slug": "peercoin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "fox-one",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bitsquare",
+    "pantherscore": 51
+  },
+  {
+    "slug": "99stack-hosting",
+    "pantherscore": 82
+  },
+  {
+    "slug": "ucoin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "lbry",
+    "pantherscore": 52
+  },
+  {
+    "slug": "rofx-net",
+    "pantherscore": 46
+  },
+  {
+    "slug": "peerq",
+    "pantherscore": 60
+  },
+  {
+    "slug": "darkcoin",
+    "pantherscore": 74
+  },
+  {
+    "slug": "changenow",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "delta--bitcoin-ico-and-cryptocurrency-portfolio",
+    "pantherscore": 57
+  },
+  {
+    "slug": "semaphor",
+    "pantherscore": 52
+  },
+  {
+    "slug": "uplexa--anonymous-browser-based-blockchain-powered-by-iot",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "localcoinswap",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "jsecoin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "switchain",
+    "pantherscore": 84
+  },
+  {
+    "slug": "groestlcoin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "blockstack",
+    "pantherscore": 72
+  },
+  {
+    "slug": "nicehash",
+    "pantherscore": 70
+  },
+  {
+    "slug": "exodus",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "binance",
+    "pantherscore": 58
+  },
+  {
+    "slug": "creary",
+    "pantherscore": 63
+  },
+  {
+    "slug": "faircoin",
+    "pantherscore": 93
+  },
+  {
+    "slug": "particl-marketplace",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "zupago-pe",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "armory-bitcoin-client",
+    "pantherscore": 84
+  },
+  {
+    "slug": "stellar-org",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bitpay",
+    "pantherscore": 68
+  },
+  {
+    "slug": "emitter-io",
+    "pantherscore": 64
+  },
+  {
+    "slug": "spot-bitcoin-wallet",
+    "pantherscore": 73
+  },
+  {
+    "slug": "coinomi-bitcoin-altcoin-wallet",
+    "pantherscore": 59
+  },
+  {
+    "slug": "hideman",
+    "pantherscore": 66
+  },
+  {
+    "slug": "multidoge",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "houseparty",
+    "pantherscore": 75
+  },
+  {
+    "slug": "node-red",
+    "pantherscore": 56
+  },
+  {
+    "slug": "paytomat-wallet",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bitdegree",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "blockchan",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cryptocompare",
+    "pantherscore": 64
+  },
+  {
+    "slug": "home",
+    "pantherscore": 34
+  },
+  {
+    "slug": "crypti",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "belacam",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kryptex",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cesium",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "jeedom",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "coinswitch",
+    "pantherscore": 64
+  },
+  {
+    "slug": "blockkeeper",
+    "pantherscore": 12
+  },
+  {
+    "slug": "blockfolio",
+    "pantherscore": 57
+  },
+  {
+    "slug": "bitfinex",
+    "pantherscore": 90
+  },
+  {
+    "slug": "cutecoin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "zerynth",
+    "pantherscore": 60
+  },
+  {
+    "slug": "the-silicoin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "tradingview",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "metamask",
+    "pantherscore": 57
+  },
+  {
+    "slug": "ubidots",
+    "pantherscore": 72
+  },
+  {
+    "slug": "golem",
+    "pantherscore": 74
+  },
+  {
+    "slug": "chainzilla-io",
+    "pantherscore": 55
+  },
+  {
+    "slug": "coincall",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "newfang",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ethletter",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "adzbuzz",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "coinranking-com",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bitcoin-com-wallet",
+    "pantherscore": 42
+  },
+  {
+    "slug": "emcssl",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "21-earn-bitcoin",
+    "pantherscore": 71
+  },
+  {
+    "slug": "jaxx",
+    "pantherscore": 71
+  },
+  {
+    "slug": "bitfortip",
+    "pantherscore": 63
+  },
+  {
+    "slug": "nest-mobile",
+    "pantherscore": 51
+  },
+  {
+    "slug": "https--fixedfloat-com",
+    "pantherscore": 90
+  },
+  {
+    "slug": "airtm",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "coingecko",
+    "pantherscore": 53
+  },
+  {
+    "slug": "breadwallet",
+    "pantherscore": 80
+  },
+  {
+    "slug": "bluzelle-decentralized-db",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "moonitor",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "proof-of-existence",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "stuffpoint",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "xpadder",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "thingspeak",
+    "pantherscore": 60
+  },
+  {
+    "slug": "kaleidoscope-iot",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "liberalcoins",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bcm--blockchain-messenger",
+    "pantherscore": 92
+  },
+  {
+    "slug": "smartthings",
+    "pantherscore": 54
+  },
+  {
+    "slug": "bitqist",
+    "pantherscore": 79
+  },
+  {
+    "slug": "cudo-miner",
+    "pantherscore": 66
+  },
+  {
+    "slug": "xsplit-broadcaster",
+    "pantherscore": 79
+  },
+  {
+    "slug": "vertfolio",
+    "pantherscore": 68
+  },
+  {
+    "slug": "coinlore",
+    "pantherscore": 51
+  },
+  {
+    "slug": "zcoin",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "onz",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bitcore",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "monfex",
+    "pantherscore": 75
+  },
+  {
+    "slug": "cisco-networking-adademy",
+    "pantherscore": 72
+  },
+  {
+    "slug": "kraken",
+    "pantherscore": 59
+  },
+  {
+    "slug": "coinfy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "system-explorer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "edutelly",
+    "pantherscore": 64
+  },
+  {
+    "slug": "alfacashier",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "blockchair",
+    "pantherscore": 57
+  },
+  {
+    "slug": "multiminer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "stampery",
+    "pantherscore": 83
+  },
+  {
+    "slug": "masmic",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "fluz-cash-back-on-everything",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "aida64",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "hd-tune",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pocket-scanner",
+    "pantherscore": 60
+  },
+  {
+    "slug": "istat",
+    "pantherscore": 76
+  },
+  {
+    "slug": "daisydisk",
+    "pantherscore": 70
+  },
+  {
+    "slug": "snappy-driver",
+    "pantherscore": 78
+  },
+  {
+    "slug": "hwmonitor",
+    "pantherscore": 75
+  },
+  {
+    "slug": "project-amulet",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "slimdrivers",
+    "pantherscore": 73
+  },
+  {
+    "slug": "lucky-patcher",
+    "pantherscore": 44
+  },
+  {
+    "slug": "pinnacle-game-profiler",
+    "pantherscore": 84
+  },
+  {
+    "slug": "gsmartcontrol",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "camscanner",
+    "pantherscore": 89
+  },
+  {
+    "slug": "siw---system-information-for-windows",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sharpkeys",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "driverpack-solution",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "player-me",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "core-temp",
+    "pantherscore": 84
+  },
+  {
+    "slug": "bullzip-pdf-printer",
+    "pantherscore": 59
+  },
+  {
+    "slug": "driver-booster",
+    "pantherscore": 70
+  },
+  {
+    "slug": "simple-scan",
+    "pantherscore": 63
+  },
+  {
+    "slug": "hard-disk-sentinel",
+    "pantherscore": 79
+  },
+  {
+    "slug": "twighlight",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "invgate-assets",
+    "pantherscore": 66
+  },
+  {
+    "slug": "greenify",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "keyremap4macbook",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "snappy-driver-installer-origin",
+    "pantherscore": 62
+  },
+  {
+    "slug": "disk-utility",
+    "pantherscore": 44
+  },
+  {
+    "slug": "winsetupfromusb",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "batterycare",
+    "pantherscore": 85
+  },
+  {
+    "slug": "serveo",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gnome-disk-utility",
+    "pantherscore": 63
+  },
+  {
+    "slug": "driver-easy",
+    "pantherscore": 57
+  },
+  {
+    "slug": "hardware-lister",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "drivermax",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "jack-audio-connection-kit",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "glances",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "msconfig",
+    "pantherscore": 36
+  },
+  {
+    "slug": "ma-configcom",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sidebar-diagnostics",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "netdata",
+    "pantherscore": 5
+  },
+  {
+    "slug": "vuescan",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "hardinfo",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "playonlinux",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "icinga",
+    "pantherscore": 70
+  },
+  {
+    "slug": "anvir-task-manager",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "sunsetscreen",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "superduper",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "paragon-partition-manager-free-edition",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "dynu-dns",
+    "pantherscore": 90
+  },
+  {
+    "slug": "geektool",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "redsn0w",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "prime95",
+    "pantherscore": 73
+  },
+  {
+    "slug": "cura",
+    "pantherscore": 49
+  },
+  {
+    "slug": "rivatuner",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "belarc-advisor",
+    "pantherscore": 88
+  },
+  {
+    "slug": "geforce-experience",
+    "pantherscore": 64
+  },
+  {
+    "slug": "winaudit",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "disk-inspector",
+    "pantherscore": 72
+  },
+  {
+    "slug": "slic3r",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "osfmount",
+    "pantherscore": 90
+  },
+  {
+    "slug": "cloudradar",
+    "pantherscore": 71
+  },
+  {
+    "slug": "hddscan",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "occt",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kingo-android-root",
+    "pantherscore": 67
+  },
+  {
+    "slug": "driver-store-explorer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "coscale",
+    "pantherscore": 69
+  },
+  {
+    "slug": "prometheus",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "batterybar",
+    "pantherscore": 91
+  },
+  {
+    "slug": "google-lens",
+    "pantherscore": 79
+  },
+  {
+    "slug": "nagios-log-server",
+    "pantherscore": 59
+  },
+  {
+    "slug": "keytweak",
+    "pantherscore": 69
+  },
+  {
+    "slug": "mywi",
+    "pantherscore": 75
+  },
+  {
+    "slug": "gkrellm",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bsnes",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "informer",
+    "pantherscore": 72
+  },
+  {
+    "slug": "dual-monitor-tools",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wicd",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "drivedx",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "resource-monitor",
+    "pantherscore": 36
+  },
+  {
+    "slug": "advanced-mobile-care",
+    "pantherscore": 70
+  },
+  {
+    "slug": "windows-7-manager",
+    "pantherscore": 9
+  },
+  {
+    "slug": "menumeters-for-el-capitan",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "it-asset-tool",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "monit",
+    "pantherscore": 77
+  },
+  {
+    "slug": "airvpn",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pc-monitor",
+    "pantherscore": 55
+  },
+  {
+    "slug": "citra",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "microsoft-keyboard-layout-creator",
+    "pantherscore": 35
+  },
+  {
+    "slug": "tinkercad-com",
+    "pantherscore": 69
+  },
+  {
+    "slug": "dumo",
+    "pantherscore": 58
+  },
+  {
+    "slug": "rmprepusb",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ptgui",
+    "pantherscore": 72
+  },
+  {
+    "slug": "driver-genius",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "3dp-chip",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "thingiverse",
+    "pantherscore": 56
+  },
+  {
+    "slug": "psensor",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mattercontrol",
+    "pantherscore": 62
+  },
+  {
+    "slug": "desktopinfo",
+    "pantherscore": 29
+  },
+  {
+    "slug": "driverhub",
+    "pantherscore": 48
+  },
+  {
+    "slug": "ksysguard",
+    "pantherscore": 96
+  },
+  {
+    "slug": "mactracker",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "libreoffice-from-collabora",
+    "pantherscore": 83
+  },
+  {
+    "slug": "quickmark-barcode-reader",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pulseaudio-sound-server",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gogcom",
+    "pantherscore": 55
+  },
+  {
+    "slug": "retroarch",
+    "pantherscore": 12
+  },
+  {
+    "slug": "pcsx2",
+    "pantherscore": 60
+  },
+  {
+    "slug": "steamos",
+    "pantherscore": 59
+  },
+  {
+    "slug": "snes9x",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "epsxe",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "evolve",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "project64",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "itch-io",
+    "pantherscore": 41
+  },
+  {
+    "slug": "lutris",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "dolphin-emulator",
+    "pantherscore": 71
+  },
+  {
+    "slug": "roms-mania",
+    "pantherscore": 66
+  },
+  {
+    "slug": "input-director",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "moddb",
+    "pantherscore": 66
+  },
+  {
+    "slug": "desmume",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "zorin-os",
+    "pantherscore": 63
+  },
+  {
+    "slug": "pokemesh",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "overwolf",
+    "pantherscore": 80
+  },
+  {
+    "slug": "ppsspp",
+    "pantherscore": 46
+  },
+  {
+    "slug": "openemu",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "launchbox",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "google-play-games",
+    "pantherscore": 62
+  },
+  {
+    "slug": "battle-net-app",
+    "pantherscore": 44
+  },
+  {
+    "slug": "joytokey",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "action-",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "coolrom",
+    "pantherscore": 57
+  },
+  {
+    "slug": "gamesave-manager",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "curse",
+    "pantherscore": 53
+  },
+  {
+    "slug": "tellico",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "game-jolt",
+    "pantherscore": 71
+  },
+  {
+    "slug": "epic-games-store",
+    "pantherscore": 65
+  },
+  {
+    "slug": "nogba",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "winuae",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "the-indie-gala",
+    "pantherscore": 86
+  },
+  {
+    "slug": "g2a",
+    "pantherscore": 92
+  },
+  {
+    "slug": "mupen64plus",
+    "pantherscore": 78
+  },
+  {
+    "slug": "gametracker",
+    "pantherscore": 74
+  },
+  {
+    "slug": "igdb",
+    "pantherscore": 70
+  },
+  {
+    "slug": "amiga-forever",
+    "pantherscore": 76
+  },
+  {
+    "slug": "backloggery",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "the-iso-zone",
+    "pantherscore": 21
+  },
+  {
+    "slug": "green-man-gaming",
+    "pantherscore": 52
+  },
+  {
+    "slug": "artmoney-se",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "garena",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "playclaw",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "paperspace",
+    "pantherscore": 70
+  },
+  {
+    "slug": "the-rom-depot",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "rawg",
+    "pantherscore": 72
+  },
+  {
+    "slug": "lakka",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "borderless-gaming",
+    "pantherscore": 73
+  },
+  {
+    "slug": "speedify",
+    "pantherscore": 72
+  },
+  {
+    "slug": "mobygames",
+    "pantherscore": 69
+  },
+  {
+    "slug": "cdromance",
+    "pantherscore": 74
+  },
+  {
+    "slug": "fceux",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "beam-interactive",
+    "pantherscore": 70
+  },
+  {
+    "slug": "razer-cortex",
+    "pantherscore": 46
+  },
+  {
+    "slug": "mednafen",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gameconqueror",
+    "pantherscore": 63
+  },
+  {
+    "slug": "scid-vs--pc",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "bit-slicer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "nesbox",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ds4windows",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "the-old-computer",
+    "pantherscore": 89
+  },
+  {
+    "slug": "whatoplay",
+    "pantherscore": 61
+  },
+  {
+    "slug": "d3dgear",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "stella",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pcsx-reloaded",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "megui",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "game-backup-monitor",
+    "pantherscore": 70
+  },
+  {
+    "slug": "moonlight-game-streaming",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "mess",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "snes9x-ex",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "libib-com",
+    "pantherscore": 87
+  },
+  {
+    "slug": "abandonia",
+    "pantherscore": 23
+  },
+  {
+    "slug": "heroic-labs",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kawaks",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "dxwnd",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "avs-video-editor",
+    "pantherscore": 71
+  },
+  {
+    "slug": "mgba",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "gamefly-digital-download-client",
+    "pantherscore": 70
+  },
+  {
+    "slug": "cheatbook-database-2012",
+    "pantherscore": 89
+  },
+  {
+    "slug": "smashcast",
+    "pantherscore": 68
+  },
+  {
+    "slug": "boxer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "retropie",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "romsmode",
+    "pantherscore": 41
+  },
+  {
+    "slug": "virtual-clonedrive",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "freemake-audio-converter",
+    "pantherscore": 60
+  },
+  {
+    "slug": "divx",
+    "pantherscore": 53
+  },
+  {
+    "slug": "brasero",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ultraiso",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "vidcoder",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "dvdfab-hd-decrypter",
+    "pantherscore": 34
+  },
+  {
+    "slug": "videopad-video-editor",
+    "pantherscore": 55
+  },
+  {
+    "slug": "anydvd",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "dd",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "acetoneiso",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "jetaudio",
+    "pantherscore": 64
+  },
+  {
+    "slug": "realplayer",
+    "pantherscore": 67
+  },
+  {
+    "slug": "free-studio",
+    "pantherscore": 78
+  },
+  {
+    "slug": "convertxtodvd",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "dvdstyler",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "audio-hijack-pro",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "toast",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "avs-audio-converter",
+    "pantherscore": 71
+  },
+  {
+    "slug": "virtual-volumes-view",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "xfburn",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "anyburn",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "soundconverter",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "easy-cd-da-extractor",
+    "pantherscore": 91
+  },
+  {
+    "slug": "devede",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ulead-videostudio",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "helium-music-manager",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cyberlink-powerdvd",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "cuetools",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "my-commander--myco-",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "light-alloy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "asunder",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "deepburner",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "wondershare-video-converter-ultimate",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "pazera-free-audio-extractor",
+    "pantherscore": 85
+  },
+  {
+    "slug": "zoom-player",
+    "pantherscore": 88
+  },
+  {
+    "slug": "clonedvd",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "paragon-drive-backup-express",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "atube-catcher",
+    "pantherscore": 47
+  },
+  {
+    "slug": "avs-video-converter",
+    "pantherscore": 71
+  },
+  {
+    "slug": "gmount-iso",
+    "pantherscore": 92
+  },
+  {
+    "slug": "5kplayer",
+    "pantherscore": 63
+  },
+  {
+    "slug": "mobile-media-converter",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "flacon",
+    "pantherscore": 70
+  },
+  {
+    "slug": "sound-juicer",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "soundkonverter",
+    "pantherscore": 61
+  },
+  {
+    "slug": "nessmediacenter",
+    "pantherscore": 94
+  },
+  {
+    "slug": "adobe-media-encoder",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "kik",
+    "pantherscore": 71
+  },
+  {
+    "slug": "kigo-video-converter",
+    "pantherscore": 85
+  },
+  {
+    "slug": "total-video-converter",
+    "pantherscore": 88
+  },
+  {
+    "slug": "media-jukebox",
+    "pantherscore": 47
+  },
+  {
+    "slug": "arista",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ripit",
+    "pantherscore": 55
+  },
+  {
+    "slug": "xrecode",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "free-audio-editor-2009",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "winx-dvd-ripper",
+    "pantherscore": 66
+  },
+  {
+    "slug": "winx-dvd-author",
+    "pantherscore": 66
+  },
+  {
+    "slug": "idvd",
+    "pantherscore": 51
+  },
+  {
+    "slug": "tubedigger",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "nessviewer",
+    "pantherscore": 100
+  },
+  {
+    "slug": "switch-sound-file-converter",
+    "pantherscore": 85
+  },
+  {
+    "slug": "http-ripper",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "winiso",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "avstodvd",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "ogmrip",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "free-video-to-dvd-converter",
+    "pantherscore": 78
+  },
+  {
+    "slug": "iso-master",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "hamster-free-video-converter",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "grab-any-media",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "iso-workshop",
+    "pantherscore": 79
+  },
+  {
+    "slug": "macx-dvd-ripper",
+    "pantherscore": 76
+  },
+  {
+    "slug": "pavtube-bytecopy",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "anytoiso",
+    "pantherscore": 47
+  },
+  {
+    "slug": "aqualung",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "virtual-cd-rom-control-panel",
+    "pantherscore": 4
+  },
+  {
+    "slug": "cueripper",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "alcohol-52",
+    "pantherscore": 71
+  },
+  {
+    "slug": "snapchat",
+    "pantherscore": 28
+  },
+  {
+    "slug": "badoo",
+    "pantherscore": 34
+  },
+  {
+    "slug": "tinder",
+    "pantherscore": 15
+  },
+  {
+    "slug": "grindr",
+    "pantherscore": 70
+  },
+  {
+    "slug": "happn",
+    "pantherscore": 42
+  },
+  {
+    "slug": "bumble",
+    "pantherscore": 86
+  },
+  {
+    "slug": "meetup",
+    "pantherscore": 59
+  },
+  {
+    "slug": "eventbrite",
+    "pantherscore": 53
+  },
+  {
+    "slug": "hinge",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "amazon-video",
+    "pantherscore": 44
+  },
+  {
+    "slug": "hbo-go",
+    "pantherscore": 41
+  },
+  {
+    "slug": "hbo-now",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "apple-tv",
+    "pantherscore": 44
+  },
+  {
+    "slug": "monzo",
+    "pantherscore": 69
+  },
+  {
+    "slug": "transferwise",
+    "pantherscore": 63
+  },
+  {
+    "slug": "n26",
+    "pantherscore": 68
+  },
+  {
+    "slug": "curve",
+    "pantherscore": 50
+  },
+  {
+    "slug": "monese",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "starling-bank",
+    "pantherscore": 63
+  },
+  {
+    "slug": "splitwise",
+    "pantherscore": 68
+  },
+  {
+    "slug": "bitstamp",
+    "pantherscore": 67
+  },
+  {
+    "slug": "stripe",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "android-pay",
+    "pantherscore": 62
+  },
+  {
+    "slug": "apple-pay",
+    "pantherscore": 34
+  },
+  {
+    "slug": "uber",
+    "pantherscore": 38
+  },
+  {
+    "slug": "lyft",
+    "pantherscore": 63
+  },
+  {
+    "slug": "olacabs",
+    "pantherscore": 77
+  },
+  {
+    "slug": "booking-com",
+    "pantherscore": 47
+  },
+  {
+    "slug": "expedia",
+    "pantherscore": 55
+  },
+  {
+    "slug": "hotels-com",
+    "pantherscore": 60
+  },
+  {
+    "slug": "apple-news",
+    "pantherscore": 34
+  },
+  {
+    "slug": "hostelworld-com",
+    "pantherscore": 64
+  },
+  {
+    "slug": "bbc-news",
+    "pantherscore": "N/A"
+  },
+  {
+    "slug": "the-guardian",
+    "pantherscore": 56
+  },
+  {
+    "slug": "vox-com",
+    "pantherscore": 59
+  },
+  {
+    "slug": "russia-today",
+    "pantherscore": 65
+  },
+  {
+    "slug": "reuters",
+    "pantherscore": 65
+  },
+  {
+    "slug": "the-intercept",
+    "pantherscore": 59
+  },
+  {
+    "slug": "facetime",
+    "pantherscore": 44
+  },
+  {
+    "slug": "sudo",
+    "pantherscore": 27
+  },
+  {
+    "slug": "google-authenticator",
+    "pantherscore": 74
+  },
+  {
+    "slug": "lastpass-authenticator",
+    "pantherscore": 63
+  },
+  {
+    "slug": "playstation-network",
+    "pantherscore": 31
+  },
+  {
+    "slug": "xbox-live",
+    "pantherscore": 20
+  },
+  {
+    "slug": "nintendo-switch-online",
+    "pantherscore": 63
+  }
+]
