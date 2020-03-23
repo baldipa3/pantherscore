@@ -40,7 +40,7 @@ end
 
 puts "Creating Services..."
 
-services = JSON.parse(File.read('./db/data/services/services_10p.json'))
+services = JSON.parse(File.read('./db/data/services/services_custom.json'))
 services['services'].each do |service|
 
   unless service['discontinued'] == true
