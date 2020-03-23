@@ -40,6 +40,6 @@ yarn-debug.log*
 *.swp
 .DS_Store
 
-# Ignore scrape data
+# Ignore data
 /db/scrapers
 /db/data
