@@ -6,10 +6,15 @@ require 'json'
 
 puts 'Clearing everything.'
 
-Review.destroy_all
-User.destroy_all
+# Joins
 UserService.destroy_all
 ServiceCategory.destroy_all
+ServiceTosdr.destroy_all
+ServiceHibp.destroy_all
+ServiceWikipedia.destroy_all
+
+# Normal
+Review.destroy_all
 Category.destroy_all
 UserService.destroy_all
 Review.destroy_all
@@ -22,9 +27,6 @@ Tosdr.destroy_all
 Hibp.destroy_all
 Wikipedia.destroy_all
 WikipediaSource.destroy_all
-# ServiceTosdr.destroy_all
-# ServiceHibp.destroy_all
-# ServiceWikipedia.destroy_all
 
 # Categories from AlternativeTo
 
