@@ -42,15 +42,6 @@
            </h2>
            <p style="color: white">Based on <%= @service.number_of_sources %> sources.</p>
         </div>
-<!--         <div class="verdict white ">
-          <% if @service.pantherscore <= 39 %>
-            <h2> Poor</h2>
-            <% elsif @service.pantherscore.between?(40, 74) %>
-            <h2> Fair</h2>
-            <% else %>
-            <h2> Very good</h2>
-        <% end %>
-        </div> -->
         <div class="userscore white">
           <h2>User Score: <%= @service.user_score %></h2>
           <p> Based on <%= @service.reviews.count %> reviews</p>
@@ -85,118 +76,6 @@
 
   </div>
 </div>
-
-<div class="container-fluid">
-  <div class="white-bg">
-    <h1> Breakdown</h1>
-    <section class="breakdown">
-
-<!--       <% if @service.privacymonitor.present? %>
-        <h2>Score sourced from Privacy Monitor</h2>
-        <ul>
-          <li class="neutral">This service got a score of <%= @service.privacymonitor.score %> / 850 (<%= @service.privacymonitor.title %>), with the following trend: <%= @service.privacymonitor.trend %>.</li>
-        </ul>
-      <% end %>
-
-      <% if @service.hibp.present? %>
-        <h2>Breach sourced from Have I Been Pwned?</h2>
-        <ul>
-          <li class="negative">Breached on <%= @service.hibp.date %> with <%= @service.hibp.records %> records.</li>
-        </ul>
-      <% end %>
-
-      <% if @service.wikipedias.present? %>
-        <h2>Breaches sourced from Wikipedia</h2>
-        <ul>
-          <% @service.wikipedias.each do |breach| %>
-          <li class="negative">Breached on <%= breach.date %> with <%= breach.records %> records. Reason: <%= breach.method %>.</li>
-          <% end %>
-        </ul>
-      <% end %>
-
-      <% if @service.tosdrs.present? %>
-        <h2>Factors sourced from Tosdr</h2>
-      <% end %>
-      <% if @service.tosdrs.each { |factor| factor.polarity.include?('negative') } %>
-          <p><strong>Negative</strong></p>
-      <% end %>
-        <ul>
-          <% @service.tosdrs.each do |factor| %>
-            <% if factor.polarity == 'negative' %>
-              <li class="negative"><%= factor.title %></li>
-            <% end %>
-          <% end %>
-        </ul>
-        <% if @service.tosdrs.each { |factor| factor.polarity.include?('positive') } %>
-        <p><strong>Positive</strong></p>
-        <% end %>
-          <ul>
-            <% @service.tosdrs.each do |factor| %>
-              <% if factor.polarity == 'positive' %>
-                <li class="positive"><%= factor.title %></li>
-              <% end %>
-            <% end %>
-          </ul>
-
-          <% if @service.pribots.present? %>
-            <h2>Factors sourced from Pribot</h2>
-          <% end %>
-          <% if @service.pribots.each { |factor| factor.polarity.include?('negative') } %>
-              <p><strong>Negative</strong></p>
-          <% end %>
-            <ul>
-              <% @service.pribots.each do |factor| %>
-                <% if factor.polarity == 'negative' %>
-                  <li class="negative"><%= factor.title %></li>
-                <% end %>
-              <% end %>
-            </ul>
-            <% if @service.pribots.each { |factor| factor.polarity.include?('positive') } %>
-            <p><strong>Positive</strong></p>
-            <% end %>
-              <ul>
-                <% @service.pribots.each do |factor| %>
-                  <% if factor.polarity == 'positive' %>
-                    <li class="positive"><%= factor.title %></li>
-                  <% end %>
-                <% end %>
-              </ul>
-
-              <% if @service.privacyscores.present? %>
-                <h2>Factors sourced from Privacy Score</h2>
-              <% end %>
-              <% if @service.privacyscores.each { |factor| factor.polarity.include?('negative') } %>
-                  <p><strong>Negative</strong></p>
-              <% end %>
-                <ul>
-                  <% @service.privacyscores.each do |factor| %>
-                    <% if factor.polarity == 'negative' %>
-                      <li class="negative"><%= factor.title %></li>
-                    <% end %>
-                  <% end %>
-                </ul>
-                <% if @service.privacyscores.each { |factor| factor.polarity.include?('positive') } %>
-                <p><strong>Positive</strong></p>
-                <% end %>
-                  <ul>
-                    <% @service.privacyscores.each do |factor| %>
-                      <% if factor.polarity == 'positive' %>
-                        <li class="positive"><%= factor.title %></li>
-                      <% end %>
-                    <% end %>
-                  </ul> -->
-
-
-    </section>
-    <div id="load">
-      <h2>More <i class="fas fa-chevron-down"></i></h2>
-    </div>
-    <div id="unload" class="d-none">
-      <h2>Less <i class="fas fa-chevron-up"></i></h2>
-    </div>
-  </div>
-
-
 <div class="container">
   <div class="d-flex justify-content-start">
     <h1> Write your review</h1>
@@ -264,12 +143,6 @@
      <% end %>
 </div>
 
- <!-- <div id="load">
-      <h2>Show more <i class="fas fa-chevron-down"></i></h2>
-    </div>
-    <div id="unload" class="d-none">
-      <h2>Show less <i class="fas fa-chevron-up"></i></h2>
-    </div> -->
   </div>
 </div>
 </div>

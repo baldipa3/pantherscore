@@ -9,9 +9,6 @@ class ReviewsController < ApplicationController
     if @review.valid?
       @review.save!
       redirect_to service_path(@service)
-    else
-      render 'services/show'
-    end
   end
 
   def destroy
