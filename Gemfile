@@ -21,6 +21,8 @@ gem 'mechanize'
 gem 'down'
 gem 'selenium-webdriver'
 gem 'watir'
+gem 'pry-byebug'
+gem 'pry-rails'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
