@@ -6,9 +6,6 @@ class ReviewsController < ApplicationController
     @review = Review.new(review_params)
     @review.user = current_user
     @review.service = @service
-    if @review.valid?
-      @review.save!
-      redirect_to service_path(@service)
   end
 
   def destroy
